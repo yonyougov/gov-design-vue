@@ -3,8 +3,8 @@
   command = "npm run site"
 
 [context.production]
-  command = "echo build"
-  publish = "."
+  command = "npm run site"
+  publish = "_site"
 
 [[redirects]]
   from = "/docs/resource/download"
