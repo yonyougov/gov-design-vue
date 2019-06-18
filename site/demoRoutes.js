@@ -205,7 +205,7 @@ export default [
   },
   {
     path: 'switch-cn',
-    component: () => import('../components/switch/demo/index.veu'),
+    component: () => import('../components/switch/demo/index.vue'),
   },
   {
     path: 'auto-complete',
