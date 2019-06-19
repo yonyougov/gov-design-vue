@@ -9,7 +9,7 @@ describe('Avatar Render', () => {
         default: 'TestString',
       },
     });
-    const children = wrapper.findAll('.ant-avatar-string');
+    const children = wrapper.findAll('.gov-avatar-string');
     expect(children.length).toBe(1);
   });
   it('should render fallback string correctly', async () => {
@@ -32,13 +32,13 @@ describe('Avatar Render', () => {
       wrapper.find('img').trigger('error');
     }, 0);
     await asyncExpect(() => {
-      const children = wrapper.findAll('.ant-avatar-string');
+      const children = wrapper.findAll('.gov-avatar-string');
       expect(children.length).toBe(1);
       expect(children.at(0).text()).toBe('Fallback');
       expect(wrapper.vm.setScale).toBeCalled();
     });
     await asyncExpect(() => {
-      expect(global.document.body.querySelector('.ant-avatar-string').style.transform).toContain(
+      expect(global.document.body.querySelector('.gov-avatar-string').style.transform).toContain(
         'scale(0.5)',
       );
       global.document.body.innerHTML = '';

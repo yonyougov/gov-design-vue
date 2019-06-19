@@ -49,7 +49,7 @@ export default {
       const { insertExtraNode } = this.$props;
       this.extraNode = document.createElement('div');
       const extraNode = this.extraNode;
-      extraNode.className = 'ant-click-animating-node';
+      extraNode.className = 'gov-click-animating-node';
       const attributeName = this.getAttributeName();
       node.removeAttribute(attributeName);
       node.setAttribute(attributeName, 'true');
@@ -115,7 +115,7 @@ export default {
     },
     getAttributeName() {
       const { insertExtraNode } = this.$props;
-      return insertExtraNode ? 'ant-click-animating' : 'ant-click-animating-without-extra-node';
+      return insertExtraNode ? 'gov-click-animating' : 'gov-click-animating-without-extra-node';
     },
 
     resetEffect(node) {

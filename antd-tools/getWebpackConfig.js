@@ -9,7 +9,7 @@ const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const postcssConfig = require('./postcssConfig');
 const CleanUpStatsPlugin = require('./utils/CleanUpStatsPlugin');
 
-const distFileBaseName = 'antd';
+const distFileBaseName = 'govd';
 
 const svgRegex = /\.svg(\?v=\d+\.\d+\.\d+)?$/;
 const svgOptions = {
@@ -157,11 +157,11 @@ function getWebpackConfig(modules) {
       new webpack.BannerPlugin(`
 ${pkg.name} v${pkg.version}
 
-Copyright 2017-present, ant-design-vue.
+Copyright 2017-present, gov-design-vue.
 All rights reserved.
       `),
       new WebpackBar({
-        name: '🚚  Ant Design Vue Tools',
+        name: '�  Gov Design Vue Tools',
         color: '#2f54eb',
       }),
       new CleanUpStatsPlugin(),

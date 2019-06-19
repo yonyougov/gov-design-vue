@@ -53,7 +53,7 @@
 </script>
 
 <style>
-#components-badge-demo .ant-badge:not(.ant-badge-not-a-wrapper) {
+#components-badge-demo .gov-badge:not(.gov-badge-not-a-wrapper) {
   margin-right: 20px;
 }
 #components-badge-demo .head-example {
@@ -64,7 +64,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-#components-badge-demo .ant-badge-not-a-wrapper:not(.ant-badge-status) {
+#components-badge-demo .gov-badge-not-a-wrapper:not(.gov-badge-status) {
   margin-right: 8px;
 }
 </style>

@@ -12,7 +12,7 @@ export const TimeLineItemProps = {
 export default {
   name: 'ATimelineItem',
   props: initDefaultProps(TimeLineItemProps, {
-    prefixCls: 'ant-timeline',
+    prefixCls: 'gov-timeline',
     color: 'blue',
     pending: false,
   }),

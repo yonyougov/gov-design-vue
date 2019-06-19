@@ -2,7 +2,7 @@ import PropTypes from '../_util/vue-types';
 const Divider = {
   name: 'ADivider',
   props: {
-    prefixCls: PropTypes.string.def('ant'),
+    prefixCls: PropTypes.string.def('gov'),
     type: PropTypes.oneOf(['horizontal', 'vertical', '']).def('horizontal'),
     dashed: PropTypes.bool,
     orientation: PropTypes.oneOf(['left', 'right']),

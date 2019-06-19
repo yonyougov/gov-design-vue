@@ -12,7 +12,7 @@ export default {
   },
   props: {
     prefixCls: {
-      default: 'ant-checkbox',
+      default: 'gov-checkbox',
       type: String,
     },
     defaultChecked: PropTypes.bool,

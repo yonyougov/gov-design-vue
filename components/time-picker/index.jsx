@@ -69,7 +69,7 @@ const TimePicker = {
   name: 'ATimePicker',
   mixins: [BaseMixin],
   props: initDefaultProps(TimePickerProps(), {
-    prefixCls: 'ant-time-picker',
+    prefixCls: 'gov-time-picker',
     align: {
       offset: [0, -2],
     },

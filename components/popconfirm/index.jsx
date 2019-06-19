@@ -16,7 +16,7 @@ const Popconfirm = {
   name: 'APopconfirm',
   props: {
     ...tooltipProps,
-    prefixCls: PropTypes.string.def('ant-popover'),
+    prefixCls: PropTypes.string.def('gov-popover'),
     transitionName: PropTypes.string.def('zoom-big'),
     content: PropTypes.any,
     title: PropTypes.any,

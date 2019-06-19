@@ -30,8 +30,8 @@ export default function wrapPicker(Picker, props, defaultFormat) {
       transitionName: 'slide-up',
       popupStyle: {},
       locale: {},
-      prefixCls: 'ant-calendar',
-      inputPrefixCls: 'ant-input',
+      prefixCls: 'gov-calendar',
+      inputPrefixCls: 'gov-input',
     }),
     model: {
       prop: 'value',

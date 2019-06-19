@@ -11,7 +11,7 @@ const Dropdown = {
   name: 'ADropdown',
   props: {
     ...DropdownProps,
-    prefixCls: PropTypes.string.def('ant-dropdown'),
+    prefixCls: PropTypes.string.def('gov-dropdown'),
     mouseEnterDelay: PropTypes.number.def(0.15),
     mouseLeaveDelay: PropTypes.number.def(0.1),
     placement: DropdownProps.placement.def('bottomLeft'),

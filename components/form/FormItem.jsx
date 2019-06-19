@@ -58,7 +58,7 @@ export default {
   mixins: [BaseMixin],
   props: initDefaultProps(FormItemProps, {
     hasFeedback: false,
-    prefixCls: 'ant-form',
+    prefixCls: 'gov-form',
     colon: true,
   }),
   inject: {

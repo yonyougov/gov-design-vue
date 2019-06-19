@@ -90,7 +90,7 @@ export default {
     event: 'check',
   },
   props: initDefaultProps(TreeProps(), {
-    prefixCls: 'ant-tree',
+    prefixCls: 'gov-tree',
     checkable: false,
     showIcon: false,
     openAnimation: {

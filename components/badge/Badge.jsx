@@ -26,8 +26,8 @@ export const BadgeProps = {
 export default {
   name: 'ABadge',
   props: initDefaultProps(BadgeProps, {
-    prefixCls: 'ant-badge',
-    scrollNumberPrefixCls: 'ant-scroll-number',
+    prefixCls: 'gov-badge',
+    scrollNumberPrefixCls: 'gov-scroll-number',
     showZero: false,
     dot: false,
     overflowCount: 99,

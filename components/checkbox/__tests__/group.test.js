@@ -21,17 +21,17 @@ describe('CheckboxGroup', () => {
       .trigger('change');
     expect(onChange).toBeCalledWith(['Apple']);
     wrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(1)
       .trigger('change');
     expect(onChange).toBeCalledWith(['Apple', 'Pear']);
     wrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(2)
       .trigger('change');
     expect(onChange).toBeCalledWith(['Apple', 'Pear', 'Orange']);
     wrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(1)
       .trigger('change');
     expect(onChange).toBeCalledWith(['Apple', 'Orange']);
@@ -53,12 +53,12 @@ describe('CheckboxGroup', () => {
       },
     );
     groupWrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(0)
       .trigger('change');
     expect(onChangeGroup).not.toBeCalled();
     groupWrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(1)
       .trigger('change');
     expect(onChangeGroup).not.toBeCalled();
@@ -83,12 +83,12 @@ describe('CheckboxGroup', () => {
       },
     );
     groupWrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(0)
       .trigger('change');
     expect(onChangeGroup).toBeCalledWith(['Apple']);
     groupWrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(1)
       .trigger('change');
     expect(onChangeGroup).toBeCalledWith(['Apple']);
@@ -133,7 +133,7 @@ describe('CheckboxGroup', () => {
       },
     });
     wrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(0)
       .trigger('change');
     expect(onChange).toBeCalled();

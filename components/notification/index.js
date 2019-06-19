@@ -117,7 +117,7 @@ const typeToIcon = {
 // }
 function notice(args) {
   const { icon, type, description, placement, message, btn } = args;
-  const outerPrefixCls = args.prefixCls || 'ant-notification';
+  const outerPrefixCls = args.prefixCls || 'gov-notification';
   const prefixCls = `${outerPrefixCls}-notice`;
   const duration = args.duration === undefined ? defaultDuration : args.duration;
 

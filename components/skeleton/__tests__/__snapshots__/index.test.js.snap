@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Skeleton avatar shape 1`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
     </ul>
@@ -14,11 +14,11 @@ exports[`Skeleton avatar shape 1`] = `
 `;
 
 exports[`Skeleton avatar shape 2`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-square"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-square"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
     </ul>
@@ -27,11 +27,11 @@ exports[`Skeleton avatar shape 2`] = `
 `;
 
 exports[`Skeleton avatar size 1`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-sm ant-skeleton-avatar-circle"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-sm gov-skeleton-avatar-circle"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
     </ul>
@@ -40,11 +40,11 @@ exports[`Skeleton avatar size 1`] = `
 `;
 
 exports[`Skeleton avatar size 2`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-circle"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-circle"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
     </ul>
@@ -53,11 +53,11 @@ exports[`Skeleton avatar size 2`] = `
 `;
 
 exports[`Skeleton avatar size 3`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
     </ul>
@@ -66,10 +66,10 @@ exports[`Skeleton avatar size 3`] = `
 `;
 
 exports[`Skeleton paragraph rows 1`] = `
-<div class="ant-skeleton">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 38%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 38%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li></li>
@@ -81,10 +81,10 @@ exports[`Skeleton paragraph rows 1`] = `
 `;
 
 exports[`Skeleton paragraph width 1`] = `
-<div class="ant-skeleton">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 38%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 38%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li style="width: 93%;"></li>
@@ -94,10 +94,10 @@ exports[`Skeleton paragraph width 1`] = `
 `;
 
 exports[`Skeleton paragraph width 2`] = `
-<div class="ant-skeleton">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 38%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 38%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li style="width: 28%;"></li>
       <li style="width: 93%;"></li>
       <li></li>
@@ -107,10 +107,10 @@ exports[`Skeleton paragraph width 2`] = `
 `;
 
 exports[`Skeleton title width 1`] = `
-<div class="ant-skeleton">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 93%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 93%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li style="width: 61%;"></li>

@@ -45,7 +45,7 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-submenu-selected').length).toBe(1);
+      expect($$('.gov-menu-submenu-selected').length).toBe(1);
     });
   });
   it('should accept defaultOpenKeys in mode horizontal', async () => {
@@ -66,7 +66,7 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     });
   });
 
@@ -88,7 +88,7 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     });
   });
 
@@ -110,7 +110,7 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     });
   });
 
@@ -140,16 +140,16 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     });
     wrapper.setProps({ openKeys: [] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).toBe('none');
     }, 0);
 
     wrapper.setProps({ openKeys: ['1'] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     }, 0);
   });
 
@@ -179,15 +179,15 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].style.display).not.toBe('none');
     });
     wrapper.setProps({ openKeys: [] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].style.display).toBe('none');
+      expect($$('.gov-menu-sub')[0].style.display).toBe('none');
     }, 0);
     wrapper.setProps({ openKeys: ['1'] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].style.display).not.toBe('none');
     }, 0);
   });
 
@@ -217,15 +217,15 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     });
     wrapper.setProps({ openKeys: [] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).toBe('none');
     }, 0);
     wrapper.setProps({ openKeys: ['1'] });
     await asyncExpect(() => {
-      expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     }, 0);
   });
 
@@ -276,15 +276,15 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect($$('ul.ant-menu-sub')[0].style.display).not.toBe('none');
+      expect($$('ul.gov-menu-sub')[0].style.display).not.toBe('none');
     });
     wrapper.setProps({ mode: 'vertical' });
     await asyncExpect(() => {
-      expect($$('ul.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+      expect($$('ul.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
     }, 0);
     wrapper.setProps({ mode: 'inline' });
     await asyncExpect(() => {
-      expect($$('ul.ant-menu-sub')[0].style.display).not.toBe('none');
+      expect($$('ul.gov-menu-sub')[0].style.display).not.toBe('none');
     }, 0);
   });
 
@@ -322,11 +322,11 @@ describe('Menu', () => {
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll('ul.ant-menu-sub')
+          .findAll('ul.gov-menu-sub')
           .at(0)
           .classes(),
-      ).toContain('ant-menu-inline');
-      expect($$('ul.ant-menu-sub')[0].style.display).not.toBe('none');
+      ).toContain('gov-menu-inline');
+      expect($$('ul.gov-menu-sub')[0].style.display).not.toBe('none');
     }, 0);
     wrapper.setProps({ inlineCollapsed: true });
     await asyncExpect(() => {
@@ -340,21 +340,21 @@ describe('Menu', () => {
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll('ul.ant-menu-root')
+          .findAll('ul.gov-menu-root')
           .at(0)
           .classes(),
-      ).toContain('ant-menu-vertical');
-      expect(wrapper.findAll('ul.ant-menu-sub').length).toBe(0);
+      ).toContain('gov-menu-vertical');
+      expect(wrapper.findAll('ul.gov-menu-sub').length).toBe(0);
     }, 0);
     wrapper.setProps({ inlineCollapsed: false });
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll('ul.ant-menu-sub')
+          .findAll('ul.gov-menu-sub')
           .at(0)
           .classes(),
-      ).toContain('ant-menu-inline');
-      expect($$('ul.ant-menu-sub')[0].style.display).not.toBe('none');
+      ).toContain('gov-menu-inline');
+      expect($$('ul.gov-menu-sub')[0].style.display).not.toBe('none');
     }, 0);
   });
 
@@ -390,7 +390,7 @@ describe('Menu', () => {
       { attachToDocument: true, sync: false },
     );
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-menu-sub').length).toBe(0);
+      expect(wrapper.findAll('.gov-menu-sub').length).toBe(0);
     });
     wrapper.setProps({ inlineCollapsed: true });
     await asyncExpect(() => {
@@ -403,25 +403,25 @@ describe('Menu', () => {
     });
     await asyncExpect(() => {
       wrapper
-        .findAll('.ant-menu-submenu-title')
+        .findAll('.gov-menu-submenu-title')
         .at(0)
         .trigger('mouseenter');
     });
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll('.ant-menu-submenu')
+          .findAll('.gov-menu-submenu')
           .at(0)
           .classes(),
-      ).toContain('ant-menu-submenu-vertical');
+      ).toContain('gov-menu-submenu-vertical');
       expect(
         wrapper
-          .findAll('.ant-menu-submenu')
+          .findAll('.gov-menu-submenu')
           .at(0)
           .classes(),
-      ).toContain('ant-menu-submenu-open');
-      expect($$('ul.ant-menu-sub')[0].className).toContain('ant-menu-vertical');
-      expect($$('ul.ant-menu-sub')[0].style.display).not.toBe('none');
+      ).toContain('gov-menu-submenu-open');
+      expect($$('ul.gov-menu-sub')[0].className).toContain('gov-menu-vertical');
+      expect($$('ul.gov-menu-sub')[0].style.display).not.toBe('none');
     }, 300);
   });
 
@@ -432,7 +432,7 @@ describe('Menu', () => {
 
     const toggleMenu = (wrapper, index, event) => {
       wrapper
-        .findAll('.ant-menu-submenu-title')
+        .findAll('.gov-menu-submenu-title')
         .at(index)
         .trigger(event);
     };
@@ -455,16 +455,16 @@ describe('Menu', () => {
         { attachToDocument: true, sync: false },
       );
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(0);
+        expect($$('.gov-menu-sub').length).toBe(0);
         toggleMenu(wrapper, 0, 'click');
       }, 0);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(1);
-        expect($$('.ant-menu-sub')[0].style.display).not.toBe('none');
+        expect($$('.gov-menu-sub').length).toBe(1);
+        expect($$('.gov-menu-sub')[0].style.display).not.toBe('none');
         toggleMenu(wrapper, 0, 'click');
       }, 500);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub')[0].style.display).toBe('none');
+        expect($$('.gov-menu-sub')[0].style.display).toBe('none');
       }, 500);
     });
 
@@ -486,16 +486,16 @@ describe('Menu', () => {
         { attachToDocument: true, sync: false },
       );
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(0);
+        expect($$('.gov-menu-sub').length).toBe(0);
         toggleMenu(wrapper, 0, 'mouseenter');
       }, 0);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(1);
-        expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+        expect($$('.gov-menu-sub').length).toBe(1);
+        expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
         toggleMenu(wrapper, 0, 'mouseleave');
       }, 500);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub')[0].parentElement.style.display).toBe('none');
+        expect($$('.gov-menu-sub')[0].parentElement.style.display).toBe('none');
       }, 500);
     });
 
@@ -517,16 +517,16 @@ describe('Menu', () => {
         { attachToDocument: true, sync: false },
       );
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(0);
+        expect($$('.gov-menu-sub').length).toBe(0);
         toggleMenu(wrapper, 1, 'mouseenter');
       }, 0);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub').length).toBe(1);
-        expect($$('.ant-menu-sub')[0].parentElement.style.display).not.toBe('none');
+        expect($$('.gov-menu-sub').length).toBe(1);
+        expect($$('.gov-menu-sub')[0].parentElement.style.display).not.toBe('none');
         toggleMenu(wrapper, 1, 'mouseleave');
       }, 500);
       await asyncExpect(() => {
-        expect($$('.ant-menu-sub')[0].parentElement.style.display).toBe('none');
+        expect($$('.gov-menu-sub')[0].parentElement.style.display).toBe('none');
       }, 500);
     });
   });
@@ -555,9 +555,9 @@ describe('Menu', () => {
       { sync: false, attachToDocument: true },
     );
 
-    wrapper.find('.ant-menu-item').trigger('mouseenter');
+    wrapper.find('.gov-menu-item').trigger('mouseenter');
     await asyncExpect(() => {
-      const text = $$('.ant-tooltip-inner')[0].textContent;
+      const text = $$('.gov-tooltip-inner')[0].textContent;
       expect(text).toBe('bamboo lucky');
     }, 500);
   });

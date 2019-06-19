@@ -53,7 +53,7 @@ export default {
 };
 </script>
 <style>
-#components-alert-demo .ant-alert {
+#components-alert-demo .gov-alert {
   margin-bottom: 16px;
 }
 </style>

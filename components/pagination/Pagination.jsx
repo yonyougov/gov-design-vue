@@ -41,8 +41,8 @@ export default {
   },
   props: {
     ...PaginationProps(),
-    prefixCls: PropTypes.string.def('ant-pagination'),
-    selectPrefixCls: PropTypes.string.def('ant-select'),
+    prefixCls: PropTypes.string.def('gov-pagination'),
+    selectPrefixCls: PropTypes.string.def('gov-select'),
   },
   methods: {
     getIconsProps() {

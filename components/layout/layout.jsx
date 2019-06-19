@@ -73,28 +73,28 @@ const BasicLayout = {
 
 const Layout = generator(
   {
-    prefixCls: 'ant-layout',
+    prefixCls: 'gov-layout',
   },
   'ALayout',
 )(BasicLayout);
 
 const Header = generator(
   {
-    prefixCls: 'ant-layout-header',
+    prefixCls: 'gov-layout-header',
   },
   'ALayoutHeader',
 )(Basic);
 
 const Footer = generator(
   {
-    prefixCls: 'ant-layout-footer',
+    prefixCls: 'gov-layout-footer',
   },
   'ALayoutFooter',
 )(Basic);
 
 const Content = generator(
   {
-    prefixCls: 'ant-layout-content',
+    prefixCls: 'gov-layout-content',
   },
   'ALayoutContent',
 )(Basic);

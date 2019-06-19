@@ -13,7 +13,7 @@ export const SkeletonParagraphProps = PropTypes.shape(skeletonParagraphProps);
 
 const Paragraph = {
   props: initDefaultProps(skeletonParagraphProps, {
-    prefixCls: 'ant-skeleton-paragraph',
+    prefixCls: 'gov-skeleton-paragraph',
   }),
   methods: {
     getWidth(index) {

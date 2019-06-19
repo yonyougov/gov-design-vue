@@ -183,7 +183,7 @@ describe('Table.filter', () => {
     );
 
     wrapper
-      .findAll('.ant-dropdown-trigger')
+      .findAll('.gov-dropdown-trigger')
       .at(0)
       .trigger('click');
 
@@ -317,15 +317,15 @@ describe('Table.filter', () => {
     );
     await asyncExpect(() => {
       dropdownWrapper
-        .findAll('.ant-dropdown-menu-submenu-title')
+        .findAll('.gov-dropdown-menu-submenu-title')
         .at(0)
         .trigger('mouseenter');
     });
     await asyncExpect(() => {
-      $$('.ant-dropdown-menu-submenu-title')[1].dispatchEvent(new MouseEvent('mouseenter'));
+      $$('.gov-dropdown-menu-submenu-title')[1].dispatchEvent(new MouseEvent('mouseenter'));
     }, 1000);
     await asyncExpect(() => {
-      const menuItem = $$('.ant-dropdown-menu-item');
+      const menuItem = $$('.gov-dropdown-menu-item');
       menuItem[menuItem.length - 1].click();
     }, 500);
 

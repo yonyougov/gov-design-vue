@@ -5,7 +5,7 @@ export default {
   props: {
     prefixCls: {
       type: String,
-      default: 'ant-avatar',
+      default: 'gov-avatar',
     },
     shape: {
       validator: val => ['circle', 'square'].includes(val),

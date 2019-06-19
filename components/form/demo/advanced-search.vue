@@ -105,22 +105,22 @@ export default {
 };
 </script>
 <style>
-.ant-advanced-search-form {
+.gov-advanced-search-form {
   padding: 24px;
   background: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
 }
 
-.ant-advanced-search-form .ant-form-item {
+.gov-advanced-search-form .gov-form-item {
   display: flex;
 }
 
-.ant-advanced-search-form .ant-form-item-control-wrapper {
+.gov-advanced-search-form .gov-form-item-control-wrapper {
   flex: 1;
 }
 
-#components-form-demo-advanced-search .ant-form {
+#components-form-demo-advanced-search .gov-form {
   max-width: none;
 }
 #components-form-demo-advanced-search .search-result-list {

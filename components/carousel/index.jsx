@@ -70,7 +70,7 @@ const Carousel = {
   props: initDefaultProps(CarouselProps, {
     dots: true,
     arrows: false,
-    prefixCls: 'ant-carousel',
+    prefixCls: 'gov-carousel',
     draggable: false,
   }),
 

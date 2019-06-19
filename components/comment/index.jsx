@@ -18,7 +18,7 @@ export const CommentProps = {
 const Comment = {
   name: 'AComment',
   props: initDefaultProps(CommentProps, {
-    prefixCls: 'ant-comment',
+    prefixCls: 'gov-comment',
   }),
   methods: {
     getAction(actions) {

@@ -90,18 +90,18 @@ describe('Table.sorter', () => {
     const wrapper = mount(Table, getTableOptions());
     await asyncExpect(() => {
       // descent
-      wrapper.find('.ant-table-column-sorters').trigger('click');
+      wrapper.find('.gov-table-column-sorters').trigger('click');
     });
     await asyncExpect(() => {
-      expect(wrapper.find('.ant-table-tbody').text()).toEqual(
+      expect(wrapper.find('.gov-table-tbody').text()).toEqual(
         ['Jack', 'Jerry', 'Lucy', 'Tom'].join(''),
       );
 
       // ascent
-      wrapper.find('.ant-table-column-sorters').trigger('click');
+      wrapper.find('.gov-table-column-sorters').trigger('click');
     });
     await asyncExpect(() => {
-      expect(wrapper.find('.ant-table-tbody').text()).toEqual(
+      expect(wrapper.find('.gov-table-tbody').text()).toEqual(
         ['Tom', 'Lucy', 'Jack', 'Jerry'].join(''),
       );
     });
@@ -124,7 +124,7 @@ describe('Table.sorter', () => {
     const handleChange = jest.fn();
     const wrapper = mount(Table, getTableOptions({}, {}, { change: handleChange }));
 
-    wrapper.find('.ant-table-column-sorters').trigger('click');
+    wrapper.find('.gov-table-column-sorters').trigger('click');
     await asyncExpect(() => {
       const sorter1 = handleChange.mock.calls[0][2];
       expect(sorter1.column.dataIndex).toBe('name');
@@ -132,7 +132,7 @@ describe('Table.sorter', () => {
       expect(sorter1.field).toBe('name');
       expect(sorter1.columnKey).toBe('name');
     });
-    wrapper.find('.ant-table-column-sorters').trigger('click');
+    wrapper.find('.gov-table-column-sorters').trigger('click');
     await asyncExpect(() => {
       const sorter2 = handleChange.mock.calls[1][2];
       expect(sorter2.column.dataIndex).toBe('name');
@@ -141,7 +141,7 @@ describe('Table.sorter', () => {
       expect(sorter2.columnKey).toBe('name');
     });
 
-    wrapper.find('.ant-table-column-sorters').trigger('click');
+    wrapper.find('.gov-table-column-sorters').trigger('click');
     await asyncExpect(() => {
       const sorter3 = handleChange.mock.calls[2][2];
       expect(sorter3.column).toBe(undefined);

@@ -42,8 +42,8 @@ describe('Upload List', () => {
     const wrapper = mount(Upload, props);
     Vue.nextTick(() => {
       fileList.forEach((file, i) => {
-        const linkNode = wrapper.findAll('.ant-upload-list-item-thumbnail').at(i);
-        const imgNode = wrapper.findAll('.ant-upload-list-item-thumbnail img').at(i);
+        const linkNode = wrapper.findAll('.gov-upload-list-item-thumbnail').at(i);
+        const imgNode = wrapper.findAll('.gov-upload-list-item-thumbnail img').at(i);
         expect(linkNode.attributes().href).toBe(file.url);
         expect(imgNode.attributes().src).toBe(file.thumbUrl);
       });
@@ -81,15 +81,15 @@ describe('Upload List', () => {
     };
     const wrapper = mount(Upload, props);
     setTimeout(async () => {
-      expect(wrapper.findAll('.ant-upload-list-item').length).toBe(2);
+      expect(wrapper.findAll('.gov-upload-list-item').length).toBe(2);
       wrapper
-        .findAll('.ant-upload-list-item')
+        .findAll('.gov-upload-list-item')
         .at(0)
         .find('.anticon-close')
         .trigger('click');
       await delay(400);
       // wrapper.update();
-      expect(wrapper.findAll('.ant-upload-list-item').length).toBe(1);
+      expect(wrapper.findAll('.gov-upload-list-item').length).toBe(1);
       done();
     }, 0);
   });

@@ -17,7 +17,7 @@ describe('Layout', () => {
       },
     });
     Vue.nextTick(() => {
-      expect(wrapper.find('.ant-layout').classes()).toContain('ant-layout-has-sider');
+      expect(wrapper.find('.gov-layout').classes()).toContain('gov-layout-has-sider');
       done();
     });
   });
@@ -36,7 +36,7 @@ describe('Layout', () => {
       },
     });
     Vue.nextTick(() => {
-      expect(wrapper.find('.ant-layout').classes()).toContain('ant-layout-has-sider');
+      expect(wrapper.find('.gov-layout').classes()).toContain('gov-layout-has-sider');
       done();
     });
   });
@@ -55,7 +55,7 @@ describe('Layout', () => {
       },
     });
     Vue.nextTick(() => {
-      expect(wrapper.find('.ant-layout-sider').classes()).toContain('ant-layout-sider-has-trigger');
+      expect(wrapper.find('.gov-layout-sider').classes()).toContain('gov-layout-sider-has-trigger');
       done();
     });
   });

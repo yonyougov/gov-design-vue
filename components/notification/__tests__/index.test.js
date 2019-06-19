@@ -24,15 +24,15 @@ describe('notification', () => {
       });
     });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-notification-notice').length).toBe(2);
+      expect(document.querySelectorAll('.gov-notification-notice').length).toBe(2);
       notification.close('1');
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-notification-notice').length).toBe(1);
+      expect(document.querySelectorAll('.gov-notification-notice').length).toBe(1);
       notification.close('2');
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-notification-notice').length).toBe(0);
+      expect(document.querySelectorAll('.gov-notification-notice').length).toBe(0);
     }, 0);
   });
 
@@ -48,13 +48,13 @@ describe('notification', () => {
       });
     });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-notification').length).toBe(1);
-      expect(document.querySelectorAll('.ant-notification-notice').length).toBe(2);
+      expect(document.querySelectorAll('.gov-notification').length).toBe(1);
+      expect(document.querySelectorAll('.gov-notification-notice').length).toBe(2);
       notification.destroy();
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-notification').length).toBe(0);
-      expect(document.querySelectorAll('.ant-notification-notice').length).toBe(0);
+      expect(document.querySelectorAll('.gov-notification').length).toBe(0);
+      expect(document.querySelectorAll('.gov-notification-notice').length).toBe(0);
     }, 0);
   });
 
@@ -67,7 +67,7 @@ describe('notification', () => {
 
   it('should be able to open with icon', done => {
     const openNotificationWithIcon = async type => {
-      const iconPrefix = '.ant-notification-notice-icon';
+      const iconPrefix = '.gov-notification-notice-icon';
       notification[type]({
         message: 'Notification Title',
         duration: 0,
@@ -88,6 +88,6 @@ describe('notification', () => {
       message: 'Notification Title',
       duration: 0,
     });
-    expect(document.querySelectorAll('.ant-notification').length).toBe(1);
+    expect(document.querySelectorAll('.gov-notification').length).toBe(1);
   });
 });

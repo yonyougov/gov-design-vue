@@ -73,7 +73,7 @@ export default {
     event: 'change',
   },
   props: modalProps({
-    prefixCls: 'ant-modal',
+    prefixCls: 'gov-modal',
     width: 520,
     transitionName: 'zoom',
     maskTransitionName: 'fade',

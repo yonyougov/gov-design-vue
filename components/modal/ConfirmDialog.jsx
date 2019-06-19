@@ -25,7 +25,7 @@ export default {
     } = props;
     const iconType = props.iconType || 'question-circle';
     const okType = props.okType || 'primary';
-    const prefixCls = props.prefixCls || 'ant-modal';
+    const prefixCls = props.prefixCls || 'gov-modal';
     const contentPrefixCls = `${prefixCls}-confirm`;
     // 默认为 true，保持向下兼容
     const okCancel = 'okCancel' in props ? props.okCancel : true;

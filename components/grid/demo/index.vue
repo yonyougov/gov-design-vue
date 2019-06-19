@@ -69,49 +69,49 @@ export default {
       <div>
         <md cn={md.cn} us={md.us}/>
         <div class='grid-demo'>
-          <div class='ant-row demo-row'>
-            <div class='ant-col-24 demo-col demo-col-1'>
+          <div class='gov-row demo-row'>
+            <div class='gov-col-24 demo-col demo-col-1'>
     100%
             </div>
           </div>
-          <div class='ant-row demo-row'>
-            <div class='ant-col-6 demo-col demo-col-2'>
+          <div class='gov-row demo-row'>
+            <div class='gov-col-6 demo-col demo-col-2'>
     25%
             </div>
-            <div class='ant-col-6 demo-col demo-col-3'>
+            <div class='gov-col-6 demo-col demo-col-3'>
     25%
             </div>
-            <div class='ant-col-6 demo-col demo-col-2'>
+            <div class='gov-col-6 demo-col demo-col-2'>
     25%
             </div>
-            <div class='ant-col-6 demo-col demo-col-3'>
+            <div class='gov-col-6 demo-col demo-col-3'>
     25%
             </div>
           </div>
-          <div class='ant-row demo-row'>
-            <div class='ant-col-8 demo-col demo-col-4'>
+          <div class='gov-row demo-row'>
+            <div class='gov-col-8 demo-col demo-col-4'>
     33.33%
             </div>
-            <div class='ant-col-8 demo-col demo-col-5'>
+            <div class='gov-col-8 demo-col demo-col-5'>
     33.33%
             </div>
-            <div class='ant-col-8 demo-col demo-col-4'>
+            <div class='gov-col-8 demo-col demo-col-4'>
     33.33%
             </div>
           </div>
-          <div class='ant-row demo-row'>
-            <div class='ant-col-12 demo-col demo-col-1'>
+          <div class='gov-row demo-row'>
+            <div class='gov-col-12 demo-col demo-col-1'>
     50%
             </div>
-            <div class='ant-col-12 demo-col demo-col-3'>
+            <div class='gov-col-12 demo-col demo-col-3'>
     50%
             </div>
           </div>
-          <div class='ant-row demo-row'>
-            <div class='ant-col-16 demo-col demo-col-4'>
+          <div class='gov-row demo-row'>
+            <div class='gov-col-16 demo-col demo-col-4'>
     66.66%
             </div>
-            <div class='ant-col-8 demo-col demo-col-5'>
+            <div class='gov-col-8 demo-col demo-col-5'>
     33.33%
             </div>
           </div>

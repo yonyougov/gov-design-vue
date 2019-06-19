@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders ./components/skeleton/demo/active.md correctly 1`] = `
-<div class="ant-skeleton ant-skeleton-active">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 38%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-active">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 38%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li style="width: 61%;"></li>
@@ -14,10 +14,10 @@ exports[`renders ./components/skeleton/demo/active.md correctly 1`] = `
 `;
 
 exports[`renders ./components/skeleton/demo/basic.md correctly 1`] = `
-<div class="ant-skeleton">
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 38%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton">
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 38%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li style="width: 61%;"></li>
@@ -31,16 +31,16 @@ exports[`renders ./components/skeleton/demo/children.md correctly 1`] = `
   <div>
     <h4>Ant Design Vue, a design language</h4>
     <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.</p>
-  </div> <button type="button" class="ant-btn ant-btn-default"><span>Show Skeleton</span></button>
+  </div> <button type="button" class="gov-btn gov-btn-default"><span>Show Skeleton</span></button>
 </div>
 `;
 
 exports[`renders ./components/skeleton/demo/complex.md correctly 1`] = `
-<div class="ant-skeleton ant-skeleton-with-avatar">
-  <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-  <div class="ant-skeleton-content">
-    <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-    <ul class="ant-skeleton-paragraph">
+<div class="gov-skeleton gov-skeleton-with-avatar">
+  <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+  <div class="gov-skeleton-content">
+    <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+    <ul class="gov-skeleton-paragraph">
       <li></li>
       <li></li>
       <li></li>
@@ -51,17 +51,17 @@ exports[`renders ./components/skeleton/demo/complex.md correctly 1`] = `
 `;
 
 exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
-<div><button type="button" role="switch" class="ant-switch"><span class="ant-switch-inner"></span></button>
-  <div class="ant-list ant-list-vertical ant-list-lg ant-list-split">
-    <div class="ant-spin-nested-loading">
-      <div class="ant-spin-container">
-        <div class="ant-list-item">
-          <div class="ant-list-item-content ant-list-item-content-single">
-            <div class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active">
-              <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-              <div class="ant-skeleton-content">
-                <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-                <ul class="ant-skeleton-paragraph">
+<div><button type="button" role="switch" class="gov-switch"><span class="gov-switch-inner"></span></button>
+  <div class="gov-list gov-list-vertical gov-list-lg gov-list-split">
+    <div class="gov-spin-nested-loading">
+      <div class="gov-spin-container">
+        <div class="gov-list-item">
+          <div class="gov-list-item-content gov-list-item-content-single">
+            <div class="gov-skeleton gov-skeleton-with-avatar gov-skeleton-active">
+              <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+              <div class="gov-skeleton-content">
+                <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+                <ul class="gov-skeleton-paragraph">
                   <li></li>
                   <li></li>
                 </ul>
@@ -69,13 +69,13 @@ exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div class="ant-list-item">
-          <div class="ant-list-item-content ant-list-item-content-single">
-            <div class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active">
-              <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-              <div class="ant-skeleton-content">
-                <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-                <ul class="ant-skeleton-paragraph">
+        <div class="gov-list-item">
+          <div class="gov-list-item-content gov-list-item-content-single">
+            <div class="gov-skeleton gov-skeleton-with-avatar gov-skeleton-active">
+              <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+              <div class="gov-skeleton-content">
+                <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+                <ul class="gov-skeleton-paragraph">
                   <li></li>
                   <li></li>
                 </ul>
@@ -83,13 +83,13 @@ exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
             </div>
           </div>
         </div>
-        <div class="ant-list-item">
-          <div class="ant-list-item-content ant-list-item-content-single">
-            <div class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active">
-              <div class="ant-skeleton-header"><span class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"></span></div>
-              <div class="ant-skeleton-content">
-                <h3 class="ant-skeleton-title" style="width: 50%;"></h3>
-                <ul class="ant-skeleton-paragraph">
+        <div class="gov-list-item">
+          <div class="gov-list-item-content gov-list-item-content-single">
+            <div class="gov-skeleton gov-skeleton-with-avatar gov-skeleton-active">
+              <div class="gov-skeleton-header"><span class="gov-skeleton-avatar gov-skeleton-avatar-lg gov-skeleton-avatar-circle"></span></div>
+              <div class="gov-skeleton-content">
+                <h3 class="gov-skeleton-title" style="width: 50%;"></h3>
+                <ul class="gov-skeleton-paragraph">
                   <li></li>
                   <li></li>
                 </ul>

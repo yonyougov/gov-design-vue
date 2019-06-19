@@ -27,7 +27,7 @@ export const menuProps = {
   defaultOpenKeys: PropTypes.array,
   openAnimation: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   openTransitionName: PropTypes.string,
-  prefixCls: PropTypes.string.def('ant-menu'),
+  prefixCls: PropTypes.string.def('gov-menu'),
   multiple: PropTypes.bool,
   inlineIndent: PropTypes.number.def(24),
   inlineCollapsed: PropTypes.bool,

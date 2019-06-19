@@ -3,9 +3,6 @@ import { enquireScreen } from 'enquire-js';
 import AllDemo from '../demo';
 import Header from './header';
 import Footer from './footer';
-import CarbonAds from './CarbonAds';
-import Geektime from './geektime';
-import Sponsors from './sponsors';
 import zhCN from 'antd/locale-provider/zh_CN';
 import enUS from 'antd/locale-provider/default';
 import sortBy from 'lodash/sortBy';
@@ -15,15 +12,15 @@ import NProgress from 'nprogress';
 import MobileMenu from '../../components/vc-drawer/src';
 
 const docsList = [
-  { key: 'introduce', enTitle: 'Ant Design of Vue', title: 'Ant Design of Vue' },
+  { key: 'introduce', enTitle: 'Gov Design of Vue', title: 'Gov Design of Vue' },
   { key: 'getting-started', enTitle: 'Getting Started', title: '快速上手' },
   { key: 'use-with-vue-cli', enTitle: 'Use in vue-cli', title: '在 vue-cli 中使用' },
   { key: 'customize-theme', enTitle: 'Customize Theme', title: '定制主题' },
   { key: 'changelog', enTitle: 'Change Log', title: '更新日志' },
   { key: 'i18n', enTitle: 'Internationalization', title: '国际化' },
   { key: 'faq', enTitle: 'FAQ', title: '常见问题' },
-  { key: 'sponsor', enTitle: 'Sponsor', title: '支持我们' },
-  { key: 'download', enTitle: 'Download Design Resources', title: '下载设计资源' },
+  // { key: 'sponsor', enTitle: 'Sponsor', title: '支持我们' },
+  // { key: 'download', enTitle: 'Download Design Resources', title: '下载设计资源' },
 ];
 
 let isMobile = false;
@@ -139,7 +136,7 @@ export default {
       return docsMenu;
     },
     resetDocumentTitle (component, name, isCN) {
-      let titleStr = 'Ant Design Vue';
+      let titleStr = 'Gov Design Vue';
       if (component) {
         const { subtitle, title } = component;
         const componentName = isCN ? subtitle + ' ' + title : title;
@@ -250,7 +247,6 @@ export default {
                 <a-col ref='sidebar' class='site-sidebar main-menu' xxl={4} xl={5} lg={5} md={6} sm={8} xs={12}>
                 <a-affix>
                   <section class="main-menu-inner">
-                    <Sponsors title={isCN ? '赞助商' : 'Sponsors'}/>
                     <a-menu
                       class='aside-container menu-site'
                       selectedKeys={[name]}
@@ -268,7 +264,6 @@ export default {
               }
               <a-col xxl={20} xl={19} lg={19} md={18} sm={24} xs={24}>
                 <section class='main-container main-container-component'>
-                  <CarbonAds isMobile={isMobile}/>
                   {!isMobile ? <div class='toc-affix' style='width: 150px;'>
                     {this.getSubMenu(isCN)}
                   </div> : null}
@@ -304,7 +299,6 @@ export default {
           </div>
         </a-locale-provider>
         { name.indexOf('back-top') === -1 ? <a-back-top /> : null }
-        { isCN && <Geektime /> }
       </div>
     );
   },

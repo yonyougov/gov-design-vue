@@ -1,7 +1,7 @@
 import PropTypes from '../_util/vue-types';
 export default {
   prefixCls: {
-    default: 'ant-input',
+    default: 'gov-input',
     type: String,
   },
   defaultValue: [String, Number],

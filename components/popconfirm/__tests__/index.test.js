@@ -68,7 +68,7 @@ describe('Popconfirm', () => {
     await asyncExpect(() => {
       const popup = popconfirm.vm.$refs.popconfirm.getPopupDomNode();
       expect(popup).not.toBe(null);
-      expect(popup.className).toContain('ant-popover-placement-top');
+      expect(popup.className).toContain('gov-popover-placement-top');
       expect(popup.innerHTML).toMatchSnapshot();
     }, 1000);
   });

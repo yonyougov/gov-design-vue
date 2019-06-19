@@ -11,7 +11,7 @@ export const AnchorLinkProps = {
 export default {
   name: 'AAnchorLink',
   props: initDefaultProps(AnchorLinkProps, {
-    prefixCls: 'ant-anchor',
+    prefixCls: 'gov-anchor',
     href: '#',
   }),
   inject: {

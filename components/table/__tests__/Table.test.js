@@ -84,15 +84,15 @@ describe('Table', () => {
       sync: false,
     });
     Vue.nextTick(async () => {
-      expect(wrapper.findAll('.ant-spin')).toHaveLength(0);
-      expect(wrapper.find('.ant-table-placeholder').text()).not.toEqual('');
+      expect(wrapper.findAll('.gov-spin')).toHaveLength(0);
+      expect(wrapper.find('.gov-table-placeholder').text()).not.toEqual('');
 
       loading.spinning = true;
       wrapper.setProps({ loading });
-      expect(wrapper.findAll('.ant-spin')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-spin')).toHaveLength(0);
 
       await new Promise(resolve => setTimeout(resolve, 1000));
-      expect(wrapper.findAll('.ant-spin')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-spin')).toHaveLength(1);
       done();
     });
   });

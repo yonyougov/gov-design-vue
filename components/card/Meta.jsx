@@ -4,12 +4,12 @@ import { getComponentFromProp } from '../_util/props-util';
 export default {
   name: 'ACardMeta',
   props: {
-    prefixCls: PropTypes.string.def('ant-card'),
+    prefixCls: PropTypes.string.def('gov-card'),
     title: PropTypes.any,
     description: PropTypes.any,
   },
   render() {
-    const { prefixCls = 'ant-card' } = this.$props;
+    const { prefixCls = 'gov-card' } = this.$props;
     const classString = {
       [`${prefixCls}-meta`]: true,
     };

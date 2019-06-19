@@ -73,8 +73,8 @@ export default {
     event: 'change',
   },
   props: initDefaultProps(RangePickerProps(), {
-    prefixCls: 'ant-calendar',
-    tagPrefixCls: 'ant-tag',
+    prefixCls: 'gov-calendar',
+    tagPrefixCls: 'gov-tag',
     allowClear: true,
     showToday: false,
   }),

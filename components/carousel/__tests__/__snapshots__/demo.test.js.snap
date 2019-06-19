@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders ./components/carousel/demo/autoplay.md correctly 1`] = `
-<div class="ant-carousel">
+<div class="gov-carousel">
   <div class="slick-slider slick-initialized">
     <div class="slick-list">
       <div class="slick-track" style="width: 900%; left: -100%;">
@@ -81,7 +81,7 @@ exports[`renders ./components/carousel/demo/autoplay.md correctly 1`] = `
 `;
 
 exports[`renders ./components/carousel/demo/basic.md correctly 1`] = `
-<div class="ant-carousel">
+<div class="gov-carousel">
   <div class="slick-slider slick-initialized">
     <div class="slick-list">
       <div class="slick-track" style="width: 900%; left: -100%;">
@@ -161,7 +161,7 @@ exports[`renders ./components/carousel/demo/basic.md correctly 1`] = `
 `;
 
 exports[`renders ./components/carousel/demo/customArrows.md correctly 1`] = `
-<div class="ant-carousel">
+<div class="gov-carousel">
   <div class="slick-slider slick-initialized">
     <div class="custom-slick-arrow slick-arrow slick-prev" style="left: 10px; z-index: 1; display: block;"><i class="anticon anticon-left-circle"><svg viewBox="64 64 896 896" data-icon="left-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
           <path d="M603.3 327.5l-246 178a7.95 7.95 0 0 0 0 12.9l246 178c5.3 3.8 12.7 0 12.7-6.5V643c0-10.2-4.9-19.9-13.2-25.9L457.4 512l145.4-105.2c8.3-6 13.2-15.6 13.2-25.9V334c0-6.5-7.4-10.3-12.7-6.5z"></path>
@@ -249,7 +249,7 @@ exports[`renders ./components/carousel/demo/customArrows.md correctly 1`] = `
 `;
 
 exports[`renders ./components/carousel/demo/customPaging.md correctly 1`] = `
-<div class="ant-carousel">
+<div class="gov-carousel">
   <div class="slick-slider slick-initialized"><button type="button" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
     <div class="slick-list">
       <div class="slick-track" style="width: 900%; left: -100%;">
@@ -311,7 +311,7 @@ exports[`renders ./components/carousel/demo/customPaging.md correctly 1`] = `
 `;
 
 exports[`renders ./components/carousel/demo/fade.md correctly 1`] = `
-<div class="ant-carousel">
+<div class="gov-carousel">
   <div class="slick-slider slick-initialized">
     <div class="slick-list">
       <div class="slick-track" style="width: 900%; left: -100%;">
@@ -356,7 +356,7 @@ exports[`renders ./components/carousel/demo/fade.md correctly 1`] = `
 `;
 
 exports[`renders ./components/carousel/demo/vertical.md correctly 1`] = `
-<div class="ant-carousel ant-carousel-vertical">
+<div class="gov-carousel gov-carousel-vertical">
   <div class="slick-slider slick-vertical slick-initialized">
     <div class="slick-list">
       <div class="slick-track" style="width: 900%; left: -100%;">

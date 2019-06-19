@@ -20,7 +20,7 @@ const Drawer = {
     width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).def(256),
     height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).def(256),
     zIndex: PropTypes.number,
-    prefixCls: PropTypes.string.def('ant-drawer'),
+    prefixCls: PropTypes.string.def('gov-drawer'),
     placement: PropTypes.oneOf(['top', 'right', 'bottom', 'left']).def('right'),
     level: PropTypes.any.def(null),
     wrapClassName: PropTypes.string, // not use class like react, vue will add class to root dom

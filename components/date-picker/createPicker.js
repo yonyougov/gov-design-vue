@@ -24,14 +24,14 @@ function noop() {}
 export default function createPicker(TheCalendar, props) {
   return {
     // static defaultProps = {
-    //   prefixCls: 'ant-calendar',
+    //   prefixCls: 'gov-calendar',
     //   allowClear: true,
     //   showToday: true,
     // };
 
     // private input: any;
     props: initDefaultProps(props, {
-      prefixCls: 'ant-calendar',
+      prefixCls: 'gov-calendar',
       allowClear: true,
       showToday: true,
     }),

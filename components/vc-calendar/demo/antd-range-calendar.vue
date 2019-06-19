@@ -161,7 +161,7 @@ const Demo = {
                 style={{ width: '350px' }}
                 disabled={state.disabled}
                 readOnly
-                className='ant-calendar-picker-input ant-input'
+                className='gov-calendar-picker-input ant-input'
                 value={isValidRange(value) && `${format(value[0])} - ${format(value[1])}` || ''}
               />
             </span>);

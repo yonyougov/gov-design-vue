@@ -106,7 +106,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-btn')
+        .findAll('.gov-btn')
         .at(0)
         .trigger('click'); // move selected keys to right list
       expect(handleChange).toHaveBeenCalledWith(['a', 'b'], 'right', ['a']);
@@ -124,7 +124,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-btn')
+        .findAll('.gov-btn')
         .at(0)
         .trigger('click');
       expect(handleChange).toHaveBeenCalledWith(['b'], 'right', ['b']);
@@ -143,7 +143,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-content-item')
+        .findAll('.gov-transfer-list-content-item')
         .filter(n => {
           return n.vnode.data.key === 'a';
         })
@@ -164,7 +164,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-content-item')
+        .findAll('.gov-transfer-list-content-item')
         .filter(n => {
           return n.vnode.data.key === 'b';
         })
@@ -185,7 +185,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-content-item')
+        .findAll('.gov-transfer-list-content-item')
         .filter(n => {
           return n.vnode.data.key === 'c';
         })
@@ -206,7 +206,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-header input[type="checkbox"]')
+        .findAll('.gov-transfer-list-header input[type="checkbox"]')
         .filter(n => {
           return !n.vnode.data.domProps.checked;
         })
@@ -227,7 +227,7 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-header input[type="checkbox"]')
+        .findAll('.gov-transfer-list-header input[type="checkbox"]')
         .filter(n => {
           return n.vnode.data.domProps.checked;
         })
@@ -248,15 +248,15 @@ describe('Transfer', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      const input = wrapper.findAll('.ant-transfer-list-body-search-wrapper input').at(0);
+      const input = wrapper.findAll('.gov-transfer-list-body-search-wrapper input').at(0);
       input.element.value = 'a';
       input.trigger('input');
       Vue.nextTick(() => {
         expect(
           wrapper
-            .findAll('.ant-transfer-list-content')
+            .findAll('.gov-transfer-list-content')
             .at(0)
-            .find('.ant-transfer-list-content-item')
+            .find('.gov-transfer-list-content-item')
             .findAll('input[type="checkbox"]'),
         ).toHaveLength(1);
         done();
@@ -277,15 +277,15 @@ describe('Transfer', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      const input = wrapper.findAll('.ant-transfer-list-body-search-wrapper input').at(0);
+      const input = wrapper.findAll('.gov-transfer-list-body-search-wrapper input').at(0);
       input.element.value = 'content2';
       input.trigger('input');
       Vue.nextTick(() => {
         expect(
           wrapper
-            .findAll('.ant-transfer-list')
+            .findAll('.gov-transfer-list')
             .at(0)
-            .findAll('.ant-transfer-list-header-selected > span')
+            .findAll('.gov-transfer-list-header-selected > span')
             .at(0)
             .text()
             .trim(),
@@ -312,14 +312,14 @@ describe('Transfer', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      const input = wrapper.findAll('.ant-transfer-list-body-search-wrapper input').at(0);
+      const input = wrapper.findAll('.gov-transfer-list-body-search-wrapper input').at(0);
       input.element.value = 'content2';
       input.trigger('input');
       Vue.nextTick(() => {
         wrapper
-          .findAll('.ant-transfer-list')
+          .findAll('.gov-transfer-list')
           .at(0)
-          .findAll('.ant-transfer-list-header input[type="checkbox"]')
+          .findAll('.gov-transfer-list-header input[type="checkbox"]')
           .filter(n => {
             return !n.vnode.data.domProps.checked;
           })
@@ -353,21 +353,21 @@ describe('Transfer', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      const input = wrapper.findAll('.ant-transfer-list-body-search-wrapper input').at(0);
+      const input = wrapper.findAll('.gov-transfer-list-body-search-wrapper input').at(0);
       input.element.value = 'content2';
       input.trigger('input');
       Vue.nextTick(() => {
         wrapper
-          .findAll('.ant-transfer-list')
+          .findAll('.gov-transfer-list')
           .at(0)
-          .findAll('.ant-transfer-list-header input[type="checkbox"]')
+          .findAll('.gov-transfer-list-header input[type="checkbox"]')
           .filter(n => {
             return !n.vnode.data.domProps.checked;
           })
           .trigger('change');
         Vue.nextTick(() => {
           wrapper
-            .findAll('.ant-btn')
+            .findAll('.gov-btn')
             .at(0)
             .trigger('click');
           expect(handleChange).toHaveBeenCalledWith(['1', '3', '4'], 'right', ['1']);
@@ -395,28 +395,28 @@ describe('Transfer', () => {
     });
     Vue.nextTick(() => {
       wrapper
-        .findAll('.ant-transfer-list-content-item')
+        .findAll('.gov-transfer-list-content-item')
         .filter(n => {
           return n.vnode.data.key === 'b';
         })
         .trigger('click');
       expect(handleSelectChange).toHaveBeenLastCalledWith(['b'], []);
 
-      const input = wrapper.findAll('.ant-transfer-list-body-search-wrapper input').at(0);
+      const input = wrapper.findAll('.gov-transfer-list-body-search-wrapper input').at(0);
       input.element.value = 'a';
       input.trigger('input');
       Vue.nextTick(() => {
         wrapper
-          .findAll('.ant-transfer-list')
+          .findAll('.gov-transfer-list')
           .at(0)
-          .findAll('.ant-transfer-list-header input[type="checkbox"]')
+          .findAll('.gov-transfer-list-header input[type="checkbox"]')
           .trigger('change');
         Vue.nextTick(() => {
           expect(handleSelectChange).toHaveBeenLastCalledWith(['b', 'a'], []);
           wrapper
-            .findAll('.ant-transfer-list')
+            .findAll('.gov-transfer-list')
             .at(0)
-            .findAll('.ant-transfer-list-header input[type="checkbox"]')
+            .findAll('.gov-transfer-list-header input[type="checkbox"]')
             .trigger('change');
           expect(handleSelectChange).toHaveBeenLastCalledWith(['b'], []);
           done();
@@ -481,11 +481,11 @@ describe('Transfer', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      const wrapper = component.find('.ant-transfer');
-      const list = component.findAll('.ant-transfer-list');
+      const wrapper = component.find('.gov-transfer');
+      const list = component.findAll('.gov-transfer-list');
       const listSource = list.at(0);
       const listTarget = list.at(list.length - 1);
-      const operation = component.findAll('.ant-transfer-operation').at(0);
+      const operation = component.findAll('.gov-transfer-operation').at(0);
       expect(wrapper.element.style).toHaveProperty('backgroundColor', 'red');
       expect(listSource.element.style).toHaveProperty('backgroundColor', 'blue');
       expect(listTarget.element.style).toHaveProperty('backgroundColor', 'blue');

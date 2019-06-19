@@ -25,7 +25,7 @@ export const Meta = {
   render(h, context) {
     const { props, slots, listeners } = context;
     const slotsMap = slots();
-    const { prefixCls = 'ant-list' } = props;
+    const { prefixCls = 'gov-list' } = props;
     const avatar = props.avatar || slotsMap.avatar;
     const title = props.title || slotsMap.title;
     const description = props.description || slotsMap.description;
@@ -58,7 +58,7 @@ export default {
 
   render() {
     const { grid } = this.listContext;
-    const { prefixCls = 'ant-list', $slots, $listeners } = this;
+    const { prefixCls = 'gov-list', $slots, $listeners } = this;
     const classString = `${prefixCls}-item`;
     const extra = getComponentFromProp(this, 'extra');
     const actions = getComponentFromProp(this, 'actions');

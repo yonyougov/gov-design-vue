@@ -47,7 +47,7 @@ export default {
 };
 </script>
 <style>
-#components-anchor-demo .ant-affix {
+#components-anchor-demo .gov-affix {
   z-index: 11;
 }
 </style>

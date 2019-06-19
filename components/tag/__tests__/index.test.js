@@ -15,12 +15,12 @@ describe('Tag', () => {
     );
     await asyncExpect(() => {
       expect(wrapper.findAll('.anticon-close').length).toBe(1);
-      expect(wrapper.findAll('.ant-tag').filter(w => w.isVisible()).length).toBe(1);
+      expect(wrapper.findAll('.gov-tag').filter(w => w.isVisible()).length).toBe(1);
       wrapper.find('.anticon-close').trigger('click');
       expect(onClose).toBeCalled();
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-tag').filter(w => w.isVisible()).length).toBe(0);
+      expect(wrapper.findAll('.gov-tag').filter(w => w.isVisible()).length).toBe(0);
     });
   });
 
@@ -38,11 +38,11 @@ describe('Tag', () => {
     );
     await asyncExpect(() => {
       expect(wrapper.findAll('.anticon-close').length).toBe(1);
-      expect(wrapper.findAll('.ant-tag').filter(w => w.isVisible()).length).toBe(1);
+      expect(wrapper.findAll('.gov-tag').filter(w => w.isVisible()).length).toBe(1);
       wrapper.find('.anticon-close').trigger('click');
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-tag').filter(w => w.isVisible()).length).toBe(1);
+      expect(wrapper.findAll('.gov-tag').filter(w => w.isVisible()).length).toBe(1);
     }, 0);
   });
   describe('visibility', () => {

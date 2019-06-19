@@ -64,7 +64,7 @@ export default {
 };
 </script>
 <style>
-#components-select-demo .ant-select {
+#components-select-demo .gov-select {
   margin: 0 8px 10px 0;
 }
 </style>

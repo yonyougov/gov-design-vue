@@ -15,7 +15,7 @@ describe('Select', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
     });
     const dropdownWrapper = mount(
       {
@@ -46,7 +46,7 @@ describe('Select', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
     });
     const dropdownWrapper = mount(
       {
@@ -69,7 +69,7 @@ describe('Select', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
     });
 
     const dropdownWrapper = mount(
@@ -94,7 +94,7 @@ describe('Select', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
     });
 
     const dropdownWrapper = mount(
@@ -151,7 +151,7 @@ describe('Select', () => {
       expect(triggerComponent.componentInstance.visible).toBe(true);
     });
     await asyncExpect(() => {
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
       expect(onDropdownVisibleChange).toHaveBeenLastCalledWith(false);
     });
     await asyncExpect(() => {
@@ -171,7 +171,7 @@ describe('Select', () => {
     });
     await asyncExpect(() => {
       expect(triggerComponent.componentInstance.visible).toBe(false);
-      wrapper.find('.ant-select').trigger('click');
+      wrapper.find('.gov-select').trigger('click');
       expect(onDropdownVisibleChange).toHaveBeenLastCalledWith(true);
       expect(triggerComponent.componentInstance.visible).toBe(false);
     });

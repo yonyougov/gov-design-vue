@@ -20,7 +20,7 @@ describe('Button', () => {
         return <Button type="primary">按钮</Button>;
       },
     });
-    expect(wrapper.contains('.ant-btn-primary')).toBe(true);
+    expect(wrapper.contains('.gov-btn-primary')).toBe(true);
   });
 
   it('renders Chinese characters correctly', done => {
@@ -85,7 +85,7 @@ describe('Button', () => {
       },
     });
     Vue.nextTick(() => {
-      expect(wrapper6.find('.ant-btn').contains('.ant-btn-two-chinese-chars')).toBe(true);
+      expect(wrapper6.find('.gov-btn').contains('.gov-btn-two-chinese-chars')).toBe(true);
       done();
     });
   });
@@ -115,7 +115,7 @@ describe('Button', () => {
       wrapper.trigger('click');
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-btn-loading').length).toBe(1);
+      expect(wrapper.findAll('.gov-btn-loading').length).toBe(1);
     });
   });
 
@@ -145,7 +145,7 @@ describe('Button', () => {
       wrapper.trigger('click');
     });
     await asyncExpect(() => {
-      expect(wrapper.contains('.ant-btn-loading')).toBe(false);
+      expect(wrapper.contains('.gov-btn-loading')).toBe(false);
     });
   });
 

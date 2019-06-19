@@ -10,7 +10,7 @@ export const SkeletonTitleProps = PropTypes.shape(skeletonTitleProps);
 
 const Title = {
   props: initDefaultProps(skeletonTitleProps, {
-    prefixCls: 'ant-skeleton-title',
+    prefixCls: 'gov-skeleton-title',
   }),
   render() {
     const { prefixCls, width } = this.$props;

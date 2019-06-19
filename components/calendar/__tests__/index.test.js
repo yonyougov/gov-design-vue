@@ -20,7 +20,7 @@ describe('Calendar', () => {
     );
     await asyncExpect(() => {
       wrapper
-        .findAll('.ant-fullcalendar-cell')
+        .findAll('.gov-fullcalendar-cell')
         .at(0)
         .trigger('click');
     });
@@ -84,7 +84,7 @@ describe('Calendar', () => {
         .at(0)
         .trigger('click');
       expect(wrapper.find('[title="February 20, 2018"]').classes()).toContain(
-        'ant-fullcalendar-disabled-cell',
+        'gov-fullcalendar-disabled-cell',
       );
       expect(onSelect.mock.calls.length).toBe(0);
     });
@@ -114,19 +114,19 @@ describe('Calendar', () => {
           .findAll('[title="Jan"]')
           .at(0)
           .classes(),
-      ).toContain('ant-fullcalendar-month-panel-cell-disabled');
+      ).toContain('gov-fullcalendar-month-panel-cell-disabled');
       expect(
         wrapper
           .findAll('[title="Feb"]')
           .at(0)
           .classes(),
-      ).not.toContain('ant-fullcalendar-month-panel-cell-disabled');
+      ).not.toContain('gov-fullcalendar-month-panel-cell-disabled');
       expect(
         wrapper
           .findAll('[title="Jun"]')
           .at(0)
           .classes(),
-      ).toContain('ant-fullcalendar-month-panel-cell-disabled');
+      ).toContain('gov-fullcalendar-month-panel-cell-disabled');
       wrapper
         .findAll('[title="Jan"]')
         .at(0)
@@ -151,10 +151,10 @@ describe('Calendar', () => {
       { sync: false, attachToDocument: true },
     );
     await asyncExpect(() => {
-      wrapper.find('.ant-fullcalendar-year-select').trigger('click');
+      wrapper.find('.gov-fullcalendar-year-select').trigger('click');
     });
     await asyncExpect(() => {
-      $$('.ant-select-dropdown-menu-item')[0].click();
+      $$('.gov-select-dropdown-menu-item')[0].click();
     }, 0);
   });
 

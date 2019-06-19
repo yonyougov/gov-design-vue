@@ -2,18 +2,18 @@
 
 exports[`Comment Comment can be used as editor, user can customize the editor component. 1`] = `
 <div>
-  <div class="ant-list ant-list-split">
-    <div class="ant-list-header">1 reply</div>
-    <div class="ant-spin-nested-loading">
-      <div class="ant-spin-container">
-        <div class="ant-list-item">
-          <div class="ant-list-item-content ant-list-item-content-single">
-            <div class="ant-comment">
-              <div class="ant-comment-inner">
-                <div class="ant-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
-                <div class="ant-comment-content">
-                  <div class="ant-comment-content-author"><span class="ant-comment-content-author-name">Han Solo</span><span class="ant-comment-content-author-time">a few seconds ago</span></div>
-                  <div class="ant-comment-content-detail">222</div>
+  <div class="gov-list gov-list-split">
+    <div class="gov-list-header">1 reply</div>
+    <div class="gov-spin-nested-loading">
+      <div class="gov-spin-container">
+        <div class="gov-list-item">
+          <div class="gov-list-item-content gov-list-item-content-single">
+            <div class="gov-comment">
+              <div class="gov-comment-inner">
+                <div class="gov-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
+                <div class="gov-comment-content">
+                  <div class="gov-comment-content-author"><span class="gov-comment-content-author-name">Han Solo</span><span class="gov-comment-content-author-time">a few seconds ago</span></div>
+                  <div class="gov-comment-content-detail">222</div>
                 </div>
               </div>
             </div>
@@ -22,23 +22,23 @@ exports[`Comment Comment can be used as editor, user can customize the editor co
       </div>
     </div>
   </div>
-  <div class="ant-comment">
-    <div class="ant-comment-inner">
-      <div class="ant-comment-avatar"></div>
-      <div class="ant-comment-content">
-        <div class="ant-comment-content-author"></div>
-        <div class="ant-comment-content-detail">
+  <div class="gov-comment">
+    <div class="gov-comment-inner">
+      <div class="gov-comment-avatar"></div>
+      <div class="gov-comment-content">
+        <div class="gov-comment-content-author"></div>
+        <div class="gov-comment-content-detail">
           <div>
-            <div class="ant-row ant-form-item">
-              <div class="ant-form-item-control-wrapper">
-                <div class="ant-form-item-control"><span class="ant-form-item-children"><textarea rows="4" class="ant-input"></textarea></span>
+            <div class="gov-row gov-form-item">
+              <div class="gov-form-item-control-wrapper">
+                <div class="gov-form-item-control"><span class="gov-form-item-children"><textarea rows="4" class="gov-input"></textarea></span>
                   <!---->
                 </div>
               </div>
             </div>
-            <div class="ant-row ant-form-item">
-              <div class="ant-form-item-control-wrapper">
-                <div class="ant-form-item-control"><span class="ant-form-item-children"><button type="submit" class="ant-btn ant-btn-primary" ant-click-animating-without-extra-node="true"><span>Add Comment</span></button></span>
+            <div class="gov-row gov-form-item">
+              <div class="gov-form-item-control-wrapper">
+                <div class="gov-form-item-control"><span class="gov-form-item-children"><button type="submit" class="gov-btn gov-btn-primary" gov-click-animating-without-extra-node="true"><span>Add Comment</span></button></span>
                   <!---->
                 </div>
               </div>

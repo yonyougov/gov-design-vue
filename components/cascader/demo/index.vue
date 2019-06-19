@@ -63,7 +63,7 @@ export default {
 };
 </script>
 <style>
-#components-cascader-demo .ant-cascader-picker {
+#components-cascader-demo .gov-cascader-picker {
   width: 300px;
 }
 </style>

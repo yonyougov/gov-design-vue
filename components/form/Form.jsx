@@ -119,7 +119,7 @@ export const ValidationRule = {
 const Form = {
   name: 'AForm',
   props: initDefaultProps(FormProps, {
-    prefixCls: 'ant-form',
+    prefixCls: 'gov-form',
     layout: 'horizontal',
     hideRequiredMark: false,
   }),

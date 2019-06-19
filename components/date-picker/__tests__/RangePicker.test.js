@@ -77,7 +77,7 @@ describe('RangePicker', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      rangeCalendarWrapper.find('.ant-calendar-range-quick-selector .ant-tag').trigger('click');
+      rangeCalendarWrapper.find('.gov-calendar-range-quick-selector .gov-tag').trigger('click');
     });
     await asyncExpect(() => {
       expect(rangeCalendarWrapper.html()).toMatchSnapshot();
@@ -113,7 +113,7 @@ describe('RangePicker', () => {
     );
     await asyncExpect(() => {
       rangeCalendarWrapper
-        .find('.ant-calendar-range-quick-selector .ant-tag')
+        .find('.gov-calendar-range-quick-selector .gov-tag')
         .trigger('mouseenter');
     });
     rangeCalendarWrapper = mount(
@@ -125,7 +125,7 @@ describe('RangePicker', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      expect(rangeCalendarWrapper.findAll('.ant-calendar-selected-day').length).toBe(2);
+      expect(rangeCalendarWrapper.findAll('.gov-calendar-selected-day').length).toBe(2);
     });
   });
 
@@ -155,7 +155,7 @@ describe('RangePicker', () => {
     );
     await asyncExpect(() => {
       rangeCalendarWrapper
-        .findAll('.ant-calendar-cell')
+        .findAll('.gov-calendar-cell')
         .at(15)
         .trigger('click');
     });
@@ -186,7 +186,7 @@ describe('RangePicker', () => {
     );
     await asyncExpect(() => {
       expect(() => {
-        const cell = rangeCalendarWrapper.findAll('.ant-calendar-cell').at(15);
+        const cell = rangeCalendarWrapper.findAll('.gov-calendar-cell').at(15);
         cell.trigger('click');
         cell.trigger('click');
       }).not.toThrow();
@@ -212,13 +212,13 @@ describe('RangePicker', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      const cell = rangeCalendarWrapper.findAll('.ant-calendar-cell').at(15);
+      const cell = rangeCalendarWrapper.findAll('.gov-calendar-cell').at(15);
       cell.trigger('click');
       cell.trigger('click');
     });
 
-    wrapper.find('.ant-calendar-picker-clear').trigger('click');
-    wrapper.find('.ant-calendar-picker-input').trigger('click');
+    wrapper.find('.gov-calendar-picker-clear').trigger('click');
+    wrapper.find('.gov-calendar-picker-input').trigger('click');
     rangeCalendarWrapper = mount(
       {
         render() {
@@ -229,7 +229,7 @@ describe('RangePicker', () => {
     );
     await asyncExpect(() => {
       expect(() => {
-        const cell = rangeCalendarWrapper.findAll('.ant-calendar-cell').at(15);
+        const cell = rangeCalendarWrapper.findAll('.gov-calendar-cell').at(15);
         cell.trigger('click');
         cell.trigger('click');
       }).not.toThrow();
@@ -250,22 +250,22 @@ describe('RangePicker', () => {
       { sync: false, attachToDocument: true },
     );
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     });
     await asyncExpect(() => {
-      $$('.ant-calendar-cell')[25].click();
-      $$('.ant-calendar-cell')[27].dispatchEvent(new MouseEvent('mouseenter'));
+      $$('.gov-calendar-cell')[25].click();
+      $$('.gov-calendar-cell')[27].dispatchEvent(new MouseEvent('mouseenter'));
       document.dispatchEvent(new MouseEvent('mousedown'));
     }, 500);
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     });
     await asyncExpect(() => {
       expect(
-        $$('.ant-calendar-cell')[23]
+        $$('.gov-calendar-cell')[23]
           .getAttribute('class')
           .split(' '),
-      ).toContain('ant-calendar-in-range-cell');
+      ).toContain('gov-calendar-in-range-cell');
     });
   });
 
@@ -285,18 +285,18 @@ describe('RangePicker', () => {
         attachToDocument: true,
       });
       await asyncExpect(() => {
-        wrapper.find('.ant-calendar-picker-input').trigger('click');
+        wrapper.find('.gov-calendar-picker-input').trigger('click');
       });
       await asyncExpect(() => {
-        $$('.ant-calendar-range-quick-selector .ant-tag')[0].click();
+        $$('.gov-calendar-range-quick-selector .gov-tag')[0].click();
       }, 500);
       await asyncExpect(() => {
-        expect(wrapper.findAll('.ant-calendar-range-picker-input').at(0).element.value).toBe(
+        expect(wrapper.findAll('.gov-calendar-range-picker-input').at(0).element.value).toBe(
           range[0].format(format),
         );
       });
       await asyncExpect(() => {
-        const inputs = wrapper.findAll('.ant-calendar-range-picker-input');
+        const inputs = wrapper.findAll('.gov-calendar-range-picker-input');
         expect(inputs.at(inputs.length - 1).element.value).toBe(range[1].format(format));
       });
       await asyncExpect(() => {});
@@ -314,18 +314,18 @@ describe('RangePicker', () => {
         attachToDocument: true,
       });
       await asyncExpect(() => {
-        wrapper.find('.ant-calendar-picker-input').trigger('click');
+        wrapper.find('.gov-calendar-picker-input').trigger('click');
       });
       await asyncExpect(() => {
-        $$('.ant-calendar-range-quick-selector .ant-tag')[0].click();
+        $$('.gov-calendar-range-quick-selector .gov-tag')[0].click();
       }, 500);
       await asyncExpect(() => {
-        expect(wrapper.findAll('.ant-calendar-range-picker-input').at(0).element.value).toBe(
+        expect(wrapper.findAll('.gov-calendar-range-picker-input').at(0).element.value).toBe(
           range[0].format(format),
         );
       });
       await asyncExpect(() => {
-        const inputs = wrapper.findAll('.ant-calendar-range-picker-input');
+        const inputs = wrapper.findAll('.gov-calendar-range-picker-input');
         expect(inputs.at(inputs.length - 1).element.value).toBe(range[1].format(format));
       });
     });
@@ -337,10 +337,10 @@ describe('RangePicker', () => {
     const dateString = '2008-12-31';
     let input = null;
     await asyncExpect(() => {
-      input = $$('.ant-calendar-input')[0];
+      input = $$('.gov-calendar-input')[0];
       input.value = dateString;
     });
-    expect($$('.ant-calendar-input')[0].value).toBe(dateString);
+    expect($$('.gov-calendar-input')[0].value).toBe(dateString);
   });
 
   it('triggers onOk when click on preset range', async () => {
@@ -356,10 +356,10 @@ describe('RangePicker', () => {
     });
 
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     });
     await asyncExpect(() => {
-      $$('.ant-calendar-range-quick-selector .ant-tag')[0].click();
+      $$('.gov-calendar-range-quick-selector .gov-tag')[0].click();
     }, 500);
     await asyncExpect(() => {
       expect(handleOk).toBeCalledWith(range);
@@ -370,17 +370,17 @@ describe('RangePicker', () => {
   it('invali end date not throw error', async () => {
     const wrapper = mount(RangePicker, { sync: false, attachToDocument: true });
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     });
     await asyncExpect(() => {
       selectDateFromBody(moment('2017-09-18'), 0);
       selectDateFromBody(moment('2017-10-18'), 1);
     }, 500);
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     });
     await asyncExpect(() => {
-      const input = $$('.ant-calendar-input')[1];
+      const input = $$('.gov-calendar-input')[1];
 
       expect(() => {
         input.value = '2016-01-01';
@@ -405,10 +405,10 @@ describe('RangePicker', () => {
       },
     );
     await asyncExpect(() => {
-      wrapper.find('.ant-calendar-picker-input').trigger('click');
+      wrapper.find('.gov-calendar-picker-input').trigger('click');
     }, 0);
     await asyncExpect(() => {
-      $$('.ant-calendar-range-quick-selector .ant-tag')[0].click();
+      $$('.gov-calendar-range-quick-selector .gov-tag')[0].click();
     }, 1000);
     await asyncExpect(() => {
       expect(handleOpenChange).toBeCalledWith(false);

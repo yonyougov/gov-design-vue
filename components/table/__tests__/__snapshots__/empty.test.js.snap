@@ -2,8 +2,8 @@
 
 exports[`Table renders empty table 1`] = `
 <div class="ant-table-wrapper">
-  <div class="ant-spin-nested-loading">
-    <div class="ant-spin-container">
+  <div class="gov-spin-nested-loading">
+    <div class="gov-spin-container">
       <div class="ant-table ant-table-scroll-position-left ant-table-default ant-table-empty">
         <div class="ant-table-content">
           <!---->
@@ -60,8 +60,8 @@ exports[`Table renders empty table 1`] = `
 
 exports[`Table renders empty table with custom emptyText 1`] = `
 <div class="ant-table-wrapper">
-  <div class="ant-spin-nested-loading">
-    <div class="ant-spin-container">
+  <div class="gov-spin-nested-loading">
+    <div class="gov-spin-container">
       <div class="ant-table ant-table-scroll-position-left ant-table-default ant-table-empty">
         <div class="ant-table-content">
           <!---->
@@ -118,8 +118,8 @@ exports[`Table renders empty table with custom emptyText 1`] = `
 
 exports[`Table renders empty table with fixed columns 1`] = `
 <div class="ant-table-wrapper">
-  <div class="ant-spin-nested-loading">
-    <div class="ant-spin-container">
+  <div class="gov-spin-nested-loading">
+    <div class="gov-spin-container">
       <div class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left ant-table-scroll-position-right">
         <div class="ant-table-content">
           <div class="ant-table-scroll">
@@ -234,11 +234,11 @@ exports[`Table renders empty table with fixed columns 1`] = `
 
 exports[`Table renders empty table without emptyText when loading 1`] = `
 <div class="ant-table-wrapper">
-  <div class="ant-spin-nested-loading ant-table-without-pagination ant-table-spin-holder">
+  <div class="gov-spin-nested-loading ant-table-without-pagination ant-table-spin-holder">
     <div>
-      <div class="ant-spin ant-spin-spinning"><span class="ant-spin-dot ant-spin-dot-spin"><i></i><i></i><i></i><i></i></span></div>
+      <div class="gov-spin gov-spin-spinning"><span class="gov-spin-dot gov-spin-dot-spin"><i></i><i></i><i></i><i></i></span></div>
     </div>
-    <div class="ant-spin-container ant-spin-blur">
+    <div class="gov-spin-container gov-spin-blur">
       <div class="ant-table ant-table-scroll-position-left ant-table-default ant-table-empty">
         <div class="ant-table-content">
           <!---->

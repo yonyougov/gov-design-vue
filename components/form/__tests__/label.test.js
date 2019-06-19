@@ -16,13 +16,13 @@ describe('Form', () => {
     });
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(0)
         .text(),
     ).not.toContain(':');
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(1)
         .text(),
     ).not.toContain('：');
@@ -45,13 +45,13 @@ describe('Form', () => {
     });
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(0)
         .text(),
     ).toContain(':');
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(1)
         .text(),
     ).toContain('：');
@@ -70,19 +70,19 @@ describe('Form', () => {
     });
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(0)
         .text(),
     ).toContain(':');
     expect(
       wrapper
-        .findAll('.ant-form-item-label label')
+        .findAll('.gov-form-item-label label')
         .at(1)
         .text(),
     ).toContain('：');
   });
 
-  it('should has dom with .ant-form-item-control-wrapper', () => {
+  it('should has dom with .gov-form-item-control-wrapper', () => {
     const formItemLayout = {
       labelCol: { span: 6 },
       wrapperCol: { span: 14 },
@@ -97,8 +97,8 @@ describe('Form', () => {
         );
       },
     });
-    expect(wrapper.findAll('.ant-form-item-control-wrapper').length).toBe(2);
-    expect(wrapper.findAll('.ant-form-item-control-wrapper.ant-col-14').length).toBe(1);
+    expect(wrapper.findAll('.gov-form-item-control-wrapper').length).toBe(2);
+    expect(wrapper.findAll('.gov-form-item-control-wrapper.gov-col-14').length).toBe(1);
   });
 
   // https://github.com/ant-design/ant-design/issues/7351

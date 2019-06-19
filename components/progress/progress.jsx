@@ -51,7 +51,7 @@ export default {
     percent: 0,
     showInfo: true,
     trailColor: '#f3f3f3',
-    prefixCls: 'ant-progress',
+    prefixCls: 'gov-progress',
     size: 'default',
   }),
 

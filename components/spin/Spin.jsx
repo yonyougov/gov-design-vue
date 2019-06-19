@@ -40,7 +40,7 @@ export default {
   name: 'ASpin',
   mixins: [BaseMixin],
   props: initDefaultProps(SpinProps(), {
-    prefixCls: 'ant-spin',
+    prefixCls: 'gov-spin',
     size: 'default',
     spinning: true,
     wrapperClassName: '',

@@ -44,9 +44,9 @@ describe('Spin', () => {
     await asyncExpect(() => {
       expect(
         wrapper
-          .find('.ant-spin')
+          .find('.gov-spin')
           .classes()
-          .includes('ant-spin-spinning'),
+          .includes('gov-spin-spinning'),
       ).toEqual(false);
     });
   });

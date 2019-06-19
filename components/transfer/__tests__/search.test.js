@@ -69,7 +69,7 @@ describe('Search', () => {
       },
     );
     await asyncExpect(() => {
-      const input = wrapper.findAll('.ant-input').at(0);
+      const input = wrapper.findAll('.gov-input').at(0);
       input.element.value = 'a';
       input.trigger('input');
     });
@@ -81,7 +81,7 @@ describe('Search', () => {
     onSearch.mockReset();
 
     wrapper
-      .findAll('.ant-transfer-list-search-action')
+      .findAll('.gov-transfer-list-search-action')
       .at(0)
       .trigger('click');
     expect(onSearch).toBeCalledWith('left', '');
@@ -103,7 +103,7 @@ describe('Search', () => {
       },
     );
 
-    const input = wrapper.findAll('.ant-input').at(0);
+    const input = wrapper.findAll('.gov-input').at(0);
     input.element.value = 'a';
     input.trigger('input');
 

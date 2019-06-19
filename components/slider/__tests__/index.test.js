@@ -12,7 +12,7 @@ describe('Slider', () => {
     });
     await asyncExpect(() => {
       wrapper
-        .findAll('.ant-slider-handle')
+        .findAll('.gov-slider-handle')
         .at(0)
         .trigger('mouseenter');
     });
@@ -30,7 +30,7 @@ describe('Slider', () => {
     await asyncExpect(() => {
       expect(dropdownWrapper.html()).toMatchSnapshot();
       wrapper
-        .findAll('.ant-slider-handle')
+        .findAll('.gov-slider-handle')
         .at(0)
         .trigger('mouseleave');
     });

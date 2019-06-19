@@ -11,7 +11,7 @@ const Switch = {
     event: 'change',
   },
   props: {
-    prefixCls: PropTypes.string.def('ant-switch'),
+    prefixCls: PropTypes.string.def('gov-switch'),
     // size=default and size=large are the same
     size: PropTypes.oneOf(['small', 'default', 'large']),
     disabled: PropTypes.bool,

@@ -121,13 +121,13 @@ describe('DatePicker', () => {
       selectDateFromBody(moment('2016-11-13'));
     }, 0);
     await asyncExpect(() => {
-      expect($$('.ant-calendar-input')[0].value).toBe('2016-11-13 12:12:12');
+      expect($$('.gov-calendar-input')[0].value).toBe('2016-11-13 12:12:12');
     });
     await asyncExpect(() => {
       selectDateFromBody(moment('2016-11-14'));
     });
     await asyncExpect(() => {
-      expect($$('.ant-calendar-input')[0].value).toBe('2016-11-14 12:12:12');
+      expect($$('.gov-calendar-input')[0].value).toBe('2016-11-14 12:12:12');
     });
     await asyncExpect(() => {});
   });

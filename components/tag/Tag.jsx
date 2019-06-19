@@ -14,7 +14,7 @@ export default {
     event: 'close.visible',
   },
   props: {
-    prefixCls: PropTypes.string.def('ant-tag'),
+    prefixCls: PropTypes.string.def('gov-tag'),
     color: PropTypes.string,
     closable: PropTypes.bool.def(false),
     visible: PropTypes.bool,

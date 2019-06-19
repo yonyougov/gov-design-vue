@@ -12,7 +12,7 @@ export default {
     animated: { type: Boolean, default: true },
     animatedWithMargin: { type: Boolean, default: true },
     prefixCls: {
-      default: 'ant-tabs',
+      default: 'gov-tabs',
       type: String,
     },
     activeKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

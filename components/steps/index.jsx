@@ -21,7 +21,7 @@ const getStepsProps = (defaultProps = {}) => {
 const Steps = {
   name: 'ASteps',
   props: getStepsProps({
-    prefixCls: 'ant-steps',
+    prefixCls: 'gov-steps',
     iconPrefix: 'ant',
     current: 0,
   }),

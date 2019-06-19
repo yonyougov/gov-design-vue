@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
-<div class="ant-comment">
-  <div class="ant-comment-inner">
-    <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-    <div class="ant-comment-content">
-      <div class="ant-comment-content-author"><span class="ant-comment-content-author-name"><a>Han Solo</a></span><span class="ant-comment-content-author-time"><span class="">a few seconds ago</span></span></div>
-      <div class="ant-comment-content-detail">
+<div class="gov-comment">
+  <div class="gov-comment-inner">
+    <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+    <div class="gov-comment-content">
+      <div class="gov-comment-content-author"><span class="gov-comment-content-author-name"><a>Han Solo</a></span><span class="gov-comment-content-author-time"><span class="">a few seconds ago</span></span></div>
+      <div class="gov-comment-content-detail">
         <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.</p>
       </div>
-      <ul class="ant-comment-actions">
+      <ul class="gov-comment-actions">
         <li><span><i class="anticon anticon-like"><svg viewBox="64 64 896 896" data-icon="like" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M885.9 533.7c16.8-22.2 26.1-49.4 26.1-77.7 0-44.9-25.1-87.4-65.5-111.1a67.67 67.67 0 0 0-34.3-9.3H572.4l6-122.9c1.4-29.7-9.1-57.9-29.5-79.4A106.62 106.62 0 0 0 471 99.9c-52 0-98 35-111.8 85.1l-85.9 311H144c-17.7 0-32 14.3-32 32v364c0 17.7 14.3 32 32 32h601.3c9.2 0 18.2-1.8 26.5-5.4 47.6-20.3 78.3-66.8 78.3-118.4 0-12.6-1.8-25-5.4-37 16.8-22.2 26.1-49.4 26.1-77.7 0-12.6-1.8-25-5.4-37 16.8-22.2 26.1-49.4 26.1-77.7-.2-12.6-2-25.1-5.6-37.1zM184 852V568h81v284h-81zm636.4-353l-21.9 19 13.9 25.4a56.2 56.2 0 0 1 6.9 27.3c0 16.5-7.2 32.2-19.6 43l-21.9 19 13.9 25.4a56.2 56.2 0 0 1 6.9 27.3c0 16.5-7.2 32.2-19.6 43l-21.9 19 13.9 25.4a56.2 56.2 0 0 1 6.9 27.3c0 22.4-13.2 42.6-33.6 51.8H329V564.8l99.5-360.5a44.1 44.1 0 0 1 42.2-32.3c7.6 0 15.1 2.2 21.1 6.7 9.9 7.4 15.2 18.6 14.6 30.5l-9.6 198.4h314.4C829 418.5 840 436.9 840 456c0 16.5-7.2 32.1-19.6 43z"></path></svg></i> <span style="cursor: 'auto';">
         0
       </span></span></li>
@@ -28,23 +28,23 @@ exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
 exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
 <div>
   <!---->
-  <div class="ant-comment">
-    <div class="ant-comment-inner">
-      <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-      <div class="ant-comment-content">
-        <div class="ant-comment-content-author"></div>
-        <div class="ant-comment-content-detail">
+  <div class="gov-comment">
+    <div class="gov-comment-inner">
+      <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+      <div class="gov-comment-content">
+        <div class="gov-comment-content-author"></div>
+        <div class="gov-comment-content-detail">
           <div>
-            <div class="ant-row ant-form-item">
-              <div class="ant-form-item-control-wrapper">
-                <div class="ant-form-item-control"><span class="ant-form-item-children"><textarea rows="4" class="ant-input"></textarea></span>
+            <div class="gov-row gov-form-item">
+              <div class="gov-form-item-control-wrapper">
+                <div class="gov-form-item-control"><span class="gov-form-item-children"><textarea rows="4" class="gov-input"></textarea></span>
                   <!---->
                 </div>
               </div>
             </div>
-            <div class="ant-row ant-form-item">
-              <div class="ant-form-item-control-wrapper">
-                <div class="ant-form-item-control"><span class="ant-form-item-children"><button type="submit" class="ant-btn ant-btn-primary"><span>Add Comment</span></button></span>
+            <div class="gov-row gov-form-item">
+              <div class="gov-form-item-control-wrapper">
+                <div class="gov-form-item-control"><span class="gov-form-item-children"><button type="submit" class="gov-btn gov-btn-primary"><span>Add Comment</span></button></span>
                   <!---->
                 </div>
               </div>
@@ -58,21 +58,21 @@ exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
 `;
 
 exports[`renders ./components/comment/demo/list.md correctly 1`] = `
-<div class="comment-list ant-list ant-list-split">
-  <div class="ant-list-header">2 replies</div>
-  <div class="ant-spin-nested-loading">
-    <div class="ant-spin-container">
-      <div class="ant-list-item">
-        <div class="ant-list-item-content ant-list-item-content-single">
-          <div class="ant-comment">
-            <div class="ant-comment-inner">
-              <div class="ant-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
-              <div class="ant-comment-content">
-                <div class="ant-comment-content-author"><span class="ant-comment-content-author-name">Han Solo</span><span class="ant-comment-content-author-time"><span class="">a day ago</span></span></div>
-                <div class="ant-comment-content-detail">
+<div class="comment-list gov-list gov-list-split">
+  <div class="gov-list-header">2 replies</div>
+  <div class="gov-spin-nested-loading">
+    <div class="gov-spin-container">
+      <div class="gov-list-item">
+        <div class="gov-list-item-content gov-list-item-content-single">
+          <div class="gov-comment">
+            <div class="gov-comment-inner">
+              <div class="gov-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
+              <div class="gov-comment-content">
+                <div class="gov-comment-content-author"><span class="gov-comment-content-author-name">Han Solo</span><span class="gov-comment-content-author-time"><span class="">a day ago</span></span></div>
+                <div class="gov-comment-content-detail">
                   <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.</p>
                 </div>
-                <ul class="ant-comment-actions">
+                <ul class="gov-comment-actions">
                   <li><span>Reply to</span></li>
                 </ul>
               </div>
@@ -80,17 +80,17 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
           </div>
         </div>
       </div>
-      <div class="ant-list-item">
-        <div class="ant-list-item-content ant-list-item-content-single">
-          <div class="ant-comment">
-            <div class="ant-comment-inner">
-              <div class="ant-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
-              <div class="ant-comment-content">
-                <div class="ant-comment-content-author"><span class="ant-comment-content-author-name">Han Solo</span><span class="ant-comment-content-author-time"><span class="">2 days ago</span></span></div>
-                <div class="ant-comment-content-detail">
+      <div class="gov-list-item">
+        <div class="gov-list-item-content gov-list-item-content-single">
+          <div class="gov-comment">
+            <div class="gov-comment-inner">
+              <div class="gov-comment-avatar"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"></div>
+              <div class="gov-comment-content">
+                <div class="gov-comment-content-author"><span class="gov-comment-content-author-name">Han Solo</span><span class="gov-comment-content-author-time"><span class="">2 days ago</span></span></div>
+                <div class="gov-comment-content-detail">
                   <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.</p>
                 </div>
-                <ul class="ant-comment-actions">
+                <ul class="gov-comment-actions">
                   <li><span>Reply to</span></li>
                 </ul>
               </div>
@@ -104,57 +104,57 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
 `;
 
 exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
-<div class="ant-comment">
-  <div class="ant-comment-inner">
-    <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-    <div class="ant-comment-content">
-      <div class="ant-comment-content-author"><span class="ant-comment-content-author-name"><a>Han Solo</a></span></div>
-      <div class="ant-comment-content-detail">
+<div class="gov-comment">
+  <div class="gov-comment-inner">
+    <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+    <div class="gov-comment-content">
+      <div class="gov-comment-content-author"><span class="gov-comment-content-author-name"><a>Han Solo</a></span></div>
+      <div class="gov-comment-content-detail">
         <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).</p>
       </div>
-      <ul class="ant-comment-actions">
+      <ul class="gov-comment-actions">
         <li><span>Reply to</span></li>
       </ul>
     </div>
   </div>
-  <div class="ant-comment-nested">
-    <div class="ant-comment">
-      <div class="ant-comment-inner">
-        <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-        <div class="ant-comment-content">
-          <div class="ant-comment-content-author"><span class="ant-comment-content-author-name"><a>Han Solo</a></span></div>
-          <div class="ant-comment-content-detail">
+  <div class="gov-comment-nested">
+    <div class="gov-comment">
+      <div class="gov-comment-inner">
+        <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+        <div class="gov-comment-content">
+          <div class="gov-comment-content-author"><span class="gov-comment-content-author-name"><a>Han Solo</a></span></div>
+          <div class="gov-comment-content-detail">
             <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).</p>
           </div>
-          <ul class="ant-comment-actions">
+          <ul class="gov-comment-actions">
             <li><span>Reply to</span></li>
           </ul>
         </div>
       </div>
-      <div class="ant-comment-nested">
-        <div class="ant-comment">
-          <div class="ant-comment-inner">
-            <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-            <div class="ant-comment-content">
-              <div class="ant-comment-content-author"><span class="ant-comment-content-author-name"><a>Han Solo</a></span></div>
-              <div class="ant-comment-content-detail">
+      <div class="gov-comment-nested">
+        <div class="gov-comment">
+          <div class="gov-comment-inner">
+            <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+            <div class="gov-comment-content">
+              <div class="gov-comment-content-author"><span class="gov-comment-content-author-name"><a>Han Solo</a></span></div>
+              <div class="gov-comment-content-detail">
                 <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).</p>
               </div>
-              <ul class="ant-comment-actions">
+              <ul class="gov-comment-actions">
                 <li><span>Reply to</span></li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="ant-comment">
-          <div class="ant-comment-inner">
-            <div class="ant-comment-avatar"><span class="ant-avatar ant-avatar-circle ant-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
-            <div class="ant-comment-content">
-              <div class="ant-comment-content-author"><span class="ant-comment-content-author-name"><a>Han Solo</a></span></div>
-              <div class="ant-comment-content-detail">
+        <div class="gov-comment">
+          <div class="gov-comment-inner">
+            <div class="gov-comment-avatar"><span class="gov-avatar gov-avatar-circle gov-avatar-image"><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="Han Solo"></span></div>
+            <div class="gov-comment-content">
+              <div class="gov-comment-content-author"><span class="gov-comment-content-author-name"><a>Han Solo</a></span></div>
+              <div class="gov-comment-content-detail">
                 <p>We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).</p>
               </div>
-              <ul class="ant-comment-actions">
+              <ul class="gov-comment-actions">
                 <li><span>Reply to</span></li>
               </ul>
             </div>

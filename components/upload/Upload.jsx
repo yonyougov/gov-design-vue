@@ -18,7 +18,7 @@ export default {
   inheritAttrs: false,
   Dragger: Dragger,
   props: initDefaultProps(UploadProps, {
-    prefixCls: 'ant-upload',
+    prefixCls: 'gov-upload',
     type: 'select',
     multiple: false,
     action: '',

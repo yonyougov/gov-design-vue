@@ -24,7 +24,7 @@ describe('Tabs', () => {
     });
 
     it('add card', () => {
-      wrapper.find('.ant-tabs-new-tab').trigger('click');
+      wrapper.find('.gov-tabs-new-tab').trigger('click');
       expect(handleEdit.mock.calls[0][1]).toBe('add');
     });
 

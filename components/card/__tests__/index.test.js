@@ -35,11 +35,11 @@ describe('Card', () => {
     fakeResizeWindowTo(wrapper, 1000);
     jest.runAllTimers();
     wrapper.vm.$forceUpdate();
-    expect(wrapper.findAll('.ant-card-wider-padding').length).toBe(1);
+    expect(wrapper.findAll('.gov-card-wider-padding').length).toBe(1);
     fakeResizeWindowTo(wrapper, 800);
     jest.runAllTimers();
     wrapper.vm.$forceUpdate();
-    expect(wrapper.findAll('.ant-card-wider-padding').length).toBe(0);
+    expect(wrapper.findAll('.gov-card-wider-padding').length).toBe(0);
   });
   it('should still have padding when card which set padding to 0 is loading', () => {
     const wrapper = mount({

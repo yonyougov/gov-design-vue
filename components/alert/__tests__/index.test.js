@@ -27,7 +27,7 @@ describe('Alert', () => {
         );
       },
     });
-    wrapper.find('.ant-alert-close-icon').trigger('click');
+    wrapper.find('.gov-alert-close-icon').trigger('click');
     expect(onClose).toBeCalled();
     jest.runAllTimers();
     wrapper.vm.$refs.alert.animationEnd();
@@ -41,7 +41,7 @@ describe('Alert', () => {
           return <Alert data-test="test-id" data-id="12345" />;
         },
       });
-      const input = wrapper.find('.ant-alert').element;
+      const input = wrapper.find('.gov-alert').element;
       expect(input.getAttribute('data-test')).toBe('test-id');
       expect(input.getAttribute('data-id')).toBe('12345');
     });
@@ -53,7 +53,7 @@ describe('Alert', () => {
         },
       });
 
-      const input = wrapper.find('.ant-alert').element;
+      const input = wrapper.find('.gov-alert').element;
       expect(input.getAttribute('aria-describedby')).toBe('some-label');
     });
 
@@ -64,7 +64,7 @@ describe('Alert', () => {
         },
       });
 
-      const input = wrapper.find('.ant-alert').element;
+      const input = wrapper.find('.gov-alert').element;
       expect(input.getAttribute('role')).toBe('status');
     });
   });

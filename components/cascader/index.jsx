@@ -81,8 +81,8 @@ const CascaderProps = {
   changeOnSelect: PropTypes.bool,
   /** 浮层可见变化时回调 */
   // onPopupVisibleChange?: (popupVisible: boolean) => void;
-  prefixCls: PropTypes.string.def('ant-cascader'),
-  inputPrefixCls: PropTypes.string.def('ant-input'),
+  prefixCls: PropTypes.string.def('gov-cascader'),
+  inputPrefixCls: PropTypes.string.def('gov-input'),
   getPopupContainer: PropTypes.func,
   popupVisible: PropTypes.bool,
   fieldNames: FieldNamesType,

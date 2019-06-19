@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Form should display custom message 1`] = `
-<form class="ant-form ant-form-horizontal">
-  <div class="ant-row ant-form-item ant-form-item-with-help">
-    <div class="ant-form-item-label"><label for="account" title="Account" class="">Account</label></div>
-    <div class="ant-form-item-control-wrapper">
-      <div class="ant-form-item-control has-error"><span class="ant-form-item-children"><input data-__meta="[object Object]" data-__field="[object Object]" id="account" class=""></span>
-        <div class="ant-form-explain"><span class="">Account does not exist, <a rel="noopener noreferrer" href="https://www.alipay.com/" target="_blank">Forgot account?</a></span></div>
+<form class="gov-form gov-form-horizontal">
+  <div class="gov-row gov-form-item gov-form-item-with-help">
+    <div class="gov-form-item-label"><label for="account" title="Account" class="">Account</label></div>
+    <div class="gov-form-item-control-wrapper">
+      <div class="gov-form-item-control has-error"><span class="gov-form-item-children"><input data-__meta="[object Object]" data-__field="[object Object]" id="account" class=""></span>
+        <div class="gov-form-explain"><span class="">Account does not exist, <a rel="noopener noreferrer" href="https://www.alipay.com/" target="_blank">Forgot account?</a></span></div>
       </div>
     </div>
   </div>
@@ -14,12 +14,12 @@ exports[`Form should display custom message 1`] = `
 `;
 
 exports[`Form should display two message 1`] = `
-<form class="ant-form ant-form-horizontal">
-  <div class="ant-row ant-form-item ant-form-item-with-help">
-    <div class="ant-form-item-label"><label for="account" title="Account" class="">Account</label></div>
-    <div class="ant-form-item-control-wrapper">
-      <div class="ant-form-item-control has-error"><span class="ant-form-item-children"><input data-__meta="[object Object]" data-__field="[object Object]" id="account" class=""></span>
-        <div class="ant-form-explain">Error message 1 Error message 2</div>
+<form class="gov-form gov-form-horizontal">
+  <div class="gov-row gov-form-item gov-form-item-with-help">
+    <div class="gov-form-item-label"><label for="account" title="Account" class="">Account</label></div>
+    <div class="gov-form-item-control-wrapper">
+      <div class="gov-form-item-control has-error"><span class="gov-form-item-children"><input data-__meta="[object Object]" data-__field="[object Object]" id="account" class=""></span>
+        <div class="gov-form-explain">Error message 1 Error message 2</div>
       </div>
     </div>
   </div>

@@ -55,7 +55,7 @@ export default {
       strokeWidth: 2,
       showInfo: false,
     },
-    prefixCls: 'ant-upload',
+    prefixCls: 'gov-upload',
     showRemoveIcon: true,
     showPreviewIcon: true,
   }),

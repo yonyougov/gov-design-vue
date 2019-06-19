@@ -37,7 +37,7 @@ export default {
   props: initDefaultProps(
     { ...TreeProps(), expandAction: PropTypes.oneOf([false, 'click', 'doubleclick']) },
     {
-      prefixCls: 'ant-tree',
+      prefixCls: 'gov-tree',
       showIcon: true,
       expandAction: 'click',
     },

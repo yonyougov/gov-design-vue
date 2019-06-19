@@ -39,7 +39,7 @@ const AutoComplete = {
   name: 'AAutoComplete',
   props: {
     ...AutoCompleteProps,
-    prefixCls: PropTypes.string.def('ant-select'),
+    prefixCls: PropTypes.string.def('gov-select'),
     showSearch: PropTypes.bool.def(false),
     transitionName: PropTypes.string.def('slide-up'),
     choiceTransitionName: PropTypes.string.def('zoom'),

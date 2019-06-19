@@ -9,7 +9,7 @@ export default {
     event: 'change',
   },
   props: initDefaultProps(collapseProps, {
-    prefixCls: 'ant-collapse',
+    prefixCls: 'gov-collapse',
     bordered: true,
     openAnimation: animation,
   }),

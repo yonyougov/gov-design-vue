@@ -168,7 +168,7 @@ const Demo = {
                     disabled={state.disabled}
                     readOnly
                     tabIndex='-1'
-                    class='ant-calendar-picker-input ant-input'
+                    class='gov-calendar-picker-input ant-input'
                     value={value && value.format(getFormat(state.showTime)) || ''}
                   />
                 </span>

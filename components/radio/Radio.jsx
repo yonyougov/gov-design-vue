@@ -12,7 +12,7 @@ export default {
   },
   props: {
     prefixCls: {
-      default: 'ant-radio',
+      default: 'gov-radio',
       type: String,
     },
     defaultChecked: Boolean,

@@ -144,9 +144,9 @@ describe('Cascader', () => {
     });
     await asyncExpect(() => {
       popupWrapper
-        .findAll('.ant-cascader-menu')
+        .findAll('.gov-cascader-menu')
         .at(0)
-        .findAll('.ant-cascader-menu-item')
+        .findAll('.gov-cascader-menu-item')
         .at(0)
         .trigger('click');
     });
@@ -176,9 +176,9 @@ describe('Cascader', () => {
     });
     await asyncExpect(() => {
       popupWrapper
-        .findAll('.ant-cascader-menu')
+        .findAll('.gov-cascader-menu')
         .at(1)
-        .findAll('.ant-cascader-menu-item')
+        .findAll('.gov-cascader-menu-item')
         .at(0)
         .trigger('click');
     });
@@ -207,9 +207,9 @@ describe('Cascader', () => {
     });
     await asyncExpect(() => {
       popupWrapper
-        .findAll('.ant-cascader-menu')
+        .findAll('.gov-cascader-menu')
         .at(2)
-        .findAll('.ant-cascader-menu-item')
+        .findAll('.gov-cascader-menu-item')
         .at(0)
         .trigger('click');
     });
@@ -266,7 +266,7 @@ describe('Cascader', () => {
       wrapper.find('input').element.value = 'a';
       wrapper.find('input').trigger('input');
       await asyncExpect(() => {
-        expect($$('.ant-cascader-menu-item').length).toBe(1);
+        expect($$('.gov-cascader-menu-item').length).toBe(1);
       }, 0);
     });
 
@@ -280,7 +280,7 @@ describe('Cascader', () => {
       wrapper.find('input').element.value = 'a';
       wrapper.find('input').trigger('input');
       await asyncExpect(() => {
-        expect($$('.ant-cascader-menu-item').length).toBe(2);
+        expect($$('.gov-cascader-menu-item').length).toBe(2);
       }, 0);
     });
 
@@ -295,7 +295,7 @@ describe('Cascader', () => {
       wrapper.find('input').element.value = 'a';
       wrapper.find('input').trigger('input');
       await asyncExpect(() => {
-        expect($$('.ant-cascader-menu-item').length).toBe(2);
+        expect($$('.gov-cascader-menu-item').length).toBe(2);
       }, 0);
       expect(errorSpy).toBeCalledWith(
         "Warning: 'limit' of showSearch in Cascader should be positive number or false.",

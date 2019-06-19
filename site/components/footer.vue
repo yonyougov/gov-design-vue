@@ -11,24 +11,11 @@ export default {
           <a-row>
             <a-col md={6} sm={24} xs={24}>
               <div class='footer-center'>
-                <h2>Ant Design</h2>
+                <h2>Gov Design</h2>
                 <div>
-                  <a href='https://github.com/vueComponent/ant-design-vue' target='_blank '>
+                  <a href='https://github.com/yonyougov/gov-design-vue.git' target='_blank '>
                     <span>GitHub</span></a><span></span>
                   <span><i class='anticon anticon-github'></i></span>
-                </div>
-                <div>
-                  <a href='https://ant.design/docs/react/introduce-cn' target='_blank'>Ant Design</a>
-                  <span> - </span><span>React</span>
-                </div>
-                <div>
-                  <a href='https://github.com/NG-ZORRO/ng-zorro-antd' target='_blank'>Ant Design</a>
-                  <span> - </span><span>Angular</span>
-                </div>
-                <div>
-                  <a href='https://github.com/websemantics/awesome-ant-design' target='_blank '>
-                    <span>Awesome Ant Design</span>
-                  </a>
                 </div>
               </div>
             </a-col>
@@ -44,14 +31,9 @@ export default {
                 <div>
                   <a href='http://library.ant.design/' rel='noopener noreferrer' target='_blank'>AntD Library</a>
                 </div>
-                <div>
-                  <a href='http://ant-design-vue.gitee.io/' target='_blank' >
-                    <span>{isCN ? '国内镜像' : 'China Mirror'} 🇨🇳</span>
-                  </a>
-                </div>
               </div>
             </a-col>
-            <a-col md={6} sm={24} xs={24}>
+            {/*<a-col md={6} sm={24} xs={24}>
               <div class='footer-center'>
                 <h2>{isCN ? '社区' : 'Community'}</h2>
                 {
@@ -88,7 +70,7 @@ export default {
                   <span>{isCN ? '企业级 Node 开发框架' : 'Enterprise Node Framework'}</span>
                 </div>
               </div>
-            </a-col>
+            </a-col>*/}
           </a-row>
         </div>
       </footer>

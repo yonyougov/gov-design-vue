@@ -28,7 +28,7 @@ describe('DatePicker with showTime', () => {
     );
     await asyncExpect(() => {
       calendarWrapper
-        .findAll('.ant-calendar-date')
+        .findAll('.gov-calendar-date')
         .at(0)
         .trigger('click');
     });
@@ -69,7 +69,7 @@ describe('DatePicker with showTime', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      calendarWrapper.find('.ant-calendar-ok-btn').trigger('click');
+      calendarWrapper.find('.gov-calendar-ok-btn').trigger('click');
     });
     await asyncExpect(() => {
       expect(onOkFn).toHaveBeenCalled();
@@ -99,7 +99,7 @@ describe('DatePicker with showTime', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      calendarWrapper.find('.ant-calendar-today-btn').trigger('click');
+      calendarWrapper.find('.gov-calendar-today-btn').trigger('click');
     });
     await asyncExpect(() => {
       expect(onOpenChangeFn).toHaveBeenCalledWith(false);
@@ -125,14 +125,14 @@ describe('DatePicker with showTime', () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      expect(calendarWrapper.findAll('.ant-calendar-time-picker-column-4').length).toBe(0);
+      expect(calendarWrapper.findAll('.gov-calendar-time-picker-column-4').length).toBe(0);
     });
     calendarWrapper
-      .findAll('.ant-calendar-time-picker-btn')
+      .findAll('.gov-calendar-time-picker-btn')
       .at(0)
       .trigger('click');
     await asyncExpect(() => {
-      expect(calendarWrapper.findAll('.ant-calendar-time-picker-column-4').length).toBe(1);
+      expect(calendarWrapper.findAll('.gov-calendar-time-picker-column-4').length).toBe(1);
     });
   });
 });
@@ -159,27 +159,27 @@ describe('RangePicker with showTime', async () => {
       { sync: false },
     );
     await asyncExpect(() => {
-      expect(calendarWrapper.find('.ant-calendar-time-picker-btn').classes()).toContain(
-        'ant-calendar-time-picker-btn-disabled',
+      expect(calendarWrapper.find('.gov-calendar-time-picker-btn').classes()).toContain(
+        'gov-calendar-time-picker-btn-disabled',
       );
-      expect(calendarWrapper.find('.ant-calendar-ok-btn').classes()).toContain(
-        'ant-calendar-ok-btn-disabled',
+      expect(calendarWrapper.find('.gov-calendar-ok-btn').classes()).toContain(
+        'gov-calendar-ok-btn-disabled',
       );
     });
     calendarWrapper
-      .findAll('.ant-calendar-date')
+      .findAll('.gov-calendar-date')
       .at(10)
       .trigger('click');
     calendarWrapper
-      .findAll('.ant-calendar-date')
+      .findAll('.gov-calendar-date')
       .at(11)
       .trigger('click');
     await asyncExpect(() => {
-      expect(calendarWrapper.find('.ant-calendar-time-picker-btn').classes()).not.toContain(
-        'ant-calendar-time-picker-btn-disabled',
+      expect(calendarWrapper.find('.gov-calendar-time-picker-btn').classes()).not.toContain(
+        'gov-calendar-time-picker-btn-disabled',
       );
-      expect(calendarWrapper.find('.ant-calendar-ok-btn').classes()).not.toContain(
-        'ant-calendar-ok-btn-disabled',
+      expect(calendarWrapper.find('.gov-calendar-ok-btn').classes()).not.toContain(
+        'gov-calendar-ok-btn-disabled',
       );
     });
     expect(onChangeFn).toHaveBeenCalled();
@@ -217,16 +217,16 @@ describe('RangePicker with showTime', async () => {
     );
     await asyncExpect(() => {
       calendarWrapper
-        .findAll('.ant-calendar-date')
+        .findAll('.gov-calendar-date')
         .at(10)
         .trigger('click');
       calendarWrapper
-        .findAll('.ant-calendar-date')
+        .findAll('.gov-calendar-date')
         .at(11)
         .trigger('click');
     });
     onChangeFn.mockClear();
-    calendarWrapper.find('.ant-calendar-ok-btn').trigger('click');
+    calendarWrapper.find('.gov-calendar-ok-btn').trigger('click');
     expect(onOkFn).toHaveBeenCalled();
     expect(onOpenChangeFn).toHaveBeenCalledWith(false);
     expect(onChangeFn).not.toHaveBeenCalled();

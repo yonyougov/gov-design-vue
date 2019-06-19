@@ -58,10 +58,10 @@ describe('Drawer', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      const body = wrapper.find('.ant-drawer-body').exists();
+      const body = wrapper.find('.gov-drawer-body').exists();
       expect(body).toBe(true);
-      wrapper.find('button.ant-btn').trigger('click');
-      const content = wrapper.find('.ant-drawer-body').vnode.elm.innerHTML;
+      wrapper.find('button.gov-btn').trigger('click');
+      const content = wrapper.find('.gov-drawer-body').vnode.elm.innerHTML;
       expect(content).toBe('Here is content of Drawer');
 
       expect(wrapper.html()).toMatchSnapshot();
@@ -74,10 +74,10 @@ describe('Drawer', () => {
     });
 
     await asyncExpect(() => {
-      wrapper.find('button.ant-btn').trigger('click');
+      wrapper.find('button.gov-btn').trigger('click');
       expect(wrapper.vm.visible).toBe(true);
 
-      wrapper.find('.ant-drawer-mask').trigger('click');
+      wrapper.find('.gov-drawer-mask').trigger('click');
       expect(wrapper.vm.visible).toBe(false);
     });
   });
@@ -87,10 +87,10 @@ describe('Drawer', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('button.ant-btn').trigger('click');
+      wrapper.find('button.gov-btn').trigger('click');
       expect(wrapper.vm.visible).toBe(true);
 
-      wrapper.find('.ant-drawer-close').trigger('click');
+      wrapper.find('.gov-drawer-close').trigger('click');
       expect(wrapper.vm.visible).toBe(false);
     });
   });
@@ -103,10 +103,10 @@ describe('Drawer', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('button.ant-btn').trigger('click');
+      wrapper.find('button.gov-btn').trigger('click');
       expect(wrapper.vm.visible).toBe(true);
 
-      wrapper.find('.ant-drawer-mask').trigger('click');
+      wrapper.find('.gov-drawer-mask').trigger('click');
       expect(wrapper.vm.visible).toBe(true);
     });
   });
@@ -119,16 +119,16 @@ describe('Drawer', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('button.ant-btn').trigger('click');
-      expect(wrapper.find('.ant-drawer-wrapper-body').exists()).toBe(true);
+      wrapper.find('button.gov-btn').trigger('click');
+      expect(wrapper.find('.gov-drawer-wrapper-body').exists()).toBe(true);
 
       wrapper.setData({
         visible: false,
       });
-      wrapper.find('.ant-drawer-wrapper-body').trigger('transitionend');
+      wrapper.find('.gov-drawer-wrapper-body').trigger('transitionend');
     });
     await asyncExpect(() => {
-      expect(wrapper.find('.ant-drawer-wrapper-body').exists()).toBe(false);
+      expect(wrapper.find('.gov-drawer-wrapper-body').exists()).toBe(false);
     });
   });
 
@@ -140,10 +140,10 @@ describe('Drawer', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      wrapper.find('button.ant-btn').trigger('click');
+      wrapper.find('button.gov-btn').trigger('click');
       expect(wrapper.vm.visible).toBe(true);
 
-      wrapper.find('.ant-drawer-close').trigger('click');
+      wrapper.find('.gov-drawer-close').trigger('click');
       expect(wrapper.vm.visible).toBe(false);
     });
   });

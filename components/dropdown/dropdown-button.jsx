@@ -14,7 +14,7 @@ const DropdownButtonProps = {
   type: PropTypes.oneOf(['primary', 'ghost', 'dashed', 'danger', 'default']).def('default'),
   htmlType: ButtonTypesProps.htmlType,
   disabled: PropTypes.bool,
-  prefixCls: PropTypes.string.def('ant-dropdown-button'),
+  prefixCls: PropTypes.string.def('gov-dropdown-button'),
   placement: DropdownProps.placement.def('bottomRight'),
 };
 export { DropdownButtonProps };

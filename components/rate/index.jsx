@@ -22,7 +22,7 @@ const Rate = {
     event: 'change',
   },
   props: initDefaultProps(RateProps, {
-    prefixCls: 'ant-rate',
+    prefixCls: 'gov-rate',
   }),
   methods: {
     focus() {

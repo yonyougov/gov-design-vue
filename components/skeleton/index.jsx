@@ -63,7 +63,7 @@ function getParagraphBasicProps(hasAvatar, hasTitle) {
 const Skeleton = {
   name: 'ASkeleton',
   props: initDefaultProps(SkeletonProps, {
-    prefixCls: 'ant-skeleton',
+    prefixCls: 'gov-skeleton',
     avatar: false,
     title: true,
     paragraph: true,

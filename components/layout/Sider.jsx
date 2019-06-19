@@ -76,7 +76,7 @@ export default {
     event: 'collapse',
   },
   props: initDefaultProps(SiderProps, {
-    prefixCls: 'ant-layout-sider',
+    prefixCls: 'gov-layout-sider',
     collapsible: false,
     defaultCollapsed: false,
     reverseArrow: false,
@@ -85,7 +85,7 @@ export default {
   }),
 
   data() {
-    this.uniqueId = generateId('ant-sider-');
+    this.uniqueId = generateId('gov-sider-');
     let matchMedia;
     if (typeof window !== 'undefined') {
       matchMedia = window.matchMedia;

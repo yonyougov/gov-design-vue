@@ -329,7 +329,7 @@ const Transfer = {
     renderTransfer(transferLocale) {
       const props = getOptionProps(this);
       const {
-        prefixCls = 'ant-transfer',
+        prefixCls = 'gov-transfer',
         disabled,
         operations = [],
         showSearch,

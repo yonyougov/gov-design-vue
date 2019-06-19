@@ -17,11 +17,11 @@ export default {
   props: {
     ...inputProps,
     prefixCls: {
-      default: 'ant-input-search',
+      default: 'gov-input-search',
       type: String,
     },
     inputPrefixCls: {
-      default: 'ant-input',
+      default: 'gov-input',
       type: String,
     },
     enterButton: PropTypes.oneOfType([PropTypes.bool, PropTypes.string, PropTypes.object]),

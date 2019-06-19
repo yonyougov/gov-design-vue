@@ -55,27 +55,27 @@ describe('Table.pagination', () => {
       getTableOptions({ pagination: { pageSize: 3, hideOnSinglePage: true } }),
     );
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
       wrapper.setProps({ pagination: { pageSize: 3, hideOnSinglePage: false } });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
       wrapper.setProps({ pagination: { pageSize: 4, hideOnSinglePage: true } });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(0);
       wrapper.setProps({ pagination: { pageSize: 4, hideOnSinglePage: false } });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
       wrapper.setProps({ pagination: { pageSize: 5, hideOnSinglePage: true } });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(0);
       wrapper.setProps({ pagination: { pageSize: 5, hideOnSinglePage: false } });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
     });
   });
 
@@ -145,11 +145,11 @@ describe('Table.pagination', () => {
   it('should have pager when change pagination from false to undefined', done => {
     const wrapper = mount(Table, getTableOptions({ pagination: false }));
     Vue.nextTick(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(0);
       wrapper.setProps({ pagination: undefined });
       Vue.nextTick(() => {
-        expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
-        expect(wrapper.findAll('.ant-pagination-item-active')).toHaveLength(1);
+        expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
+        expect(wrapper.findAll('.gov-pagination-item-active')).toHaveLength(1);
         done();
       });
     });
@@ -160,30 +160,30 @@ describe('Table.pagination', () => {
   it('should display pagination as prop pagination change between true and false', async () => {
     const wrapper = mount(Table, getTableOptions());
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
-      expect(wrapper.findAll('.ant-pagination-item')).toHaveLength(2);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination-item')).toHaveLength(2);
       wrapper.setProps({ pagination: false });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(0);
       wrapper.setProps({ pagination });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
-      expect(wrapper.findAll('.ant-pagination-item')).toHaveLength(2);
-      wrapper.find('.ant-pagination-item-2').trigger('click');
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination-item')).toHaveLength(2);
+      wrapper.find('.gov-pagination-item-2').trigger('click');
     });
     await asyncExpect(() => {
       expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
       wrapper.setProps({ pagination: false });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(0);
       wrapper.setProps({ pagination: true });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-pagination')).toHaveLength(1);
-      expect(wrapper.findAll('.ant-pagination-item')).toHaveLength(1); // pageSize will be 10
+      expect(wrapper.findAll('.gov-pagination')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-pagination-item')).toHaveLength(1); // pageSize will be 10
       expect(renderedNames(wrapper)).toHaveLength(4);
     });
   });
@@ -192,11 +192,11 @@ describe('Table.pagination', () => {
   it('change to correct page when data source changes', done => {
     const wrapper = mount(Table, getTableOptions({ pagination: { pageSize: 1 } }));
     Vue.nextTick(() => {
-      wrapper.find('.ant-pagination-item-3').trigger('click');
+      wrapper.find('.gov-pagination-item-3').trigger('click');
       wrapper.setProps({ dataSource: [data[0]] });
       Vue.nextTick(() => {
-        expect(wrapper.find('.ant-pagination-item-1').classes()).toContain(
-          'ant-pagination-item-active',
+        expect(wrapper.find('.gov-pagination-item-1').classes()).toContain(
+          'gov-pagination-item-active',
         );
         done();
       });
@@ -206,38 +206,38 @@ describe('Table.pagination', () => {
   it('specify the position of pagination', async () => {
     const wrapper = mount(Table, getTableOptions({ pagination: { position: 'top' } }));
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-spin-container > *')).toHaveLength(2);
+      expect(wrapper.findAll('.gov-spin-container > *')).toHaveLength(2);
       expect(
         wrapper
-          .findAll('.ant-spin-container > *')
+          .findAll('.gov-spin-container > *')
           .at(0)
-          .findAll('.ant-pagination'),
+          .findAll('.gov-pagination'),
       ).toHaveLength(1);
       wrapper.setProps({ pagination: { position: 'bottom' } });
     }, 0);
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-spin-container > *')).toHaveLength(2);
+      expect(wrapper.findAll('.gov-spin-container > *')).toHaveLength(2);
       expect(
         wrapper
-          .findAll('.ant-spin-container > *')
+          .findAll('.gov-spin-container > *')
           .at(1)
-          .findAll('.ant-pagination'),
+          .findAll('.gov-pagination'),
       ).toHaveLength(1);
       wrapper.setProps({ pagination: { position: 'both' } });
     }, 0);
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-spin-container > *')).toHaveLength(3);
+      expect(wrapper.findAll('.gov-spin-container > *')).toHaveLength(3);
       expect(
         wrapper
-          .findAll('.ant-spin-container > *')
+          .findAll('.gov-spin-container > *')
           .at(0)
-          .findAll('.ant-pagination'),
+          .findAll('.gov-pagination'),
       ).toHaveLength(1);
       expect(
         wrapper
-          .findAll('.ant-spin-container > *')
+          .findAll('.gov-spin-container > *')
           .at(2)
-          .findAll('.ant-pagination'),
+          .findAll('.gov-pagination'),
       ).toHaveLength(1);
     }, 0);
   });

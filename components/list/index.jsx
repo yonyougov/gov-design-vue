@@ -55,7 +55,7 @@ const List = {
   name: 'AList',
   props: initDefaultProps(ListProps(), {
     dataSource: [],
-    prefixCls: 'ant-list',
+    prefixCls: 'gov-list',
     bordered: false,
     split: true,
     loading: false,

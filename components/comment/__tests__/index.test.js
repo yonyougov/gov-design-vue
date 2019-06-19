@@ -100,7 +100,7 @@ describe('Comment', () => {
     });
 
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-list-header').wrappers[0].element.innerHTML).toBe('1 reply');
+      expect(wrapper.findAll('.gov-list-header').wrappers[0].element.innerHTML).toBe('1 reply');
       expect(wrapper.html()).toMatchSnapshot();
     }, 2000);
   });

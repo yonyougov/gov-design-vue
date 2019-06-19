@@ -42,7 +42,7 @@ export default {
       offset,
       push,
       pull,
-      prefixCls = 'ant-col',
+      prefixCls = 'gov-col',
       $slots,
       $attrs,
       $listeners,

@@ -8,7 +8,7 @@ describe('Form', () => {
         hideRequiredMark: true,
       },
     });
-    expect(wrapper.classes()).toContain('ant-form-hide-required-mark');
+    expect(wrapper.classes()).toContain('gov-form-hide-required-mark');
   });
 
   describe('wrappedComponentRef', () => {

@@ -58,7 +58,7 @@ export default {
 };
 </script>
 <style>
-#components-date-picker-demo .ant-calendar-picker {
+#components-date-picker-demo .gov-calendar-picker {
   margin: 0 8px 12px 0;
 }
 

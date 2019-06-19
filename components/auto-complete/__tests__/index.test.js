@@ -35,7 +35,7 @@ describe('AutoComplete with Custom Input Element Render', () => {
         { sync: false },
       );
       Vue.nextTick(() => {
-        expect($$('.ant-select-dropdown-menu-item').length).toBe(3);
+        expect($$('.gov-select-dropdown-menu-item').length).toBe(3);
         done();
       });
     });

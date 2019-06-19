@@ -1,7 +1,7 @@
 import { filterEmpty } from '../_util/props-util';
 const ButtonGroupProps = {
   prefixCls: {
-    default: 'ant-btn-group',
+    default: 'gov-btn-group',
     type: String,
   },
   size: {

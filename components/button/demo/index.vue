@@ -62,11 +62,11 @@ export default {
 };
 </script>
 <style>
-[id^="components-button-demo-"] .ant-btn {
+[id^="components-button-demo-"] .gov-btn {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-[id^="components-button-demo-"] .ant-btn-group > .ant-btn {
+[id^="components-button-demo-"] .gov-btn-group > .gov-btn {
   margin-right: 0;
 }
 </style>

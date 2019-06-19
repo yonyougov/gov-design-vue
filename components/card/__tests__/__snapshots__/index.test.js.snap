@@ -1,58 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card should still have padding when card which set padding to 0 is loading 1`] = `
-<div class="ant-card ant-card-loading ant-card-bordered">
-  <div class="ant-card-body" style="padding: 0px;">
-    <div class="ant-card-loading-content">
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-22" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+<div class="gov-card gov-card-loading gov-card-bordered">
+  <div class="gov-card-body" style="padding: 0px;">
+    <div class="gov-card-loading-content">
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-22" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
       </div>
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-8" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-8" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
-        <div class="ant-col-15" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
-        </div>
-      </div>
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-6" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
-        </div>
-        <div class="ant-col-18" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+        <div class="gov-col-15" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
       </div>
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-13" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-6" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
-        <div class="ant-col-9" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
-        </div>
-      </div>
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-4" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
-        </div>
-        <div class="ant-col-3" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
-        </div>
-        <div class="ant-col-16" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+        <div class="gov-col-18" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
       </div>
-      <div class="ant-row" style="margin-left: -4px; margin-right: -4px;">
-        <div class="ant-col-8" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-13" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
-        <div class="ant-col-6" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+        <div class="gov-col-9" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
-        <div class="ant-col-8" style="padding-left: 4px; padding-right: 4px;">
-          <div class="ant-card-loading-block"></div>
+      </div>
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-4" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
+        </div>
+        <div class="gov-col-3" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
+        </div>
+        <div class="gov-col-16" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
+        </div>
+      </div>
+      <div class="gov-row" style="margin-left: -4px; margin-right: -4px;">
+        <div class="gov-col-8" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
+        </div>
+        <div class="gov-col-6" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
+        </div>
+        <div class="gov-col-8" style="padding-left: 4px; padding-right: 4px;">
+          <div class="gov-card-loading-block"></div>
         </div>
       </div>
     </div>
@@ -61,14 +61,14 @@ exports[`Card should still have padding when card which set padding to 0 is load
 `;
 
 exports[`Card title should be vertically aligned 1`] = `
-<div class="ant-card ant-card-bordered" style="width: 300px;">
-  <div class="ant-card-head">
-    <div class="ant-card-head-wrapper">
-      <div class="ant-card-head-title">Card title</div>
-      <div class="ant-card-extra"><button type="button" class="ant-btn ant-btn-default"><span>Button</span></button></div>
+<div class="gov-card gov-card-bordered" style="width: 300px;">
+  <div class="gov-card-head">
+    <div class="gov-card-head-wrapper">
+      <div class="gov-card-head-title">Card title</div>
+      <div class="gov-card-extra"><button type="button" class="gov-btn gov-btn-default"><span>Button</span></button></div>
     </div>
   </div>
-  <div class="ant-card-body">
+  <div class="gov-card-body">
     <p>Card content</p>
   </div>
 </div>

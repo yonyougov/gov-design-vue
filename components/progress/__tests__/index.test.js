@@ -12,12 +12,12 @@ describe('Progress', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-progress-status-success')).toHaveLength(0);
+      expect(wrapper.findAll('.gov-progress-status-success')).toHaveLength(0);
     });
 
     wrapper.setProps({ percent: 50, successPercent: 100 });
     await asyncExpect(() => {
-      expect(wrapper.findAll('.ant-progress-status-success')).toHaveLength(1);
+      expect(wrapper.findAll('.gov-progress-status-success')).toHaveLength(1);
     });
   });
 

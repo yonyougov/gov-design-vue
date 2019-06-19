@@ -13,7 +13,7 @@ export default {
   name: 'ACard',
   mixins: [BaseMixin],
   props: {
-    prefixCls: PropTypes.string.def('ant-card'),
+    prefixCls: PropTypes.string.def('gov-card'),
     title: PropTypes.any,
     extra: PropTypes.any,
     bordered: PropTypes.bool.def(true),
@@ -91,7 +91,7 @@ export default {
   },
   render() {
     const {
-      prefixCls = 'ant-card',
+      prefixCls = 'gov-card',
       headStyle = {},
       bodyStyle = {},
       loading,

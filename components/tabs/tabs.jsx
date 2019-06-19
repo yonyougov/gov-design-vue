@@ -15,7 +15,7 @@ export default {
     event: 'change',
   },
   props: {
-    prefixCls: PropTypes.string.def('ant-tabs'),
+    prefixCls: PropTypes.string.def('gov-tabs'),
     activeKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     defaultActiveKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     hideAdd: PropTypes.bool.def(false),

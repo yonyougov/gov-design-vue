@@ -16,7 +16,7 @@ function getNumberArray(num) {
 }
 
 const ScrollNumberProps = {
-  prefixCls: PropTypes.string.def('ant-scroll-number'),
+  prefixCls: PropTypes.string.def('gov-scroll-number'),
   count: PropTypes.any,
   component: PropTypes.string,
   title: PropTypes.oneOfType([PropTypes.number, PropTypes.string, null]),

@@ -6,7 +6,7 @@ export default {
   props: {
     ...Radio.props,
     prefixCls: {
-      default: 'ant-radio-button',
+      default: 'gov-radio-button',
       type: String,
     },
   },

@@ -18,7 +18,7 @@ describe('message', () => {
     });
     message.info('whatever');
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message')[0].style.top).toBe('100px');
+      expect(document.querySelectorAll('.gov-message')[0].style.top).toBe('100px');
     });
   });
   it('should be able to config getContainer', () => {
@@ -43,8 +43,8 @@ describe('message', () => {
     }
     message.info('last');
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(5);
-      expect(document.querySelectorAll('.ant-message-notice')[4].textContent).toBe('last');
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(5);
+      expect(document.querySelectorAll('.gov-message-notice')[4].textContent).toBe('last');
     }, 0);
   });
 
@@ -52,14 +52,14 @@ describe('message', () => {
     const hide1 = message.info('whatever', 0);
     const hide2 = message.info('whatever', 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(2);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(2);
       hide1();
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(1);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(1);
       hide2();
     }, 0);
-    expect(document.querySelectorAll('.ant-message-notice').length).toBe(0);
+    expect(document.querySelectorAll('.gov-message-notice').length).toBe(0);
   });
 
   it('should be able to destroy globally', async () => {
@@ -70,15 +70,15 @@ describe('message', () => {
       message.info('whatever', 0);
     });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message').length).toBe(1);
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(2);
+      expect(document.querySelectorAll('.gov-message').length).toBe(1);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(2);
     });
     await asyncExpect(() => {
       message.destroy();
     });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message').length).toBe(0);
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(0);
+      expect(document.querySelectorAll('.gov-message').length).toBe(0);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(0);
     });
   });
 
@@ -120,11 +120,11 @@ describe('message', () => {
     };
     mount(Test, { sync: false });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(1);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(1);
       hide();
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(0);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(0);
     }, 0);
   });
   it('should allow custom icon', async () => {
@@ -137,7 +137,7 @@ describe('message', () => {
   it('should have no icon', async () => {
     message.open({ content: 'Message' });
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice .anticon').length).toBe(0);
+      expect(document.querySelectorAll('.gov-message-notice .anticon').length).toBe(0);
     }, 0);
   });
   // https://github.com/ant-design/ant-design/issues/8201
@@ -156,10 +156,10 @@ describe('message', () => {
     mount(Test, { sync: false });
 
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(2);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(2);
     }, 0);
     await asyncExpect(() => {
-      expect(document.querySelectorAll('.ant-message-notice').length).toBe(0);
+      expect(document.querySelectorAll('.gov-message-notice').length).toBe(0);
     }, 1500);
   });
 });

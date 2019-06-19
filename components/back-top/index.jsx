@@ -101,7 +101,7 @@ const BackTop = {
   },
 
   render() {
-    const { prefixCls = 'ant-back-top', $slots, $listeners } = this;
+    const { prefixCls = 'gov-back-top', $slots, $listeners } = this;
 
     const defaultElement = (
       <div class={`${prefixCls}-content`}>

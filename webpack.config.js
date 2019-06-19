@@ -30,7 +30,7 @@ module.exports = merge(baseWebpackConfig, {
     ],
   },
   devServer: {
-    port: 3000,
+    port: 3030,
     host: '0.0.0.0',
     historyApiFallback: {
       rewrites: [{ from: /./, to: '/index.html' }],

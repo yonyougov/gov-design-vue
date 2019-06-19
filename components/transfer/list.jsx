@@ -124,7 +124,7 @@ export default {
       // https://github.com/ant-design/ant-design/issues/5631
       this.triggerScrollTimer = setTimeout(() => {
         const transferNode = this.$el;
-        const listNode = transferNode.querySelectorAll('.ant-transfer-list-content')[0];
+        const listNode = transferNode.querySelectorAll('.gov-transfer-list-content')[0];
         if (listNode) {
           triggerEvent(listNode, 'scroll');
         }

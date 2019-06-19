@@ -106,5 +106,5 @@ export default [
       { path: '', redirect: '/vue/docs/introduce/' },
     ],
   },
-  { path: '/*', redirect: '/docs/vue/introduce/' },
+  { path: '/*', redirect: '/docs/vue/introduce-cn/' },
 ];

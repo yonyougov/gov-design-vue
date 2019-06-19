@@ -113,7 +113,7 @@ export default {
   },
 
   render() {
-    const { type, justify, align, prefixCls = 'ant-row', $slots } = this;
+    const { type, justify, align, prefixCls = 'gov-row', $slots } = this;
     const gutter = this.getGutter();
     const classes = {
       [prefixCls]: !type,

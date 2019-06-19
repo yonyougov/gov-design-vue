@@ -57,7 +57,7 @@ export default {
 };
 </script>
 <style>
-#components-tag-demo .ant-tag{
+#components-tag-demo .gov-tag{
   margin-bottom: 8px;
 }
 </style>

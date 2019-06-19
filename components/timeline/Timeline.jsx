@@ -22,7 +22,7 @@ export const TimelineProps = {
 export default {
   name: 'ATimeline',
   props: initDefaultProps(TimelineProps, {
-    prefixCls: 'ant-timeline',
+    prefixCls: 'gov-timeline',
     reverse: false,
   }),
   render() {

@@ -157,7 +157,7 @@ export default {
 };
 </script>
 <style>
-.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {
+.code-box-demo .gov-form:not(.gov-form-inline):not(.gov-form-vertical) {
   max-width: 600px;
 }
 .markdown.api-container table td:last-child {

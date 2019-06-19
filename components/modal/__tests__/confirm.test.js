@@ -34,7 +34,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // first Modal
-    $$('.ant-btn')[0].click();
+    $$('.gov-btn')[0].click();
     expect(onCancel.mock.calls.length).toBe(1);
     expect(onOk.mock.calls.length).toBe(0);
   });
@@ -47,7 +47,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // second Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.gov-btn-primary')[0].click();
     expect(onCancel.mock.calls.length).toBe(0);
     expect(onOk.mock.calls.length).toBe(1);
   });
@@ -55,21 +55,21 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('should allow Modal.comfirm without onCancel been set', () => {
     open();
     // Third Modal
-    $$('.ant-btn')[0].click();
+    $$('.gov-btn')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
   it('should allow Modal.comfirm without onOk been set', () => {
     open();
     // Fourth Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.gov-btn-primary')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
   it('ok only', () => {
     open({ okCancel: false });
-    expect($$('.ant-btn')).toHaveLength(1);
-    expect($$('.ant-btn')[0].innerHTML).toContain('OK');
+    expect($$('.gov-btn')).toHaveLength(1);
+    expect($$('.gov-btn')[0].innerHTML).toContain('OK');
   });
 
   it('allows extra props on buttons', () => {
@@ -77,9 +77,9 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       okButtonProps: { props: { disabled: true } },
       cancelButtonProps: { attrs: { 'data-test': 'baz' } },
     });
-    expect($$('.ant-btn')).toHaveLength(2);
-    expect($$('.ant-btn')[0].attributes['data-test'].value).toBe('baz');
-    expect($$('.ant-btn')[1].disabled).toBe(true);
+    expect($$('.gov-btn')).toHaveLength(2);
+    expect($$('.gov-btn')[0].attributes['data-test'].value).toBe('baz');
+    expect($$('.gov-btn')[1].disabled).toBe(true);
   });
 
   it('trigger onCancel once when click on cancel button', () => {
@@ -89,11 +89,11 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         title: 'title',
         content: 'content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      $$('.ant-btn')[0].click();
+      expect($$(`.gov-modal-confirm-${type}`)).toHaveLength(1);
+      $$('.gov-btn')[0].click();
       jest.runAllTimers();
       await asyncExpect(() => {
-        expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+        expect($$(`.gov-modal-confirm-${type}`)).toHaveLength(0);
       });
     });
     jest.useRealTimers();

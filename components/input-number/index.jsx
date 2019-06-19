@@ -31,7 +31,7 @@ const InputNumber = {
     event: 'change',
   },
   props: initDefaultProps(InputNumberProps, {
-    prefixCls: 'ant-input-number',
+    prefixCls: 'gov-input-number',
     step: 1,
   }),
   methods: {

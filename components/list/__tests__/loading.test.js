@@ -12,7 +12,7 @@ describe('List', () => {
         return <List loading={loading} dataSource={[]} renderItem={() => <List.Item />} />;
       },
     });
-    expect(wrapper.findAll('.ant-list-empty-text')).toHaveLength(0);
+    expect(wrapper.findAll('.gov-list-empty-text')).toHaveLength(0);
   });
 
   it('renders object loading', () => {
@@ -24,7 +24,7 @@ describe('List', () => {
         return <List loading={loading} dataSource={[1]} renderItem={() => <List.Item />} />;
       },
     });
-    expect(wrapper.findAll('.ant-spin-spinning')).toHaveLength(1);
+    expect(wrapper.findAll('.gov-spin-spinning')).toHaveLength(1);
   });
 
   it('renders object loading with indicator', () => {

@@ -65,7 +65,7 @@ const Alert = {
   },
 
   render() {
-    const { prefixCls = 'ant-alert', banner, closing, closed } = this;
+    const { prefixCls = 'gov-alert', banner, closing, closed } = this;
     let { closable, type, showIcon, iconType } = this;
     const closeText = getComponentFromProp(this, 'closeText');
     const description = getComponentFromProp(this, 'description');

@@ -5,7 +5,7 @@ export default {
   },
   props: {
     prefixCls: {
-      default: 'ant-tag',
+      default: 'gov-tag',
       type: String,
     },
     checked: Boolean,

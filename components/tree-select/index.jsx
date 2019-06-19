@@ -24,7 +24,7 @@ const TreeSelect = {
   SHOW_CHILD,
   name: 'ATreeSelect',
   props: initDefaultProps(TreeSelectProps(), {
-    prefixCls: 'ant-select',
+    prefixCls: 'gov-select',
     transitionName: 'slide-up',
     choiceTransitionName: 'zoom',
     showSearch: false,

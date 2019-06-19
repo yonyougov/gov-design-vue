@@ -3,7 +3,7 @@ import { renderToString } from '@vue/server-test-utils';
 import List from '../list';
 
 const listCommonProps = {
-  prefixCls: 'ant-transfer-list',
+  prefixCls: 'gov-transfer-list',
   dataSource: [
     {
       key: 'a',
@@ -43,7 +43,7 @@ describe('List', () => {
     const wrapper = mount(List, props);
     expect(
       wrapper
-        .find('.ant-transfer-list-header')
+        .find('.gov-transfer-list-header')
         .find({
           name: 'ACheckbox',
         })

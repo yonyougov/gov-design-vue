@@ -30,7 +30,7 @@ describe('Popover', () => {
     await asyncExpect(() => {
       popup = popover.vm.$refs.popover.getPopupDomNode();
       expect(popup).not.toBe(null);
-      expect(popup.className).toContain('ant-popover-placement-top');
+      expect(popup.className).toContain('gov-popover-placement-top');
     }, 1000);
     await asyncExpect(() => {
       expect(popup.innerHTML).toMatchSnapshot();

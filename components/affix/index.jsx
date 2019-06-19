@@ -241,7 +241,7 @@ const Affix = {
   render() {
     const { prefixCls, affixStyle, placeholderStyle, $slots, $props } = this;
     const className = classNames({
-      [prefixCls || 'ant-affix']: affixStyle,
+      [prefixCls || 'gov-affix']: affixStyle,
     });
 
     const props = {

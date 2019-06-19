@@ -50,5 +50,5 @@ export default {
 };
 </script>
 <style>
-#components-timepicker-demo .ant-time-picker { margin: 0 8px 12px 0; }
+#components-timepicker-demo .gov-time-picker { margin: 0 8px 12px 0; }
 </style>

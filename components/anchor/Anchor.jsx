@@ -91,7 +91,7 @@ export default {
   mixins: [BaseMixin],
   inheritAttrs: false,
   props: initDefaultProps(AnchorProps, {
-    prefixCls: 'ant-anchor',
+    prefixCls: 'gov-anchor',
     affix: true,
     showInkInFixed: false,
     getContainer: getDefaultContainer,

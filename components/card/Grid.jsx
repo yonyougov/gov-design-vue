@@ -4,10 +4,10 @@ export default {
   name: 'ACardGrid',
   __ANT_CARD_GRID: true,
   props: {
-    prefixCls: PropTypes.string.def('ant-card'),
+    prefixCls: PropTypes.string.def('gov-card'),
   },
   render() {
-    const { prefixCls = 'ant-card' } = this.$props;
+    const { prefixCls = 'gov-card' } = this.$props;
     const classString = {
       [`${prefixCls}-grid`]: true,
     };

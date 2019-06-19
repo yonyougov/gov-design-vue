@@ -44,8 +44,8 @@ const Slider = {
   mixins: [BaseMixin],
   props: {
     ...SliderProps(),
-    prefixCls: PropTypes.string.def('ant-slider'),
-    tooltipPrefixCls: PropTypes.string.def('ant-tooltip'),
+    prefixCls: PropTypes.string.def('gov-slider'),
+    tooltipPrefixCls: PropTypes.string.def('gov-tooltip'),
     tipFormatter: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).def(value =>
       value.toString(),
     ),

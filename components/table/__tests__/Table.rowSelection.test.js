@@ -254,7 +254,7 @@ describe('Table.rowSelection', () => {
       { sync: false },
     );
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item > div')
+      .findAll('.gov-dropdown-menu-item > div')
       .at(0)
       .trigger('click');
 
@@ -279,7 +279,7 @@ describe('Table.rowSelection', () => {
       },
       { sync: false },
     );
-    const div = dropdownWrapper.findAll('.ant-dropdown-menu-item > div');
+    const div = dropdownWrapper.findAll('.gov-dropdown-menu-item > div');
     div.at(div.length - 1).trigger('click');
 
     expect(handleSelectInvert).toBeCalledWith([1, 2, 3]);
@@ -312,16 +312,16 @@ describe('Table.rowSelection', () => {
       },
       { sync: false },
     );
-    expect(dropdownWrapper.findAll('.ant-dropdown-menu-item').length).toBe(4);
+    expect(dropdownWrapper.findAll('.gov-dropdown-menu-item').length).toBe(4);
 
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item > div')
+      .findAll('.gov-dropdown-menu-item > div')
       .at(2)
       .trigger('click');
     expect(handleSelectOdd).toBeCalledWith([0, 1, 2, 3]);
 
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item > div')
+      .findAll('.gov-dropdown-menu-item > div')
       .at(3)
       .trigger('click');
     expect(handleSelectEven).toBeCalledWith([0, 1, 2, 3]);
@@ -350,7 +350,7 @@ describe('Table.rowSelection', () => {
       },
       { sync: false },
     );
-    expect(dropdownWrapper.findAll('.ant-dropdown-menu-item').length).toBe(2);
+    expect(dropdownWrapper.findAll('.gov-dropdown-menu-item').length).toBe(2);
   });
 
   it('handle custom selection onSelect correctly when hide default selection options', () => {
@@ -381,16 +381,16 @@ describe('Table.rowSelection', () => {
       },
       { sync: false },
     );
-    expect(dropdownWrapper.findAll('.ant-dropdown-menu-item').length).toBe(2);
+    expect(dropdownWrapper.findAll('.gov-dropdown-menu-item').length).toBe(2);
 
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item > div')
+      .findAll('.gov-dropdown-menu-item > div')
       .at(0)
       .trigger('click');
     expect(handleSelectOdd).toBeCalledWith([0, 1, 2, 3]);
 
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item > div')
+      .findAll('.gov-dropdown-menu-item > div')
       .at(1)
       .trigger('click');
     expect(handleSelectEven).toBeCalledWith([0, 1, 2, 3]);
@@ -470,7 +470,7 @@ describe('Table.rowSelection', () => {
           .findAll('tbody tr')
           .at(0)
           .classes(),
-      ).toContain('ant-table-row-selected');
+      ).toContain('gov-table-row-selected');
     });
   });
 
@@ -608,21 +608,21 @@ describe('Table.rowSelection', () => {
 
     function clickItem() {
       wrapper
-        .findAll('tbody .ant-table-selection-column .ant-checkbox-input')
+        .findAll('tbody .gov-table-selection-column .gov-checkbox-input')
         .at(0).element.checked = true;
       wrapper
-        .findAll('tbody .ant-table-selection-column .ant-checkbox-input')
+        .findAll('tbody .gov-table-selection-column .gov-checkbox-input')
         .at(0)
         .trigger('change');
     }
 
     // Check Jack
     dropdownWrapper
-      .findAll('.ant-dropdown-menu-item .ant-checkbox-wrapper')
+      .findAll('.gov-dropdown-menu-item .gov-checkbox-wrapper')
       .at(0)
       .trigger('click');
     dropdownWrapper
-      .find('.ant-table-filter-dropdown-btns .ant-table-filter-dropdown-link.confirm')
+      .find('.gov-table-filter-dropdown-btns .gov-table-filter-dropdown-link.confirm')
       .trigger('click');
     await asyncExpect(() => {
       expect(wrapper.findAll('tbody tr').length).toBe(1);
@@ -637,7 +637,7 @@ describe('Table.rowSelection', () => {
 
     await asyncExpect(() => {
       dropdownWrapper
-        .findAll('.ant-dropdown-menu-item .ant-checkbox-wrapper')
+        .findAll('.gov-dropdown-menu-item .gov-checkbox-wrapper')
         .at(0)
         .trigger('click');
     });
@@ -645,13 +645,13 @@ describe('Table.rowSelection', () => {
     await asyncExpect(() => {
       // Check Lucy
       dropdownWrapper
-        .findAll('.ant-dropdown-menu-item .ant-checkbox-wrapper')
+        .findAll('.gov-dropdown-menu-item .gov-checkbox-wrapper')
         .at(1)
         .trigger('click');
     });
     await asyncExpect(() => {
       dropdownWrapper
-        .find('.ant-table-filter-dropdown-btns .ant-table-filter-dropdown-link.confirm')
+        .find('.gov-table-filter-dropdown-btns .gov-table-filter-dropdown-link.confirm')
         .trigger('click');
     });
     await asyncExpect(() => {

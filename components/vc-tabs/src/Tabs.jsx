@@ -37,7 +37,7 @@ export default {
     renderTabContent: PropTypes.func.isRequired,
     navWrapper: PropTypes.func.def(arg => arg),
     children: PropTypes.any.def([]),
-    prefixCls: PropTypes.string.def('ant-tabs'),
+    prefixCls: PropTypes.string.def('gov-tabs'),
     tabBarPosition: PropTypes.string.def('top'),
     activeKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     defaultActiveKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

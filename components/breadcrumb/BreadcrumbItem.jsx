@@ -5,7 +5,7 @@ export default {
   name: 'ABreadcrumbItem',
   __ANT_BREADCRUMB_ITEM: true,
   props: {
-    prefixCls: PropTypes.string.def('ant-breadcrumb'),
+    prefixCls: PropTypes.string.def('gov-breadcrumb'),
     href: PropTypes.string,
     separator: PropTypes.any,
   },

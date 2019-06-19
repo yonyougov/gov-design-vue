@@ -3,7 +3,7 @@ export default {
   name: 'AInputGroup',
   props: {
     prefixCls: {
-      default: 'ant-input-group',
+      default: 'gov-input-group',
       type: String,
     },
     size: {

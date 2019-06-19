@@ -10,7 +10,7 @@ const Route = PropTypes.shape({
 }).loose;
 
 const BreadcrumbProps = {
-  prefixCls: PropTypes.string.def('ant-breadcrumb'),
+  prefixCls: PropTypes.string.def('gov-breadcrumb'),
   routes: PropTypes.arrayOf(Route),
   params: PropTypes.any,
   separator: PropTypes.any,
