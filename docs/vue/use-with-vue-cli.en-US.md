@@ -1,6 +1,6 @@
 # Use in vue-cli 3
 
-[vue-cli](https://github.com/vuejs/vue-cli) is one of the best Vue application development tools. We are going to use `antd` within it and modify the webpack config for some customized needs.
+[vue-cli](https://github.com/vuejs/vue-cli) is one of the best Vue application development tools. We are going to use `govd` within it and modify the webpack config for some customized needs.
 
 ## Install and Initialization
 
@@ -12,10 +12,10 @@ $ npm install -g @vue/cli
 $ yarn global add @vue/cli
 ```
 
-Create a new project named `antd-demo`.
+Create a new project named `govd-demo`.
 
 ```bash
-$ vue create antd-demo
+$ vue create govd-demo
 ```
 
 And, setup your vue project configuration.
@@ -23,16 +23,16 @@ And, setup your vue project configuration.
 The tool will create and initialize environment and dependencies automatically,
 please try config your proxy setting or use another npm registry if any network errors happen during it.
 
-Then we go inside `antd-demo` and start it.
+Then we go inside `govd-demo` and start it.
 
 ```bash
-$ cd antd-demo
+$ cd govd-demo
 $ npm run serve
 ```
 
 Open the browser at http://localhost:8080/. It renders a header saying "Welcome to Your Vue.js App" on the page.
 
-## Import antd
+## Import govd
 
 Below is the default directory structure.
 
@@ -53,18 +53,18 @@ Below is the default directory structure.
 └── yarn.lock
 ```
 
-Now we install `ant-design-vue` from yarn or npm.
+Now we install `gov-design-vue` from yarn or npm.
 
 ```bash
-$ yarn add ant-design-vue
+$ yarn add gov-design-vue
 ```
 
-Modify `src/main.js`, import Button component from `antd`.
+Modify `src/main.js`, import Button component from `govd`.
 
 ```jsx
 import Vue from "vue";
-import Button from "ant-design-vue/lib/button";
-import "ant-design-vue/dist/antd.css";
+import Button from "gov-design-vue/lib/button";
+import "gov-design-vue/dist/govd.css";
 import App from "./App";
 
 Vue.component(Button.name, Button);
@@ -92,18 +92,18 @@ Modify `src/App.vue`。
 ...
 ```
 
-Ok, you should now see a blue primary button displayed on the page. Next you can choose any components of `antd` to develop your application. Visit other workflows of `vue-cli` at its [User Guide ](https://github.com/vuejs/vue-cli/blob/master/README.md).
+Ok, you should now see a blue primary button displayed on the page. Next you can choose any components of `govd` to develop your application. Visit other workflows of `vue-cli` at its [User Guide ](https://github.com/vuejs/vue-cli/blob/master/README.md).
 
 ## Advanced Guides
 
-We are successfully running antd components now but in the real world, there are still lots of problems about antd-demo.
+We are successfully running govd components now but in the real world, there are still lots of problems about govd-demo.
 For instance, we actually import all styles of components in the project which may be a network performance issue.
 
 Now we need to customize the default webpack config.
 
 ### Use babel-plugin-import
 
-[babel-plugin-import](https://github.com/ant-design/babel-plugin-import) is a babel plugin for importing components on demand ([How does it work?](/docs/vue/getting-started/#Import-on-Demand)).
+[babel-plugin-import](https://github.com/gov-design/babel-plugin-import) is a babel plugin for importing components on demand ([How does it work?](/docs/vue/getting-started/#Import-on-Demand)).
 
 ```bash
 $ yarn add babel-plugin-import --dev
@@ -128,7 +128,7 @@ Modify `.babelrc`.
 +   "plugins": [
 +     "transform-vue-jsx",
 +     "transform-runtime",
-+     ["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "css" }]
++     ["import", { "libraryName": "gov-design-vue", "libraryDirectory": "es", "style": "css" }]
 +   ]
   }
 ```
@@ -143,20 +143,20 @@ Modify `babel.config.js`
 + plugins: [
 +    [
 +      "import",
-+      { libraryName: "ant-design-vue", libraryDirectory: "es", style: true }
++      { libraryName: "gov-design-vue", libraryDirectory: "es", style: true }
 +    ]
 +  ]
 };
 ```
 
-Remove the `import 'ant-design-vue/dist/antd.css';` statement added before because `babel-plugin-import` will import styles and import components like below:
+Remove the `import 'gov-design-vue/dist/govd.css';` statement added before because `babel-plugin-import` will import styles and import components like below:
 
 ```diff
   // src/main.js
   import Vue from 'vue'
-- import Button from 'ant-design-vue/lib/button';
-+ import { Button } from 'ant-design-vue';
-- import 'ant-design-vue/dist/antd.css'
+- import Button from 'gov-design-vue/lib/button';
++ import { Button } from 'gov-design-vue';
+- import 'gov-design-vue/dist/govd.css'
   import App from './App'
 
   Vue.component(Button.name, Button)

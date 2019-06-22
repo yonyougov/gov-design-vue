@@ -1,17 +1,17 @@
 
 # Customize Theme
 
-The structure and styles of ant-design-vue are exactly the same as those of Antd. You can refer to the Antd React customization mode for configuration.
+The structure and styles of gov-design-vue are exactly the same as those of Govd. You can refer to the Govd React customization mode for configuration.
 
-Ant Design allows you to customize some basic design aspects in order to meet the needs of UI diversity from business and brand, including primary color, border radius, border color, etc.
+Gov Design allows you to customize some basic design aspects in order to meet the needs of UI diversity from business and brand, including primary color, border radius, border color, etc.
 
 ![](https://zos.alipayobjects.com/rmsportal/zTFoszBtDODhXfLAazfSpYbSLSEeytoG.png)
 
-## Ant Design Vue Less variables
+## Gov Design Vue Less variables
 
 We are using [Less](http://lesscss.org/) as the development language for styling. A set of less variables are defined for each design aspect that can be customized to your needs.
 
-There are some major variables below, all less variables could be found in [Default Variables](https://github.com/vueComponent/ant-design-vue/blob/master/components/style/themes/default.less).
+There are some major variables below, all less variables could be found in [Default Variables](https://github.com/vueComponent/gov-design-vue/blob/master/components/style/themes/default.less).
 
 ```less
 @primary-color: #1890ff;                         // primary color for all components
@@ -65,7 +65,7 @@ module.exports = {
 }
 ```
 
-Note that do not exclude antd package in node_modules when using less-loader.
+Note that do not exclude govd package in node_modules when using less-loader.
 
 ### Customize in vue cli 2
 
@@ -107,10 +107,10 @@ module.exports = {
 
 ### Customize in less file
 
-Another approach to customize theme is creating a `less` file within variables to override `antd.less`.
+Another approach to customize theme is creating a `less` file within variables to override `govd.less`.
 
 ```css
-@import "~ant-design-vue/dist/antd.less";   // Import Ant Design Vue styles by less entry
+@import "~gov-design-vue/dist/govd.less";   // Import gov Design Vue styles by less entry
 @import "your-theme-file.less";   // variables to override above
 ```
 
@@ -118,8 +118,8 @@ Note: This way will load the styles of all components, regardless of your demand
 
 ## How to avoid modifying global styles?
 
-Currently ant-design-vue is designed as a whole experience and modify global styles (eg `body` etc).
-If you need to integrate ant-design-vue as a part of an existing website, it's likely you want to prevent ant-design-vue to override global styles.
+Currently gov-design-vue is designed as a whole experience and modify global styles (eg `body` etc).
+If you need to integrate gov-design-vue as a part of an existing website, it's likely you wgov to prevent gov-design-vue to override global styles.
 
 While there's no canonical way to do it, you can take one of the following paths :
 
@@ -128,12 +128,12 @@ While there's no canonical way to do it, you can take one of the following paths
 It's possible to configure webpack to load an alternate less file:
 
 ```ts
-new webpack.NormalModuleReplacementPlugin( /node_modules\/ant-design-vue\/lib\/style\/index\.less/, path.resolve(rootDir, 'src/myStylesReplacement.less') )
+new webpack.NormalModuleReplacementPlugin( /node_modules\/gov-design-vue\/lib\/style\/index\.less/, path.resolve(rootDir, 'src/myStylesReplacement.less') )
 
-#antd { @import '~ant-design-vue/lib/style/core/index.less'; @import '~ant-design-vue/lib/style/themes/default.less'; }
+#govd { @import '~gov-design-vue/lib/style/core/index.less'; @import '~gov-design-vue/lib/style/themes/default.less'; }
 ```
 
-Where the src/myStylesReplacement.less file loads the same files as the index.less file, but loads them within the scope of a top-level selector : the result is that all of the "global" styles are being applied with the #antd scope.
+Where the src/myStylesReplacement.less file loads the same files as the index.less file, but loads them within the scope of a top-level selector : the result is that all of the "global" styles are being applied with the #govd scope.
 
 ### Use a postcss processor to scope all styles
 
@@ -143,10 +143,10 @@ See an example of usage with gulp and [postcss-prefixwrap](https://github.com/db
 
 You must import styles as less format. A common mistake would be importing multiple copied of styles that some of them are css format to override the less styles.
 
-- If you import styles by specifying the `style` option of [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), change it from `'css'` to `true`, which will import the `less` version of antd.
-- If you import styles from `'ant-design-vue/dist/antd.css'`, change it to `ant-design-vue/dist/antd.less`.
+- If you import styles by specifying the `style` option of [babel-plugin-import](https://github.com/gov-design/babel-plugin-import), change it from `'css'` to `true`, which will import the `less` version of govd.
+- If you import styles from `'gov-design-vue/dist/govd.css'`, change it to `gov-design-vue/dist/govd.less`.
 
 ## Related Articles
 
-- [How to Customize Ant Design with React & Webpack… the Missing Guide](https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f)
-- [Theming Ant Design with Sass and Webpack](https://gist.github.com/Kruemelkatze/057f01b8e15216ae707dc7e6c9061ef7)
+- [How to Customize Gov Design with React & Webpack… the Missing Guide](https://medium.com/@GeoffMiller/how-to-customize-gov-design-with-react-webpack-the-missing-guide-c6430f2db10f)
+- [Theming Gov Design with Sass and Webpack](https://gist.github.com/Kruemelkatze/057f01b8e15216ae707dc7e6c9061ef7)

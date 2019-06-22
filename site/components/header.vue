@@ -95,9 +95,9 @@ export default {
                   </a>
                 </a-menu-item>
                 <a-menu-item key="github">
-                  <a target="_blank" href='https://github.com/vueComponent/ant-design-vue'>GitHub</a>
+                  <a target="_blank" href='https://github.com/yonyougov/gov-design-vue'>GitHub</a>
                 </a-menu-item>
-                <a-menu-item key='wechat'>
+                {/*<a-menu-item key='wechat'>
                   <a-popover placement='right'>
                     <template slot='content'>
                       <img
@@ -126,13 +126,13 @@ export default {
                       {isCN ? 'QQ(217490093)' : 'QQ(217490093)'}
                     </a>
                   </a-popover>
-                </a-menu-item>
+                </a-menu-item>*/}
               </a-sub-menu>
-              <a-menu-item key="sponsor">
+              {/*<a-menu-item key="sponsor">
                 <router-link to={{ path: isCN ? '/docs/vue/sponsor-cn/' :  '/docs/vue/sponsor/'}}>
                   {isCN ? '支持我们' : 'Support us'}
                 </router-link>
-              </a-menu-item>
+              </a-menu-item>*/}
             </a-menu>
           </a-col>
         </a-row>

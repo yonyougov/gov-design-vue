@@ -1,6 +1,6 @@
 # FAQ
 
-Here are the frequently asked questions about Ant Design Vue that you should look up before you ask in community or create new issue. 
+Here are the frequently asked questions about gov Design Vue that you should look up before you ask in community or create new issue.
 
 ### Are you going to provide Sass/Stylus(etc...) style file?
 
@@ -16,11 +16,11 @@ Use `<a-select :getPopupContainer="trigger => trigger.parentNode">` to render co
 
 ### `Form` does not support two-way binding, can't use `v-model`?
 
-First, we do not recommend using two-way binding in the Form, the same data may be used in multiple places, if you use two-way binding, then the data modification will be synchronized to each component, but this is not what we want, you Data should be synchronized when the form is submitted successfully or fails or confirmed. With a non-bidirectionally bound form, you have maximum control over data modification/synchronization.
+First, we do not recommend using two-way binding in the Form, the same data may be used in multiple places, if you use two-way binding, then the data modification will be synchronized to each component, but this is not what we wgov, you Data should be synchronized when the form is submitted successfully or fails or confirmed. With a non-bidirectionally bound form, you have maximum control over data modification/synchronization.
 
 Second, if you don't use the form's automatic check/collection feature, ie you don't use the `v-decorator` modifier, you can still use `v-model`.
 
-### How to modify the default theme of Ant Design Vue?
+### How to modify the default theme of gov Design Vue?
 
 See [Customize Theme](/docs/vue/customize-theme/)。
 
@@ -36,9 +36,9 @@ The `defaultXxxx` (like `defaultValue`) of `Input`/`Select`(etc...) only works i
 
 Try `defaultValue` or `change` or `v-model` to change `value`.
 
-### ant-design-vue override my global styles!
+### gov-design-vue override my global styles!
 
-Yes, ant-design-vue is designed to develop a complete background application, we override some global styles for styling convenience, and it can't be removed now. More info trace https://github.com/ant-design/ant-design/issues/4331 .
+Yes, gov-design-vue is designed to develop a complete background application, we override some global styles for styling convenience, and it can't be removed now. More info trace https://github.com/gov-design/gov-design/issues/4331 .
 
 Or, follow the instructions in [How to avoid modifying global styles?](docs/react/customize-theme#How-to-avoid-modifying-global-styles-?)
 

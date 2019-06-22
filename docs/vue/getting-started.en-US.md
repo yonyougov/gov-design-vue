@@ -1,20 +1,20 @@
 
 # Getting Started
 
-Ant Design Vue is dedicated to providing a **good development experience** for programmers. Make sure that you had installed [Node.js](https://nodejs.org/)(> v8.9) correctly.
+Gov Design Vue is dedicated to providing a **good development experience** for programmers. Make sure that you had installed [Node.js](https://nodejs.org/)(> v8.9) correctly.
 
-> Before delving into Ant Design Vue, a good knowledge base of [Vue](https://cn.vuejs.org/) and [JavaScript ES2015](http://babeljs.io/docs/learn-es2015/) is needed.
+> Before delving into Gov Design Vue, a good knowledge base of [Vue](https://cn.vuejs.org/) and [JavaScript ES2015](http://babeljs.io/docs/learn-es2015/) is needed.
 
 ## Use vue-cli@3
-We provide an [Ant Design Vue](https://github.com/vueComponent/vue-cli-plugin-ant-design) plugin for vue-cli@3, which you can use to quickly build an Ant Design Vue-based project.
+We provide an [Gov Design Vue](https://github.com/vueComponent/vue-cli-plugin-gov-design) plugin for vue-cli@3, which you can use to quickly build an Gov Design Vue-based project.
 
 ## Playground
 
 The following CodeSandbox demo is the simplest use case, and it's also a good habit to fork this demo to provide a re-producible demo while reporting a bug.
 
-- [![Vue Antd Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2wpk21kzvr)
+- [![Vue Govd Template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2wpk21kzvr)
 
-## Import ant-design-vue
+## Import gov-design-vue
 
 ### 1. Installation
 
@@ -31,26 +31,26 @@ $ yarn global add @vue/cli
 A new project can be created using CLI tools.
 
 ```bash
-$ vue create antd-demo
+$ vue create govd-demo
 ```
 
 And, setup your vue project configuration.
 
-### 3. Use antd's Components
+### 3. Use govd's Components
 
 
 ```bash
-$ npm i --save ant-design-vue
+$ npm i --save gov-design-vue
 ```
 **Fully import**
 ```jsx
 import Vue from 'vue'
-import Antd from 'ant-design-vue'
+import Govd from 'gov-design-vue'
 import App from './App'
-import 'ant-design-vue/dist/antd.css'
+import 'gov-design-vue/dist/govd.css'
 Vue.config.productionTip = false
 
-Vue.use(Antd)
+Vue.use(Govd)
 
 /* eslint-disable no-new */
 new Vue({
@@ -59,12 +59,12 @@ new Vue({
   template: '<App/>'
 })
 ```
-The above imports Antd entirely. Note that CSS file needs to be imported separately.
+The above imports Govd entirely. Note that CSS file needs to be imported separately.
 
 **Only import the components you need**
 ```jsx
 import Vue from 'vue'
-import { Button, message } from 'ant-design-vue'
+import { Button, message } from 'gov-design-vue'
 import App from './App'
 
 Vue.config.productionTip = false
@@ -86,15 +86,15 @@ new Vue({
 })
 ```
 
-> All the components in antd are listed in the sidebar.
+> All the components in govd are listed in the sidebar.
 
 ### 4. Component list
 
-[Component list](https://github.com/vueComponent/ant-design-vue/blob/master/site/components.js)
+[Component list](https://github.com/vueComponent/gov-design-vue/blob/master/site/components.js)
 
 ## Compatibility
 
-Ant Design Vue supports all the modern browsers and IE9+.
+Gov Design Vue supports all the modern browsers and IE9+.
 
 You need to provide [es5-shim](https://github.com/es-shims/es5-shim) and [es6-shim](https://github.com/paulmillr/es6-shim) and other polyfills for IE browsers.
 
@@ -105,10 +105,10 @@ If you are using babel, we strongly recommend using [babel-polyfill](https://bab
 
 ## Import on Demand
 
-If you see logs like below screenshot, you might be importing all components by writing `import { Button } from 'ant-design-vue';`. This will affect your app's network performance.
+If you see logs like below screenshot, you might be importing all components by writing `import { Button } from 'gov-design-vue';`. This will affect your app's network performance.
 
 ```
-You are using a whole package of antd, please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.
+You are using a whole package of govd, please use https://www.npmjs.com/package/babel-plugin-import to reduce app bundle size.
 ```
 
 > ![](https://zos.alipayobjects.com/rmsportal/GHIRszVcmjccgZRakJDQ.png)
@@ -116,24 +116,24 @@ You are using a whole package of antd, please use https://www.npmjs.com/package/
 However, we can import individual components on demand:
 
 ```jsx
-import Button from 'ant-design-vue/lib/button';
-import 'ant-design-vue/lib/button/style'; // or ant-design-vue/lib/button/style/css for css format file
+import Button from 'gov-design-vue/lib/button';
+import 'gov-design-vue/lib/button/style'; // or gov-design-vue/lib/button/style/css for css format file
 ```
 
-We strongly recommend using [babel-plugin-import](https://github.com/ant-design/babel-plugin-import), which can convert the following code to the 'antd/lib/xxx' way:
+We strongly recommend using [babel-plugin-import](https://github.com/gov-design/babel-plugin-import), which can convert the following code to the 'govd/lib/xxx' way:
 
 ```jsx
-import { Button } from 'ant-design-vue';
+import { Button } from 'gov-design-vue';
 ```
 
-And this plugin can load styles too, read [usage](https://github.com/ant-design/babel-plugin-import#usage) for more details.
+And this plugin can load styles too, read [usage](https://github.com/gov-design/babel-plugin-import#usage) for more details.
 
-> FYI, babel-plugin-import's `style` option will importing some global reset styles, don't use it if you don't need those styles. You can import styles manually via `import 'ant-design-vue/dist/antd.css'` and override the global reset styles.
+> FYI, babel-plugin-import's `style` option will importing some global reset styles, don't use it if you don't need those styles. You can import styles manually via `import 'gov-design-vue/dist/govd.css'` and override the global reset styles.
 
 ## Customization
 
 - [Customize Theme](/docs/vue/customize-theme)
-- [Local Iconfont](https://github.com/ant-design/antd-init/tree/master/examples/local-iconfont)
+- [Local Iconfont](https://github.com/gov-design/govd-init/tree/master/examples/local-iconfont)
 
 ## Tips
 

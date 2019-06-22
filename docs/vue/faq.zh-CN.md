@@ -1,7 +1,7 @@
 
 # 常见问题
 
-以下整理了一些 Ant Design Vue 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。
+以下整理了一些 Gov Design Vue 社区常见的问题和官方答复，在提问之前建议找找有没有类似的问题。
 
 ### 你们会提供 Sass/Stylus 等格式的样式文件吗？
 
@@ -20,7 +20,7 @@
 
 第二、如果你不使用表单的自动校验/收集功能，即没有使用`v-decorator`修饰过得组件，你依然可以使用`v-model`。
 
-### 如何修改 Ant Design Vue 的默认主题？
+### 如何修改 Gov Design Vue 的默认主题？
 
 参考[主题定制](/docs/vue/customize-theme/)。
 
