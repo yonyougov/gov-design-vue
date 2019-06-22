@@ -299,7 +299,7 @@ gulp.task('pub-with-ci', done => {
       owner,
       repo,
     });
-    const getCommits = github.repos.getCommits({
+    const getCommits = github.repos.listCommits({
       owner,
       repo,
       per_page: 1,
