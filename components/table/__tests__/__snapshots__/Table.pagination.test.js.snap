@@ -1,31 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Table.pagination renders pagination correctly 1`] = `
-<div class="ant-table-wrapper">
+<div class="gov-table-wrapper">
   <div class="gov-spin-nested-loading">
     <div class="gov-spin-container">
-      <div class="ant-table ant-table-scroll-position-left ant-table-default">
-        <div class="ant-table-content">
+      <div class="gov-table gov-table-scroll-position-left gov-table-default">
+        <div class="gov-table-content">
           <!---->
-          <div class="ant-table-body">
+          <div class="gov-table-body">
             <table class="">
               <colgroup>
                 <col>
               </colgroup>
-              <thead class="ant-table-thead">
+              <thead class="gov-table-thead">
                 <tr>
                   <th key="name" class="">
                     <div>Name</div>
                   </th>
                 </tr>
               </thead>
-              <tbody class="ant-table-tbody">
-                <tr class="ant-table-row ant-table-row-level-0" data-row-key="0">
-                  <td><span class="ant-table-row-indent indent-level-0" style="padding-left: 0px;"></span>
+              <tbody class="gov-table-tbody">
+                <tr class="gov-table-row gov-table-row-level-0" data-row-key="0">
+                  <td><span class="gov-table-row-indent indent-level-0" style="padding-left: 0px;"></span>
                     <!---->Jack</td>
                 </tr>
-                <tr class="ant-table-row ant-table-row-level-0" data-row-key="1">
-                  <td><span class="ant-table-row-indent indent-level-0" style="padding-left: 0px;"></span>
+                <tr class="gov-table-row gov-table-row-level-0" data-row-key="1">
+                  <td><span class="gov-table-row-indent indent-level-0" style="padding-left: 0px;"></span>
                     <!---->Lucy</td>
                 </tr>
               </tbody>
@@ -33,7 +33,7 @@ exports[`Table.pagination renders pagination correctly 1`] = `
           </div>
         </div>
       </div>
-      <ul unselectable="unselectable" class="gov-pagination my-page ant-table-pagination">
+      <ul unselectable="unselectable" class="gov-pagination my-page gov-table-pagination">
         <li title="Previous Page" aria-disabled="true" class="gov-pagination-disabled gov-pagination-prev"><a class="gov-pagination-item-link"><i class="anticon anticon-left"><svg viewBox="64 64 896 896" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
                 <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"></path>
               </svg></i></a></li>

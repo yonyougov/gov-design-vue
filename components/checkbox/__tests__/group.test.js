@@ -16,7 +16,7 @@ describe('CheckboxGroup', () => {
       },
     );
     wrapper
-      .findAll('.ant-checkbox-input')
+      .findAll('.gov-checkbox-input')
       .at(0)
       .trigger('change');
     expect(onChange).toBeCalledWith(['Apple']);

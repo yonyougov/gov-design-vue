@@ -57,7 +57,7 @@ export default {
   mixins: [BaseMixin],
   props: initDefaultProps(TableProps, {
     dataSource: [],
-    prefixCls: 'ant-table',
+    prefixCls: 'gov-table',
     useFixedHeader: false,
     // rowSelection: null,
     size: 'default',
@@ -778,7 +778,7 @@ export default {
               selectedKeys={colFilters}
               confirmFilter={this.handleFilter}
               prefixCls={`${prefixCls}-filter`}
-              dropdownPrefixCls={dropdownPrefixCls || 'ant-dropdown'}
+              dropdownPrefixCls={dropdownPrefixCls || 'gov-dropdown'}
               getPopupContainer={this.getPopupContainer}
               key="filter-dropdown"
             />
