@@ -304,25 +304,27 @@ gulp.task('pub-with-ci', done => {
       repo,
       per_page: 1,
     });
-    Promise.all([getLatestRelease, getCommits]).then(([latestRelease, commits]) => {
-      const preVersion = latestRelease.data.tag_name;
-      const { version } = packageJson;
-      const [_, newVersion] = commits.data[0].commit.message.trim().match(/bump (.+)/) || []; // eslint-disable-line
-      if (
-        compareVersions(version, preVersion) === 1 &&
-        newVersion &&
-        newVersion.trim() === version
-      ) {
-        gulp.run('pub', err => {
-          err && console.log('err', err);
-          done();
-        });
-      } else {
-        console.log('donot need publish' + version);
-      }
-    }).catch(() => {
-      console.log('pub-with-ci may failed, please check if the GITHUB api calling fails or not')
-    });
+    Promise.all([getLatestRelease, getCommits])
+      .then(([latestRelease, commits]) => {
+        const preVersion = latestRelease.data.tag_name;
+        const { version } = packageJson;
+        const [_, newVersion] = commits.data[0].commit.message.trim().match(/bump (.+)/) || []; // eslint-disable-line
+        if (
+          compareVersions(version, preVersion) === 1 &&
+          newVersion &&
+          newVersion.trim() === version
+        ) {
+          gulp.run('pub', err => {
+            err && console.log('err', err);
+            done();
+          });
+        } else {
+          console.log('donot need publish' + version);
+        }
+      })
+      .catch(() => {
+        console.log('pub-with-ci may failed, please check if the GITHUB api calling fails or not');
+      });
   }
 });
 
