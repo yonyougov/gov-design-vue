@@ -11,6 +11,8 @@
 ---
 
 ## 1.3.10
+`2019-06-30`
+- make some refacotr and ready to pub
 `2019-06-11`
 - 🐞 Remove useless `module.export` of package. [#850](https://github.com/vueComponent/ant-design-vue/issues/850)
 
