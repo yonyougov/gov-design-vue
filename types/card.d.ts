@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { Meta } from './meta';
 
-export declare class Card extends AntdComponent {
+export declare class Card extends GovdComponent {
   static Grid: any;
   static Meta: typeof Meta;
 

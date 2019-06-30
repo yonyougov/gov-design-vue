@@ -57,7 +57,7 @@ export default {
         on: {
           click: onSelect,
         },
-        key: Array.isArray(key) ? key.join('__ant__') : key,
+        key: Array.isArray(key) ? key.join('__gov__') : key,
       };
       let menuItemCls = `${prefixCls}-menu-item`;
       let expandIconNode = null;

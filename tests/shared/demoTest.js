@@ -3,8 +3,8 @@ import { mount } from '@vue/test-utils';
 import MockDate from 'mockdate';
 import moment from 'moment';
 import Vue from 'vue';
-import antd from 'ant-design-vue';
-Vue.use(antd);
+import govd from 'gov-design-vue';
+Vue.use(govd);
 
 export default function demoTest(component, options = {}) {
   const suffix = options.suffix || 'md';

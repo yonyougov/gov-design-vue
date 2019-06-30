@@ -7,7 +7,7 @@ import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { PREFIX_CLS } from './Constants';
 import Header from './Header';
 import interopDefault from '../_util/interopDefault';
-import enUS from './locale/en_US';
+import zhCH from './locale/zh_CN';
 
 export { HeaderProps } from './Header';
 
@@ -218,7 +218,7 @@ const Calendar = {
     },
     getDefaultLocale() {
       const result = {
-        ...enUS,
+        ...zhCH,
         ...this.$props.locale,
       };
       result.lang = {

@@ -1,7 +1,7 @@
 import * as moment from 'moment';
 import VcTimePicker from '../vc-time-picker';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
-import defaultLocale from './locale/en_US';
+import defaultLocale from './locale/zh_CN';
 import BaseMixin from '../_util/BaseMixin';
 import PropTypes from '../_util/vue-types';
 import Icon from '../icon';

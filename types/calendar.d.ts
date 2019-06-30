@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { Moment } from 'moment';
 
-export declare class Calendar extends AntdComponent {
+export declare class Calendar extends GovdComponent {
   /**
    * Customize the display of the date cell by setting a scoped slot,
    * the returned content will be appended to the cell

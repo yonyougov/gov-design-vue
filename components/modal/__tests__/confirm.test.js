@@ -1,6 +1,7 @@
 import Modal from '..';
 import { asyncExpect } from '@/tests/utils';
 const { confirm } = Modal;
+import locale from '../../locale-provider/default';
 
 describe('Modal.confirm triggers callbacks correctly', () => {
   const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
@@ -69,7 +70,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('ok only', () => {
     open({ okCancel: false });
     expect($$('.gov-btn')).toHaveLength(1);
-    expect($$('.gov-btn')[0].innerHTML).toContain('OK');
+    expect($$('.gov-btn')[0].innerHTML).toContain(locale.Modal.justOkText);
   });
 
   it('allows extra props on buttons', () => {

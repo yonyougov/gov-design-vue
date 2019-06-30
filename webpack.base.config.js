@@ -199,8 +199,8 @@ module.exports = {
     extensions: ['.js', '.jsx', '.vue', '.md'],
     alias: {
       vue$: 'vue/dist/vue.esm.js',
-      antd: path.join(__dirname, 'components'),
-      'ant-design-vue': path.join(__dirname, 'components'),
+      govd: path.join(__dirname, 'components'),
+      'gov-design-vue': path.join(__dirname, 'components'),
       '@': path.join(__dirname, ''),
     },
   },

@@ -65,7 +65,7 @@ export default {
       ) {
         extraNode.style.borderColor = waveColor;
 
-        styleForPesudo.innerHTML = `[ant-click-animating-without-extra-node]:after { border-color: ${waveColor}; }`;
+        styleForPesudo.innerHTML = `[gov-click-animating-without-extra-node]:after { border-color: ${waveColor}; }`;
         if (!document.body.contains(styleForPesudo)) {
           document.body.appendChild(styleForPesudo);
         }

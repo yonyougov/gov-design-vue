@@ -3,6 +3,7 @@ import { asyncExpect } from '@/tests/utils';
 import Select from '..';
 import Icon from '../../icon';
 import focusTest from '../../../tests/shared/focusTest';
+import locale from '../../locale-provider/default';
 
 describe('Select', () => {
   focusTest(Select);
@@ -33,7 +34,7 @@ describe('Select', () => {
           .findAll({ name: 'MenuItem' })
           .at(0)
           .text(),
-      ).toBe('Not Found');
+      ).toBe(locale.Select.notFoundContent);
     });
   });
 

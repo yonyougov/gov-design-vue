@@ -2,9 +2,9 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 
-export declare class Drawer extends AntdComponent {
+export declare class Drawer extends GovdComponent {
   /**
    * Whether a close (x) button is visible on top right of the Drawer dialog or not.
    * @default true

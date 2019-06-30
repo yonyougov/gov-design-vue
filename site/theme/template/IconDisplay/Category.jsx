@@ -1,4 +1,4 @@
-import { message } from 'ant-design-vue';
+import { message } from 'gov-design-vue';
 import CopyableIcon from './CopyableIcon';
 
 const Category = {

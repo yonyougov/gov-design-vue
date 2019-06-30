@@ -19,7 +19,7 @@ In the various types of information modal dialog, only one button to close dialo
   </div>
 </template>
 <script>
-import { Modal } from 'ant-design-vue'
+import { Modal } from 'gov-design-vue'
 export default {
   methods: {
     info() {

@@ -76,7 +76,7 @@ export default {
     // mouse events don't trigger at disabled button in Chrome
     // https://github.com/react-component/tooltip/issues/18
     getDisabledCompatibleChildren(ele) {
-      const isAntBtn = ele.componentOptions && ele.componentOptions.Ctor.options.__ANT_BUTTON;
+      const isAntBtn = ele.componentOptions && ele.componentOptions.Ctor.options.__GOV_BUTTON;
       if (
         (isAntBtn &&
           (ele.componentOptions.propsData.disabled ||

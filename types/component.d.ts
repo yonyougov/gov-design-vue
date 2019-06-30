@@ -4,6 +4,6 @@
 
 import Vue from 'vue';
 
-export declare class AntdComponent extends Vue {
+export declare class GovdComponent extends Vue {
   static install(vue: typeof Vue): void;
 }

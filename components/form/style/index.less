@@ -58,8 +58,10 @@ input[type='checkbox'] {
   }
 }
 
-// Form items
-// You should wrap labels and controls in .@{form-prefix-cls}-item for optimum spacing
+/*
+Form items
+  You should wrap labels and controls in .@{form-prefix-cls}-item for optimum spacing
+*/
 .@{form-prefix-cls}-item {
   label {
     position: relative;
@@ -75,7 +77,7 @@ input[type='checkbox'] {
   vertical-align: top;
 
   &-control {
-    line-height: @form-component-max-height - 0.0001px; // https://github.com/ant-design/ant-design/issues/8220
+    line-height: @form-component-max-height - 0.0001px; /* https://github.com/ant-design/ant-design/issues/8220 */
     position: relative;
     .clearfix;
   }

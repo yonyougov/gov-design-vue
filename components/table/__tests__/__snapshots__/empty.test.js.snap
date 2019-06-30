@@ -50,7 +50,7 @@ exports[`Table renders empty table 1`] = `
               <tbody class="gov-table-tbody"></tbody>
             </table>
           </div>
-          <div class="gov-table-placeholder">No data</div>
+          <div class="gov-table-placeholder">暂无数据</div>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                 <tbody class="gov-table-tbody"></tbody>
               </table>
             </div>
-            <div class="gov-table-placeholder">No data</div>
+            <div class="gov-table-placeholder">暂无数据</div>
           </div>
           <div class="gov-table-fixed-left">
             <!---->

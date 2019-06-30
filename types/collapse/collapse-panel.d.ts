@@ -2,9 +2,9 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 
-export declare class CollapsePanel extends AntdComponent {
+export declare class CollapsePanel extends GovdComponent {
   /**
    * If true, panel cannot be opened or closed
    * @default false

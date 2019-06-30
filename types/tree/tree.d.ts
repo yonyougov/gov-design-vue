@@ -2,11 +2,11 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { TreeNode } from '../tree-node';
 import { DictionaryTree } from './dictionary-tree';
 
-export declare class Tree extends AntdComponent {
+export declare class Tree extends GovdComponent {
   static TreeNode: typeof TreeNode;
   static DirectoryTree: typeof DictionaryTree;
 

@@ -2,9 +2,9 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 
-export declare class TabPane extends AntdComponent {
+export declare class TabPane extends GovdComponent {
   /**
    * Forced render of content in tabs, not lazy render after clicking on tabs
    * @default false

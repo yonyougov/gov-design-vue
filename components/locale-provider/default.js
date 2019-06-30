@@ -1,50 +1,49 @@
-import Pagination from '../vc-pagination/locale/en_US';
-import DatePicker from '../date-picker/locale/en_US';
-import TimePicker from '../time-picker/locale/en_US';
-import Calendar from '../calendar/locale/en_US';
+import Pagination from '../vc-pagination/locale/zh_CN';
+import DatePicker from '../date-picker/locale/zh_CN';
+import TimePicker from '../time-picker/locale/zh_CN';
+import Calendar from '../calendar/locale/zh_CN';
 
 export default {
-  locale: 'en',
+  locale: 'zh-cn',
   Pagination,
   DatePicker,
   TimePicker,
   Calendar,
   // locales for all comoponents
   global: {
-    placeholder: 'Please select',
+    placeholder: '请选择',
   },
   Table: {
-    filterTitle: 'Filter menu',
-    filterConfirm: 'OK',
-    filterReset: 'Reset',
-    emptyText: 'No data',
-    selectAll: 'Select current page',
-    selectInvert: 'Invert current page',
-    sortTitle: 'Sort',
+    filterTitle: '筛选',
+    filterConfirm: '确定',
+    filterReset: '重置',
+    emptyText: '暂无数据',
+    selectAll: '全选当页',
+    selectInvert: '反选当页',
+    sortTitle: '排序',
   },
   Modal: {
-    okText: 'OK',
-    cancelText: 'Cancel',
-    justOkText: 'OK',
+    okText: '确定',
+    cancelText: '取消',
+    justOkText: '知道了',
   },
   Popconfirm: {
-    okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: '取消',
+    okText: '确定',
   },
   Transfer: {
-    titles: ['', ''],
-    notFoundContent: 'Not Found',
-    searchPlaceholder: 'Search here',
-    itemUnit: 'item',
-    itemsUnit: 'items',
+    notFoundContent: '无匹配结果',
+    searchPlaceholder: '请输入搜索内容',
+    itemUnit: '项',
+    itemsUnit: '项',
   },
   Select: {
-    notFoundContent: 'Not Found',
+    notFoundContent: '无匹配结果',
   },
   Upload: {
-    uploading: 'Uploading...',
-    removeFile: 'Remove file',
-    uploadError: 'Upload error',
-    previewFile: 'Preview file',
+    uploading: '文件上传中',
+    removeFile: '删除文件',
+    uploadError: '上传错误',
+    previewFile: '预览文件',
   },
 };

@@ -2,12 +2,12 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { Option } from './option';
 import { OptionGroup } from './option-group';
 import { VNode } from 'vue';
 
-export declare class Select extends AntdComponent {
+export declare class Select extends GovdComponent {
   static Option: typeof Option;
   static OptGroup: typeof OptionGroup;
 

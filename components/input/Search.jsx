@@ -48,7 +48,7 @@ export default {
       } else if (
         enterButtonAsElement.tag === 'button' ||
         (enterButtonAsElement.componentOptions &&
-          enterButtonAsElement.componentOptions.Ctor.extendOptions.__ANT_BUTTON)
+          enterButtonAsElement.componentOptions.Ctor.extendOptions.__GOV_BUTTON)
       ) {
         node = cloneElement(enterButtonAsElement, {
           class: `${prefixCls}-button`,

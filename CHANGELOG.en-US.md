@@ -1,6 +1,6 @@
 # Change Log
 
-`ant-design-vue` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
+`gov-design-vue` strictly follows [Semantic Versioning 2.0.0](http://semver.org/).
 
 #### Release Schedule
 
@@ -32,7 +32,7 @@
 `2019-04-04`
 - 🐞 Fix `Table` unclickable problem under IE [#504](https://github.com/vueComponent/ant-design-vue/issues/504)
 - 🐞 Fix `Table` Header is not aligned under Firefox [#579](https://github.com/vueComponent/ant-design-vue/issues/579)
-- 🌟 Drawer `Drawer` add custom `handel` 
+- 🌟 Drawer `Drawer` add custom `handel`
 - 🐞 Fix TypeScript type definitions.
 
 ## 1.3.7

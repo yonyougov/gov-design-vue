@@ -8,7 +8,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
   <div class="locale-components">
     <div class="example">
       <ul unselectable="unselectable" class="gov-pagination">
-        <li title="Previous Page" aria-disabled="true" class="gov-pagination-disabled gov-pagination-prev"><a class="gov-pagination-item-link"><i class="anticon anticon-left"><svg viewBox="64 64 896 896" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
+        <li title="上一页" aria-disabled="true" class="gov-pagination-disabled gov-pagination-prev"><a class="gov-pagination-item-link"><i class="anticon anticon-left"><svg viewBox="64 64 896 896" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
                 <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"></path>
               </svg></i></a></li>
         <li title="1" tabindex="0" class="gov-pagination-item gov-pagination-item-1 gov-pagination-item-active"><a>1</a></li>
@@ -16,14 +16,14 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         <li title="3" tabindex="0" class="gov-pagination-item gov-pagination-item-3"><a>3</a></li>
         <li title="4" tabindex="0" class="gov-pagination-item gov-pagination-item-4"><a>4</a></li>
         <li title="5" tabindex="0" class="gov-pagination-item gov-pagination-item-5"><a>5</a></li>
-        <li title="Next Page" tabindex="0" class=" gov-pagination-next"><a class="gov-pagination-item-link"><i class="anticon anticon-right"><svg viewBox="64 64 896 896" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
+        <li title="下一页" tabindex="0" class=" gov-pagination-next"><a class="gov-pagination-item-link"><i class="anticon anticon-right"><svg viewBox="64 64 896 896" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
                 <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
               </svg></i></a></li>
         <li class="gov-pagination-options">
           <div class="gov-select gov-select-enabled gov-pagination-options-size-changer">
             <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
               <div class="gov-select-selection__rendered">
-                <div title="10 / page" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">10 / page</div>
+                <div title="10 条/页" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">10 条/页</div>
               </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
             </div>
           </div>
@@ -39,7 +39,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </div>
           </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
         </div>
-      </div> <span class="gov-calendar-picker"><div class=""><input readonly="true" placeholder="Select date" class="gov-calendar-picker-input gov-input"><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"></path></svg></i></div></span> <span class="gov-time-picker"><input type="text" placeholder="Select time" id="" class="gov-time-picker-input"><span class="gov-time-picker-icon"><i class="gov-time-picker-clock-icon anticon anticon-clock-circle"><svg viewBox="64 64 896 896" data-icon="clock-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"></path></svg></i></span></span> <span tabindex="0" class="gov-calendar-picker" style="width: 200px;"><span class="gov-calendar-picker-input gov-input"><input readonly="true" placeholder="Start date" tabindex="-1" class="gov-calendar-range-picker-input"><span class="gov-calendar-range-picker-separator"> ~ </span><input readonly="true" placeholder="End date" tabindex="-1" class="gov-calendar-range-picker-input"><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
+      </div> <span class="gov-calendar-picker"><div class=""><input readonly="true" placeholder="请选择日期" class="gov-calendar-picker-input gov-input"><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"></path></svg></i></div></span> <span class="gov-time-picker"><input type="text" placeholder="请选择时间" id="" class="gov-time-picker-input"><span class="gov-time-picker-icon"><i class="gov-time-picker-clock-icon anticon anticon-clock-circle"><svg viewBox="64 64 896 896" data-icon="clock-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.4c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.8 11.2-1.7l28.6-39c2.6-3.7 1.8-8.7-1.8-11.2z"></path></svg></i></span></span> <span tabindex="0" class="gov-calendar-picker" style="width: 200px;"><span class="gov-calendar-picker-input gov-input"><input readonly="true" placeholder="开始日期" tabindex="-1" class="gov-calendar-range-picker-input"><span class="gov-calendar-range-picker-separator"> ~ </span><input readonly="true" placeholder="结束日期" tabindex="-1" class="gov-calendar-range-picker-input"><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
           <path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"></path>
         </svg></i></span></span>
     </div>
@@ -47,13 +47,13 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
     <div classname="example">
       <div class="gov-transfer">
         <div class="gov-transfer-list">
-          <div class="gov-transfer-list-header"><label class="gov-checkbox-wrapper"><span class="gov-checkbox"><input type="checkbox" class="gov-checkbox-input" value=""><span class="gov-checkbox-inner"></span></span></label><span class="gov-transfer-list-header-selected"><span>0 item</span><span class="gov-transfer-list-header-title"></span></span></div>
+          <div class="gov-transfer-list-header"><label class="gov-checkbox-wrapper"><span class="gov-checkbox"><input type="checkbox" class="gov-checkbox-input" value=""><span class="gov-checkbox-inner"></span></span></label><span class="gov-transfer-list-header-selected"><span>0 项</span><span class="gov-transfer-list-header-title"></span></span></div>
           <div class="gov-transfer-list-body gov-transfer-list-body-with-search">
             <div class="gov-transfer-list-body-search-wrapper">
-              <div><input placeholder="Search here" type="text" class="gov-input gov-transfer-list-search"><span class="gov-transfer-list-search-action"><i class="anticon anticon-search"><svg viewBox="64 64 896 896" data-icon="search" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></i></span></div>
+              <div><input placeholder="请输入搜索内容" type="text" class="gov-input gov-transfer-list-search"><span class="gov-transfer-list-search-action"><i class="anticon anticon-search"><svg viewBox="64 64 896 896" data-icon="search" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></i></span></div>
             </div>
             <ul class="gov-transfer-list-content"></ul>
-            <div class="gov-transfer-list-body-not-found">Not Found</div>
+            <div class="gov-transfer-list-body-not-found">无匹配结果</div>
           </div>
         </div>
         <div class="gov-transfer-operation"><button disabled="disabled" type="button" class="gov-btn gov-btn-primary gov-btn-sm"><i class="anticon anticon-right"><svg viewBox="64 64 896 896" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
@@ -62,13 +62,13 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"></path>
               </svg></i></button></div>
         <div class="gov-transfer-list">
-          <div class="gov-transfer-list-header"><label class="gov-checkbox-wrapper"><span class="gov-checkbox"><input type="checkbox" class="gov-checkbox-input" value=""><span class="gov-checkbox-inner"></span></span></label><span class="gov-transfer-list-header-selected"><span>0 item</span><span class="gov-transfer-list-header-title"></span></span></div>
+          <div class="gov-transfer-list-header"><label class="gov-checkbox-wrapper"><span class="gov-checkbox"><input type="checkbox" class="gov-checkbox-input" value=""><span class="gov-checkbox-inner"></span></span></label><span class="gov-transfer-list-header-selected"><span>0 项</span><span class="gov-transfer-list-header-title"></span></span></div>
           <div class="gov-transfer-list-body gov-transfer-list-body-with-search">
             <div class="gov-transfer-list-body-search-wrapper">
-              <div><input placeholder="Search here" type="text" class="gov-input gov-transfer-list-search"><span class="gov-transfer-list-search-action"><i class="anticon anticon-search"><svg viewBox="64 64 896 896" data-icon="search" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></i></span></div>
+              <div><input placeholder="请输入搜索内容" type="text" class="gov-input gov-transfer-list-search"><span class="gov-transfer-list-search-action"><i class="anticon anticon-search"><svg viewBox="64 64 896 896" data-icon="search" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></i></span></div>
             </div>
             <ul class="gov-transfer-list-content"></ul>
-            <div class="gov-transfer-list-body-not-found">Not Found</div>
+            <div class="gov-transfer-list-body-not-found">无匹配结果</div>
           </div>
         </div>
       </div>
@@ -79,294 +79,294 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           <div class="gov-select gov-select-enabled gov-select-sm gov-fullcalendar-year-select">
             <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
               <div class="gov-select-selection__rendered">
-                <div title="2016" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016</div>
+                <div title="2016年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016年</div>
               </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
             </div>
           </div>
           <div class="gov-select gov-select-enabled gov-select-sm gov-fullcalendar-month-select">
             <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
               <div class="gov-select-selection__rendered">
-                <div title="Nov" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">Nov</div>
+                <div title="11月" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">11月</div>
               </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
             </div>
           </div>
-          <div class="gov-radio-group gov-radio-group-outline gov-radio-group-small"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+          <div class="gov-radio-group gov-radio-group-outline gov-radio-group-small"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
         </div>
         <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full">
           <div class="gov-fullcalendar-calendar-body">
             <table cellspacing="0" role="grid" class="gov-fullcalendar-table">
               <thead>
                 <tr role="row">
-                  <th role="columnheader" title="Sun" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Su</span></th>
-                  <th role="columnheader" title="Mon" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Mo</span></th>
-                  <th role="columnheader" title="Tue" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Tu</span></th>
-                  <th role="columnheader" title="Wed" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">We</span></th>
-                  <th role="columnheader" title="Thu" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Th</span></th>
-                  <th role="columnheader" title="Fri" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Fr</span></th>
-                  <th role="columnheader" title="Sat" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">Sa</span></th>
+                  <th role="columnheader" title="周一" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">一</span></th>
+                  <th role="columnheader" title="周二" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">二</span></th>
+                  <th role="columnheader" title="周三" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">三</span></th>
+                  <th role="columnheader" title="周四" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">四</span></th>
+                  <th role="columnheader" title="周五" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">五</span></th>
+                  <th role="columnheader" title="周六" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">六</span></th>
+                  <th role="columnheader" title="周日" class="gov-fullcalendar-column-header"><span class="gov-fullcalendar-column-header-inner">日</span></th>
                 </tr>
               </thead>
               <tbody class="gov-fullcalendar-tbody">
                 <tr role="row" class="">
-                  <td role="gridcell" title="October 30, 2016" class="gov-fullcalendar-cell gov-fullcalendar-last-month-cell">
-                    <div class="gov-fullcalendar-date">
-                      <div class="gov-fullcalendar-value">30</div>
-                      <div class="gov-fullcalendar-content"></div>
-                    </div>
-                  </td>
-                  <td role="gridcell" title="October 31, 2016" class="gov-fullcalendar-cell gov-fullcalendar-last-month-cell gov-fullcalendar-last-day-of-month">
+                  <td role="gridcell" title="2016年10月31日" class="gov-fullcalendar-cell gov-fullcalendar-last-month-cell gov-fullcalendar-last-day-of-month">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">31</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 1, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月1日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">01</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 2, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月2日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">02</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 3, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月3日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">03</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 4, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月4日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">04</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 5, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月5日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">05</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                </tr>
-                <tr role="row" class="">
-                  <td role="gridcell" title="November 6, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月6日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">06</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 7, 2016" class="gov-fullcalendar-cell">
+                </tr>
+                <tr role="row" class="">
+                  <td role="gridcell" title="2016年11月7日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">07</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 8, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月8日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">08</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 9, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月9日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">09</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 10, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月10日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">10</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 11, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月11日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">11</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 12, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月12日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">12</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                </tr>
-                <tr role="row" class="">
-                  <td role="gridcell" title="November 13, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月13日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">13</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 14, 2016" class="gov-fullcalendar-cell">
+                </tr>
+                <tr role="row" class="">
+                  <td role="gridcell" title="2016年11月14日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">14</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 15, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月15日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">15</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 16, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月16日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">16</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 17, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月17日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">17</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 18, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月18日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">18</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 19, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月19日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">19</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                </tr>
-                <tr role="row" class="gov-fullcalendar-current-week gov-fullcalendar-active-week">
-                  <td role="gridcell" title="November 20, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月20日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">20</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 21, 2016" class="gov-fullcalendar-cell">
+                </tr>
+                <tr role="row" class="gov-fullcalendar-current-week gov-fullcalendar-active-week">
+                  <td role="gridcell" title="2016年11月21日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">21</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 22, 2016" class="gov-fullcalendar-cell gov-fullcalendar-today gov-fullcalendar-selected-day">
+                  <td role="gridcell" title="2016年11月22日" class="gov-fullcalendar-cell gov-fullcalendar-today gov-fullcalendar-selected-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">22</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 23, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月23日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">23</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 24, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月24日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">24</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 25, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月25日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">25</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 26, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月26日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">26</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                </tr>
-                <tr role="row" class="">
-                  <td role="gridcell" title="November 27, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月27日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">27</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 28, 2016" class="gov-fullcalendar-cell">
+                </tr>
+                <tr role="row" class="">
+                  <td role="gridcell" title="2016年11月28日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">28</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 29, 2016" class="gov-fullcalendar-cell">
+                  <td role="gridcell" title="2016年11月29日" class="gov-fullcalendar-cell">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">29</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="November 30, 2016" class="gov-fullcalendar-cell gov-fullcalendar-last-day-of-month">
+                  <td role="gridcell" title="2016年11月30日" class="gov-fullcalendar-cell gov-fullcalendar-last-day-of-month">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">30</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 1, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月1日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">01</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 2, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月2日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">02</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 3, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月3日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">03</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                </tr>
-                <tr role="row" class="">
-                  <td role="gridcell" title="December 4, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月4日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">04</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 5, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                </tr>
+                <tr role="row" class="">
+                  <td role="gridcell" title="2016年12月5日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">05</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 6, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月6日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">06</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 7, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月7日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">07</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 8, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月8日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">08</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 9, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月9日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">09</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
-                  <td role="gridcell" title="December 10, 2016" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                  <td role="gridcell" title="2016年12月10日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
                     <div class="gov-fullcalendar-date">
                       <div class="gov-fullcalendar-value">10</div>
+                      <div class="gov-fullcalendar-content"></div>
+                    </div>
+                  </td>
+                  <td role="gridcell" title="2016年12月11日" class="gov-fullcalendar-cell gov-fullcalendar-next-month-btn-day">
+                    <div class="gov-fullcalendar-date">
+                      <div class="gov-fullcalendar-value">11</div>
                       <div class="gov-fullcalendar-content"></div>
                     </div>
                   </td>
@@ -384,7 +384,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
 
 exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
 <ul unselectable="unselectable" class="gov-pagination">
-  <li title="Previous Page" aria-disabled="true" class="gov-pagination-disabled gov-pagination-prev"><a class="gov-pagination-item-link"><i class="anticon anticon-left"><svg viewBox="64 64 896 896" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
+  <li title="上一页" aria-disabled="true" class="gov-pagination-disabled gov-pagination-prev"><a class="gov-pagination-item-link"><i class="anticon anticon-left"><svg viewBox="64 64 896 896" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
           <path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"></path>
         </svg></i></a></li>
   <li title="1" tabindex="0" class="gov-pagination-item gov-pagination-item-1 gov-pagination-item-active"><a>1</a></li>
@@ -392,14 +392,14 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
   <li title="3" tabindex="0" class="gov-pagination-item gov-pagination-item-3"><a>3</a></li>
   <li title="4" tabindex="0" class="gov-pagination-item gov-pagination-item-4"><a>4</a></li>
   <li title="5" tabindex="0" class="gov-pagination-item gov-pagination-item-5"><a>5</a></li>
-  <li title="Next Page" tabindex="0" class=" gov-pagination-next"><a class="gov-pagination-item-link"><i class="anticon anticon-right"><svg viewBox="64 64 896 896" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
+  <li title="下一页" tabindex="0" class=" gov-pagination-next"><a class="gov-pagination-item-link"><i class="anticon anticon-right"><svg viewBox="64 64 896 896" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true" class="">
           <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
         </svg></i></a></li>
   <li class="gov-pagination-options">
     <div class="gov-select gov-select-enabled gov-pagination-options-size-changer">
       <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
         <div class="gov-select-selection__rendered">
-          <div title="10 / page" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">10 / page</div>
+          <div title="10 条/页" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">10 条/页</div>
         </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
       </div>
     </div>

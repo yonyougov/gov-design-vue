@@ -56,7 +56,7 @@ export function flatFilter(tree, callback) {
 //     if (element.key) {
 //       column.key = element.key
 //     }
-//     if (element.type && element.type.__ANT_TABLE_COLUMN_GROUP) {
+//     if (element.type && element.type.__GOV_TABLE_COLUMN_GROUP) {
 //       column.children = normalizeColumns(column.children)
 //     }
 //     columns.push(column)

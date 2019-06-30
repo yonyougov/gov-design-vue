@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { Spin } from '../spin';
 import { ScopedSlot, VNode } from 'vue/types/vnode';
 import { Pagination } from '../pagination';
@@ -115,7 +115,7 @@ export interface TableRowSelection {
   onSelectInvert?: (selectedRows: Object[]) => any;
 }
 
-export declare class Table extends AntdComponent {
+export declare class Table extends GovdComponent {
   static Column: typeof Column;
   static ColumnGroup: typeof ColumnGroup;
 

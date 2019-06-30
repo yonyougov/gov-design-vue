@@ -10,7 +10,7 @@ exports[`Popconfirm should show overlay when trigger is clicked 1`] = `
           </svg></i>
         <div class="gov-popover-message-title">code</div>
       </div>
-      <div class="gov-popover-buttons"><button type="button" class="gov-btn gov-btn-default gov-btn-sm"><span>Cancel</span></button><button type="button" class="gov-btn gov-btn-primary gov-btn-sm"><span>OK</span></button></div>
+      <div class="gov-popover-buttons"><button type="button" class="gov-btn gov-btn-default gov-btn-sm"><span>取 消</span></button><button type="button" class="gov-btn gov-btn-primary gov-btn-sm"><span>确 定</span></button></div>
     </div>
   </div>
 </div>

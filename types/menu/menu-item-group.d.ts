@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { MenuItem } from './menu-item';
 
-export declare class MenuItemGroup extends AntdComponent {
+export declare class MenuItemGroup extends GovdComponent {
   /**
    * sub menu items
    * @type MenuItem[]

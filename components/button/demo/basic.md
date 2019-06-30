@@ -6,7 +6,7 @@
 
 <us>
 #### Type
-There are `primary` button, `default` button, `dashed` button and `danger` button in antd.
+There are `primary` button, `default` button, `dashed` button and `danger` button in govd.
 </us>
 
 ```html

@@ -4,7 +4,6 @@
   font-family: Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'Microsoft Sans Serif',
     'WenQuanYi Micro Hei', sans-serif;
   width: 253px;
-  border: 1px solid #ccc;
   list-style: none;
   font-size: 12px;
   text-align: left;
@@ -38,10 +37,10 @@
     -webkit-user-select: none;
     border-bottom: 1px solid #ccc;
 
-    > a {
+    >a {
       font-weight: bold;
       display: inline-block;
-      padding: 0px 5px;
+      padding: 0 5px;
       line-height: 34px;
       text-align: center;
       width: 30px;
@@ -151,6 +150,7 @@
     padding: 6px 0;
     width: 33px;
     text-align: center;
+
     .@{prefixClass}-column-header-inner {
       display: block;
       font-weight: normal;
@@ -192,6 +192,7 @@
   &-selected-date &-date {
     background: #3fc7fa;
     color: #fff;
+
     &:hover {
       background: #3fc7fa;
     }
@@ -236,12 +237,15 @@
 
     .@{timePickerClass} {
       width: 90px;
+
       &-input {
         height: 24px;
       }
     }
+
     &-show-ok {
       text-align: right;
+
       .@{prefixClass} {
         &-footer-btn {
           padding-right: 12px;
@@ -251,6 +255,7 @@
           margin-left: 0;
           padding: 0 12px;
         }
+
         &-today-btn {
           float: left;
           padding-left: 12px;
@@ -289,6 +294,7 @@
 
     &-disabled {
       color: #bbb;
+
       &:hover {
         color: #bbb;
       }

@@ -58,7 +58,7 @@ import {
   Skeleton,
   Comment,
   ConfigProvider,
-} from 'ant-design-vue';
+} from 'gov-design-vue';
 
 Vue.prototype.$message = message;
 Vue.prototype.$notification = notification;

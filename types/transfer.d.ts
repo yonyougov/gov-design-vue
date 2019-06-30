@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 
 export interface TransferItem {
   key: string;
@@ -11,7 +11,7 @@ export interface TransferItem {
   disabled?: boolean;
 }
 
-export declare class Transfer extends AntdComponent {
+export declare class Transfer extends GovdComponent {
   /**
    * Used for setting the source data. The elements that are part of this array will be present the left column.
    * Except the elements whose keys are included in targetKeys prop.

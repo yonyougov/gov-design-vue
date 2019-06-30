@@ -54,7 +54,7 @@ function comeFromSlot(vnodes = [], itemVnode) {
 
 export default {
   name: 'AFormItem',
-  __ANT_FORM_ITEM: true,
+  __GOV_FORM_ITEM: true,
   mixins: [BaseMixin],
   props: initDefaultProps(FormItemProps, {
     hasFeedback: false,
@@ -144,7 +144,7 @@ export default {
           continue;
         }
 
-        if (getSlotOptions(child).__ANT_FORM_ITEM) {
+        if (getSlotOptions(child).__GOV_FORM_ITEM) {
           continue;
         }
         const children = getAllChildren(child);
@@ -436,7 +436,7 @@ export default {
       const getFieldDecorator = FormProps.form.getFieldDecorator;
       for (let i = 0, len = vnodes.length; i < len; i++) {
         const vnode = vnodes[i];
-        if (getSlotOptions(vnode).__ANT_FORM_ITEM) {
+        if (getSlotOptions(vnode).__GOV_FORM_ITEM) {
           break;
         }
         if (vnode.children) {

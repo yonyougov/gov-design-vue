@@ -26,7 +26,7 @@
     list-style: none;
   }
 
-  > ul > li > a {
+  >ul>li>a {
     padding: 0;
     background-color: #fff;
   }
@@ -38,6 +38,7 @@
     top: 1px;
     right: 1px;
     width: 20px;
+
     &:after {
       content: '';
       border-color: #999999 transparent transparent transparent;
@@ -77,6 +78,7 @@
         border-color: #23c0fa;
         box-shadow: 0 0 2px fadeout(#2db7f5, 20%);
       }
+
       &:active {
         border-color: #2db7f5;
       }
@@ -87,6 +89,22 @@
         //border-color: #23c0fa;
         border-color: #7700fa;
         box-shadow: 0 0 2px fadeout(#2db7f5, 20%);
+      }
+    }
+
+    .@{selectPrefixCls}-selection__choice {
+      cursor: default;
+
+      &:hover {
+        .@{selectPrefixCls}-selection__choice__remove {
+          opacity: 1;
+          transform: scale(1);
+        }
+
+        .@{selectPrefixCls}-selection__choice__remove+.@{selectPrefixCls}-selection__choice__content {
+          margin-left: -8px;
+          margin-right: 8px;
+        }
       }
     }
   }
@@ -113,6 +131,7 @@
     .@{selectPrefixCls}-selection__clear {
       top: 5px;
       right: 20px;
+
       &:after {
         content: '×';
       }
@@ -159,9 +178,11 @@
   &-search--inline {
     float: left;
     width: 100%;
+
     .@{selectPrefixCls}-search__field__wrap {
       width: 100%;
     }
+
     .@{selectPrefixCls}-search__field {
       border: none;
       font-size: 100%;
@@ -170,7 +191,8 @@
       outline: 0;
       width: 100%;
     }
-    > i {
+
+    >i {
       float: right;
     }
   }
@@ -184,6 +206,7 @@
 
     .@{selectPrefixCls}-search--inline {
       width: auto;
+
       .@{selectPrefixCls}-search__field {
         width: 0.75em;
       }
@@ -203,7 +226,7 @@
       padding-right: 10px;
     }
 
-    > ul > li {
+    >ul>li {
       margin-top: 4px;
       height: 20px;
       line-height: 20px;
@@ -212,23 +235,6 @@
     .@{selectPrefixCls}-selection__clear {
       top: 5px;
       right: 8px;
-    }
-  }
-
-  &-enabled {
-    .@{selectPrefixCls}-selection__choice {
-      cursor: default;
-      &:hover {
-        .@{selectPrefixCls}-selection__choice__remove {
-          opacity: 1;
-          transform: scale(1);
-        }
-        .@{selectPrefixCls}-selection__choice__remove
-          + .@{selectPrefixCls}-selection__choice__content {
-          margin-left: -8px;
-          margin-right: 8px;
-        }
-      }
     }
   }
 
@@ -279,6 +285,7 @@
         transform: scale(0.6);
         opacity: 0;
       }
+
       100% {
         transform: scale(1);
         opacity: 1;
@@ -317,7 +324,7 @@
   &-dropdown {
     background-color: white;
     border: 1px solid #d9d9d9;
-    box-shadow: 0 0px 4px #d9d9d9;
+    box-shadow: 0 0 4px #d9d9d9;
     border-radius: 4px;
     box-sizing: border-box;
     z-index: 100;
@@ -340,7 +347,7 @@
       list-style: none;
       z-index: 9999;
 
-      > li {
+      >li {
         margin: 0;
         padding: 0;
       }
@@ -349,7 +356,7 @@
         margin: 0;
         padding: 0;
 
-        > li.@{selectPrefixCls}-menu-item {
+        >li.@{selectPrefixCls}-menu-item {
           padding-left: 20px;
         }
       }
@@ -438,18 +445,21 @@
         transform-origin: 0% 0%;
         transform: scaleY(0);
       }
+
       100% {
         opacity: 1;
         transform-origin: 0% 0%;
         transform: scaleY(1);
       }
     }
+
     @keyframes rcSelectDropdownSlideUpOut {
       0% {
         opacity: 1;
         transform-origin: 0% 0%;
         transform: scaleY(1);
       }
+
       100% {
         opacity: 0;
         transform-origin: 0% 0%;
@@ -463,18 +473,21 @@
         transform-origin: 0% 100%;
         transform: scaleY(0);
       }
+
       100% {
         opacity: 1;
         transform-origin: 0% 100%;
         transform: scaleY(1);
       }
     }
+
     @keyframes rcSelectDropdownSlideDownOut {
       0% {
         opacity: 1;
         transform-origin: 0% 100%;
         transform: scaleY(1);
       }
+
       100% {
         opacity: 0;
         transform-origin: 0% 100%;
@@ -486,12 +499,15 @@
   &-dropdown-search {
     display: block;
     padding: 4px;
+
     .@{selectPrefixCls}-search__field__wrap {
       width: 100%;
     }
+
     .@{selectPrefixCls}-search__field__placeholder {
       top: 4px;
     }
+
     .@{selectPrefixCls}-search__field {
       padding: 4px;
       width: 100%;
@@ -500,6 +516,7 @@
       border-radius: 4px;
       outline: none;
     }
+
     &.@{selectPrefixCls}-search--hide {
       display: none;
     }

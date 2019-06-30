@@ -2,9 +2,9 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 
-export declare class TimelineItem extends AntdComponent {
+export declare class TimelineItem extends GovdComponent {
   /**
    * Set the circle's color to blue, red, green or other custom colors
    * @default 'blue'

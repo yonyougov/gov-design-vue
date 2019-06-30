@@ -12,7 +12,7 @@ function ignoreMomentLocale(webpackConfig) {
 
 function addLocales(webpackConfig) {
   let packageName = 'antd-with-locales';
-  if (webpackConfig.entry['antd.min']) {
+  if (webpackConfig.entry['govd.min']) {
     packageName += '.min';
   }
   webpackConfig.entry[packageName] = './index-with-locales.js';

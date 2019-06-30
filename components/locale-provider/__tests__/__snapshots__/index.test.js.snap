@@ -357,175 +357,175 @@ exports[`Locale Provider set moment locale when locale changes 2`] = `
 `;
 
 exports[`Locale Provider set moment locale when locale changes 3`] = `
-<div><span class="gov-calendar-picker"><div class="" style=""><input readonly="true" placeholder="Select date" class="gov-calendar-picker-input gov-input"><i class="gov-calendar-picker-clear anticon anticon-close-circle"><svg viewBox="64 64 896 896" data-icon="close-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"></path></svg></i><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"></path></svg></i></div></span></div>
+<div><span class="gov-calendar-picker"><div class="" style=""><input readonly="true" placeholder="Sélectionner une date" class="gov-calendar-picker-input gov-input"><i class="gov-calendar-picker-clear anticon anticon-close-circle"><svg viewBox="64 64 896 896" data-icon="close-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z"></path></svg></i><i class="gov-calendar-picker-icon anticon anticon-calendar"><svg viewBox="64 64 896 896" data-icon="calendar" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"></path></svg></i></div></span></div>
 <div style="position: absolute; top: 0px; left: 0px; width: 100%;">
   <div>
     <div class="gov-calendar-picker-container  gov-calendar-picker-container-placement-bottomLeft" style="left: -999px; top: -1002px;">
       <div tabindex="0" class="gov-calendar gov-calendar-picker-container-content">
         <div class="gov-calendar-panel">
           <div class="gov-calendar-input-wrap" showclear="true">
-            <div class="gov-calendar-date-input-wrap"><input placeholder="Select date" class="gov-calendar-input "></div>
+            <div class="gov-calendar-date-input-wrap"><input placeholder="Sélectionner une date" class="gov-calendar-input "></div>
           </div>
           <div class="gov-calendar-date-panel">
             <div class="gov-calendar-header">
-              <div style="position: relative;"><a role="button" title="Last year (Control + left)" class="gov-calendar-prev-year-btn"></a><a role="button" title="Previous month (PageUp)" class="gov-calendar-prev-month-btn"></a><span class="gov-calendar-my-select"><a role="button" title="Choose a month" class="gov-calendar-month-select">Sep</a><a role="button" title="Choose a year" class="gov-calendar-year-select">2017</a></span><a title="Next month (PageDown)" class="gov-calendar-next-month-btn"></a><a title="Next year (Control + right)" class="gov-calendar-next-year-btn"></a></div>
+              <div style="position: relative;"><a role="button" title="Année précédente (Ctrl + gauche)" class="gov-calendar-prev-year-btn"></a><a role="button" title="Mois précédent (PageUp)" class="gov-calendar-prev-month-btn"></a><span class="gov-calendar-my-select"><a role="button" title="Choisissez un mois" class="gov-calendar-month-select">sept.</a><a role="button" title="Choisissez une année" class="gov-calendar-year-select">2017</a></span><a title="Mois suivant (PageDown)" class="gov-calendar-next-month-btn"></a><a title="Année prochaine (Ctrl + droite)" class="gov-calendar-next-year-btn"></a></div>
             </div>
             <div class="gov-calendar-body">
               <table cellspacing="0" role="grid" class="gov-calendar-table">
                 <thead>
                   <tr role="row">
-                    <th role="columnheader" title="Sun" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Su</span></th>
-                    <th role="columnheader" title="Mon" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Mo</span></th>
-                    <th role="columnheader" title="Tue" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Tu</span></th>
-                    <th role="columnheader" title="Wed" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">We</span></th>
-                    <th role="columnheader" title="Thu" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Th</span></th>
-                    <th role="columnheader" title="Fri" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Fr</span></th>
-                    <th role="columnheader" title="Sat" class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">Sa</span></th>
+                    <th role="columnheader" title="lun." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">lu</span></th>
+                    <th role="columnheader" title="mar." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">ma</span></th>
+                    <th role="columnheader" title="mer." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">me</span></th>
+                    <th role="columnheader" title="jeu." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">je</span></th>
+                    <th role="columnheader" title="ven." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">ve</span></th>
+                    <th role="columnheader" title="sam." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">sa</span></th>
+                    <th role="columnheader" title="dim." class="gov-calendar-column-header"><span class="gov-calendar-column-header-inner">di</span></th>
                   </tr>
                 </thead>
                 <tbody class="gov-calendar-tbody">
                   <tr role="row" class="">
-                    <td role="gridcell" title="August 27, 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
-                      <div class="gov-calendar-date">27</div>
-                    </td>
-                    <td role="gridcell" title="August 28, 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
+                    <td role="gridcell" title="28 août 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
                       <div class="gov-calendar-date">28</div>
                     </td>
-                    <td role="gridcell" title="August 29, 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
+                    <td role="gridcell" title="29 août 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
                       <div class="gov-calendar-date">29</div>
                     </td>
-                    <td role="gridcell" title="August 30, 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
+                    <td role="gridcell" title="30 août 2017" class="gov-calendar-cell gov-calendar-last-month-cell">
                       <div class="gov-calendar-date">30</div>
                     </td>
-                    <td role="gridcell" title="August 31, 2017" class="gov-calendar-cell gov-calendar-last-month-cell gov-calendar-last-day-of-month">
+                    <td role="gridcell" title="31 août 2017" class="gov-calendar-cell gov-calendar-last-month-cell gov-calendar-last-day-of-month">
                       <div class="gov-calendar-date">31</div>
                     </td>
-                    <td role="gridcell" title="September 1, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="1 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">1</div>
                     </td>
-                    <td role="gridcell" title="September 2, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="2 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">2</div>
                     </td>
-                  </tr>
-                  <tr role="row" class="">
-                    <td role="gridcell" title="September 3, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="3 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">3</div>
                     </td>
-                    <td role="gridcell" title="September 4, 2017" class="gov-calendar-cell">
+                  </tr>
+                  <tr role="row" class="">
+                    <td role="gridcell" title="4 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">4</div>
                     </td>
-                    <td role="gridcell" title="September 5, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="5 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">5</div>
                     </td>
-                    <td role="gridcell" title="September 6, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="6 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">6</div>
                     </td>
-                    <td role="gridcell" title="September 7, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="7 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">7</div>
                     </td>
-                    <td role="gridcell" title="September 8, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="8 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">8</div>
                     </td>
-                    <td role="gridcell" title="September 9, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="9 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">9</div>
+                    </td>
+                    <td role="gridcell" title="10 septembre 2017" class="gov-calendar-cell">
+                      <div class="gov-calendar-date">10</div>
                     </td>
                   </tr>
                   <tr role="row" class="">
-                    <td role="gridcell" title="September 10, 2017" class="gov-calendar-cell">
-                      <div class="gov-calendar-date">10</div>
-                    </td>
-                    <td role="gridcell" title="September 11, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="11 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">11</div>
                     </td>
-                    <td role="gridcell" title="September 12, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="12 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">12</div>
                     </td>
-                    <td role="gridcell" title="September 13, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="13 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">13</div>
                     </td>
-                    <td role="gridcell" title="September 14, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="14 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">14</div>
                     </td>
-                    <td role="gridcell" title="September 15, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="15 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">15</div>
                     </td>
-                    <td role="gridcell" title="September 16, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="16 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">16</div>
+                    </td>
+                    <td role="gridcell" title="17 septembre 2017" class="gov-calendar-cell">
+                      <div class="gov-calendar-date">17</div>
                     </td>
                   </tr>
                   <tr role="row" class="gov-calendar-current-week gov-calendar-active-week">
-                    <td role="gridcell" title="September 17, 2017" class="gov-calendar-cell">
-                      <div class="gov-calendar-date">17</div>
-                    </td>
-                    <td role="gridcell" title="September 18, 2017" class="gov-calendar-cell gov-calendar-today gov-calendar-selected-date gov-calendar-selected-day">
+                    <td role="gridcell" title="18 septembre 2017" class="gov-calendar-cell gov-calendar-today gov-calendar-selected-date gov-calendar-selected-day">
                       <div aria-selected="true" class="gov-calendar-date">18</div>
                     </td>
-                    <td role="gridcell" title="September 19, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="19 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">19</div>
                     </td>
-                    <td role="gridcell" title="September 20, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="20 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">20</div>
                     </td>
-                    <td role="gridcell" title="September 21, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="21 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">21</div>
                     </td>
-                    <td role="gridcell" title="September 22, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="22 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">22</div>
                     </td>
-                    <td role="gridcell" title="September 23, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="23 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">23</div>
                     </td>
-                  </tr>
-                  <tr role="row" class="">
-                    <td role="gridcell" title="September 24, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="24 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">24</div>
                     </td>
-                    <td role="gridcell" title="September 25, 2017" class="gov-calendar-cell">
+                  </tr>
+                  <tr role="row" class="">
+                    <td role="gridcell" title="25 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">25</div>
                     </td>
-                    <td role="gridcell" title="September 26, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="26 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">26</div>
                     </td>
-                    <td role="gridcell" title="September 27, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="27 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">27</div>
                     </td>
-                    <td role="gridcell" title="September 28, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="28 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">28</div>
                     </td>
-                    <td role="gridcell" title="September 29, 2017" class="gov-calendar-cell">
+                    <td role="gridcell" title="29 septembre 2017" class="gov-calendar-cell">
                       <div class="gov-calendar-date">29</div>
                     </td>
-                    <td role="gridcell" title="September 30, 2017" class="gov-calendar-cell gov-calendar-last-day-of-month">
+                    <td role="gridcell" title="30 septembre 2017" class="gov-calendar-cell gov-calendar-last-day-of-month">
                       <div class="gov-calendar-date">30</div>
+                    </td>
+                    <td role="gridcell" title="1 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                      <div class="gov-calendar-date">1</div>
                     </td>
                   </tr>
                   <tr role="row" class="">
-                    <td role="gridcell" title="October 1, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
-                      <div class="gov-calendar-date">1</div>
-                    </td>
-                    <td role="gridcell" title="October 2, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="2 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">2</div>
                     </td>
-                    <td role="gridcell" title="October 3, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="3 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">3</div>
                     </td>
-                    <td role="gridcell" title="October 4, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="4 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">4</div>
                     </td>
-                    <td role="gridcell" title="October 5, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="5 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">5</div>
                     </td>
-                    <td role="gridcell" title="October 6, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="6 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">6</div>
                     </td>
-                    <td role="gridcell" title="October 7, 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                    <td role="gridcell" title="7 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
                       <div class="gov-calendar-date">7</div>
+                    </td>
+                    <td role="gridcell" title="8 octobre 2017" class="gov-calendar-cell gov-calendar-next-month-btn-day">
+                      <div class="gov-calendar-date">8</div>
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <div class="gov-calendar-footer"><span class="gov-calendar-footer-btn"><a role="button" title="September 18, 2017" class="gov-calendar-today-btn ">Today</a></span></div>
+            <div class="gov-calendar-footer"><span class="gov-calendar-footer-btn"><a role="button" title="18 septembre 2017" class="gov-calendar-today-btn ">Aujourd'hui</a></span></div>
           </div>
         </div>
       </div>

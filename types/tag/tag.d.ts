@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { CheckableTag } from './checkable-tag';
 
-export declare class Tag extends AntdComponent {
+export declare class Tag extends GovdComponent {
   static CheckableTag: typeof CheckableTag;
 
   /**

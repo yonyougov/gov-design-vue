@@ -3,9 +3,9 @@
 // Copy from: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 
-export default class LayoutHeader extends AntdComponent {
+export default class LayoutHeader extends GovdComponent {
   /**
    * container className
    * @default undefined

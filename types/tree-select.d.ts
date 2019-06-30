@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { TreeNode } from './tree-node';
 
 export interface TreeData {
@@ -15,7 +15,7 @@ export interface TreeData {
   selectable?: boolean;
 }
 
-export declare class TreeSelect extends AntdComponent {
+export declare class TreeSelect extends GovdComponent {
   static TreeNode: typeof TreeNode;
 
   /**

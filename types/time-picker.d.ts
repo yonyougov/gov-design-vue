@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { Moment } from 'moment';
 
-export declare class TimePicker extends AntdComponent {
+export declare class TimePicker extends GovdComponent {
   /**
    * some addon to timepicker panel bottom
    * @type any (slot | slot-scope)

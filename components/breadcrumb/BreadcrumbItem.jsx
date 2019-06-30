@@ -3,7 +3,7 @@ import { hasProp, getComponentFromProp } from '../_util/props-util';
 
 export default {
   name: 'ABreadcrumbItem',
-  __ANT_BREADCRUMB_ITEM: true,
+  __GOV_BREADCRUMB_ITEM: true,
   props: {
     prefixCls: PropTypes.string.def('gov-breadcrumb'),
     href: PropTypes.string,

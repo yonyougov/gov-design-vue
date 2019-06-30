@@ -5,5 +5,5 @@ export default {
   props: {
     title: PropTypes.any,
   },
-  __ANT_TABLE_COLUMN_GROUP: true,
+  __GOV_TABLE_COLUMN_GROUP: true,
 };

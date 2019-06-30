@@ -2,9 +2,9 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 
-export declare class Avatar extends AntdComponent {
+export declare class Avatar extends GovdComponent {
   /**
    * the Icon type for an icon avatar, see Icon Component
    * @type string

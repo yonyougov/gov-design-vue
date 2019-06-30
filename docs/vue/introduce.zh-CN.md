@@ -1,5 +1,5 @@
 
-# Ant Design of Vue
+# Gov Design of Vue
 
 这里是 Gov Design 的 Vue 实现，开发和服务于企业级后台产品。
 

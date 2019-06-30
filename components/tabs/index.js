@@ -3,7 +3,7 @@ import Vue from 'vue';
 import Tabs from './tabs';
 import TabPane from '../vc-tabs/src/TabPane';
 import TabContent from '../vc-tabs/src/TabContent';
-Tabs.TabPane = { ...TabPane, name: 'ATabPane', __ANT_TAB_PANE: true };
+Tabs.TabPane = { ...TabPane, name: 'ATabPane', __GOV_TAB_PANE: true };
 Tabs.TabContent = { ...TabContent, name: 'ATabContent' };
 Vue.use(ref, { name: 'ant-ref' });
 

@@ -2,13 +2,13 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { MenuItem } from './menu-item';
 import { SubMenu } from './sub-menu';
 import { MenuItemGroup } from './menu-item-group';
 import { Divider } from '../divider';
 
-export declare class Menu extends AntdComponent {
+export declare class Menu extends GovdComponent {
   static Item: typeof MenuItem;
   static SubMenu: typeof SubMenu;
   static ItemGroup: typeof MenuItemGroup;

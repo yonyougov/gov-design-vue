@@ -1,6 +1,6 @@
 /* eslint no-console:0 */
 
-import { DatePicker } from 'ant-design-vue';
+import { DatePicker } from 'gov-design-vue';
 import createDOMForm from '../src/createDOMForm';
 import { regionStyle, errorStyle } from './styles';
 

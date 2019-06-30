@@ -1,7 +1,7 @@
 <script>
 import Trigger from '../index';
 import '../assets/index.less';
-import { Input, Button } from 'ant-design-vue';
+import { Input, Button } from 'gov-design-vue';
 function getPopupAlign (state) {
   return {
     offset: [state.offsetX, state.offsetY],

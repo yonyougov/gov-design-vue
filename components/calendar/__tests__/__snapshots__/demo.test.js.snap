@@ -6,7 +6,7 @@ exports[`renders ./components/calendar/demo/basic.md correctly 1`] = `
     <div class="gov-select gov-select-enabled gov-fullcalendar-year-select">
       <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
         <div class="gov-select-selection__rendered">
-          <div title="2016" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016</div>
+          <div title="2016年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016年</div>
         </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
       </div>
     </div>
@@ -17,7 +17,7 @@ exports[`renders ./components/calendar/demo/basic.md correctly 1`] = `
         </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
       </div>
     </div>
-    <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+    <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
   </div>
   <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full gov-fullcalendar-fullscreen">
     <div class="gov-fullcalendar-calendar-body">
@@ -312,7 +312,7 @@ exports[`renders ./components/calendar/demo/card.md correctly 1`] = `
       <div class="gov-select gov-select-enabled gov-select-sm gov-fullcalendar-year-select">
         <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
           <div class="gov-select-selection__rendered">
-            <div title="2016" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016</div>
+            <div title="2016年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016年</div>
           </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
         </div>
       </div>
@@ -323,7 +323,7 @@ exports[`renders ./components/calendar/demo/card.md correctly 1`] = `
           </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
         </div>
       </div>
-      <div class="gov-radio-group gov-radio-group-outline gov-radio-group-small"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+      <div class="gov-radio-group gov-radio-group-outline gov-radio-group-small"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
     </div>
     <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full">
       <div class="gov-fullcalendar-calendar-body">
@@ -618,7 +618,7 @@ exports[`renders ./components/calendar/demo/notice-calendar.md correctly 1`] = `
     <div class="gov-select gov-select-enabled gov-fullcalendar-year-select">
       <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
         <div class="gov-select-selection__rendered">
-          <div title="2016" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016</div>
+          <div title="2016年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2016年</div>
         </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
       </div>
     </div>
@@ -629,7 +629,7 @@ exports[`renders ./components/calendar/demo/notice-calendar.md correctly 1`] = `
         </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
       </div>
     </div>
-    <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+    <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
   </div>
   <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full gov-fullcalendar-fullscreen">
     <div class="gov-fullcalendar-calendar-body">
@@ -1031,7 +1031,7 @@ exports[`renders ./components/calendar/demo/select.md correctly 1`] = `
         <div class="gov-select gov-select-enabled gov-fullcalendar-year-select">
           <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
             <div class="gov-select-selection__rendered">
-              <div title="2017" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2017</div>
+              <div title="2017年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2017年</div>
             </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
           </div>
         </div>
@@ -1042,7 +1042,7 @@ exports[`renders ./components/calendar/demo/select.md correctly 1`] = `
             </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
           </div>
         </div>
-        <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+        <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
       </div>
       <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full gov-fullcalendar-fullscreen">
         <div class="gov-fullcalendar-calendar-body">
@@ -1335,7 +1335,7 @@ exports[`renders ./components/calendar/demo/select.md correctly 1`] = `
         <div class="gov-select gov-select-enabled gov-fullcalendar-year-select">
           <div role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-controls="test-uuid" tabindex="0" class="gov-select-selection gov-select-selection--single">
             <div class="gov-select-selection__rendered">
-              <div title="2017" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2017</div>
+              <div title="2017年" class="gov-select-selection-selected-value" style="display: block; opacity: 1;">2017年</div>
             </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
           </div>
         </div>
@@ -1346,7 +1346,7 @@ exports[`renders ./components/calendar/demo/select.md correctly 1`] = `
             </div><span unselectable="on" class="gov-select-arrow" style="user-select: none;"><i class="gov-select-arrow-icon anticon anticon-down"><svg viewBox="64 64 896 896" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true" class=""><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></i></span>
           </div>
         </div>
-        <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>Month</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>Year</span></label></div>
+        <div class="gov-radio-group gov-radio-group-outline gov-radio-group-default"><label class="gov-radio-button-wrapper gov-radio-button-wrapper-checked"><span class="gov-radio-button gov-radio-button-checked"><input type="radio" class="gov-radio-button-input" value="date"><span class="gov-radio-button-inner"></span></span><span>月</span></label><label class="gov-radio-button-wrapper"><span class="gov-radio-button"><input type="radio" class="gov-radio-button-input" value="month"><span class="gov-radio-button-inner"></span></span><span>年</span></label></div>
       </div>
       <div tabindex="0" class="gov-fullcalendar gov-fullcalendar-full gov-fullcalendar-fullscreen">
         <div class="gov-fullcalendar-calendar-body">

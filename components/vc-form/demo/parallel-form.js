@@ -2,7 +2,7 @@
 
 import { createForm } from '../index';
 import { regionStyle } from './styles';
-import { Switch } from 'ant-design-vue';
+import { Switch } from 'gov-design-vue';
 
 const TopForm = {
   props: {

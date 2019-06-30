@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 
 export interface UploadFile {
   uid: string | number;
@@ -14,7 +14,7 @@ export interface ShowUploadList {
   showPreviewIcon?: boolean;
 }
 
-export declare class Upload extends AntdComponent {
+export declare class Upload extends GovdComponent {
   /**
    * File types that can be accepted.
    * @type string

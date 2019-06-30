@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { VNode } from 'vue';
 import { BreadcrumbItem } from './breadcrumb-item';
 
@@ -11,7 +11,7 @@ export interface Route {
   breadcrumbName?: String;
 }
 
-export declare class Breadcrumb extends AntdComponent {
+export declare class Breadcrumb extends GovdComponent {
   static Item: typeof BreadcrumbItem;
   /**
    * The routing stack information of router

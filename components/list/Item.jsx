@@ -21,7 +21,7 @@ export const ListItemMetaProps = {
 export const Meta = {
   functional: true,
   name: 'AListItemMeta',
-  __ANT_LIST_ITEM_META: true,
+  __GOV_LIST_ITEM_META: true,
   render(h, context) {
     const { props, slots, listeners } = context;
     const slotsMap = slots();
@@ -67,7 +67,7 @@ export default {
 
     ($slots.default || []).forEach(element => {
       if (!isEmptyElement(element)) {
-        if (getSlotOptions(element).__ANT_LIST_ITEM_META) {
+        if (getSlotOptions(element).__GOV_LIST_ITEM_META) {
           metaContent.push(element);
         } else {
           otherContent.push(element);

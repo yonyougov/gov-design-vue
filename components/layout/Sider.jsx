@@ -69,7 +69,7 @@ const generateId = (() => {
 
 export default {
   name: 'ALayoutSider',
-  __ANT_LAYOUT_SIDER: true,
+  __GOV_LAYOUT_SIDER: true,
   mixins: [BaseMixin],
   model: {
     prop: 'collapsed',

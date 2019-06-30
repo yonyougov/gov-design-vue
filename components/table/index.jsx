@@ -38,7 +38,7 @@ const Table = {
         if (key) {
           column.key = key;
         }
-        if (getSlotOptions(element).__ANT_TABLE_COLUMN_GROUP) {
+        if (getSlotOptions(element).__GOV_TABLE_COLUMN_GROUP) {
           column.children = this.normalize(children);
         } else {
           const customRender =

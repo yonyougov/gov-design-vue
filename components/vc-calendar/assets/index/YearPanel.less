@@ -23,7 +23,7 @@
   -webkit-user-select: none;
   border-bottom: 1px solid #ccc;
 
-  > a {
+  >a {
     font-weight: bold;
     display: inline-block;
     padding: 4px 5px;
@@ -44,6 +44,9 @@
 }
 
 .@{prefixClass}-year-panel-next-decade-btn {
+  user-select: none;
+  right: 0;
+
   &:after {
     content: '»';
   }
@@ -64,11 +67,6 @@
 
 .@{prefixClass}-year-panel-decade-select-arrow {
   display: none;
-}
-
-.@{prefixClass}-year-panel-next-decade-btn {
-  user-select: none;
-  right: 0;
 }
 
 .@{prefixClass}-year-panel-body {

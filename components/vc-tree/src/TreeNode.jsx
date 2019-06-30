@@ -15,7 +15,7 @@ const defaultTitle = '---';
 const TreeNode = {
   name: 'TreeNode',
   mixins: [BaseMixin],
-  __ANT_TREE_NODE: true,
+  __GOV_TREE_NODE: true,
   props: initDefaultProps(
     {
       eventKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]), // Pass by parent `cloneElement`

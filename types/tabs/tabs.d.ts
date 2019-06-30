@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { TabPane } from './tab-pane';
 
-export declare class Tabs extends AntdComponent {
+export declare class Tabs extends GovdComponent {
   static TabPane: typeof TabPane;
 
   /**

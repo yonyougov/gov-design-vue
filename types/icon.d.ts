@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { Component } from 'vue/types/options';
 
 export interface IconOptions {
@@ -20,7 +20,7 @@ export interface IconOptions {
   extraCommonProps?: { [key: string]: any };
 }
 
-export declare class Icon extends AntdComponent {
+export declare class Icon extends GovdComponent {
   static getTwoToneColor(): string;
   static setTwoToneColor(colorString: string): void;
   static createFromIconfontCN(iconOptions: IconOptions): Icon;

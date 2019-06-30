@@ -2,12 +2,12 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { InputGroup } from './input-group';
 import { InputSearch } from './input-search';
 import { TextArea } from './textarea';
 
-export declare class Input extends AntdComponent {
+export declare class Input extends GovdComponent {
   static Group: typeof InputGroup;
   static Search: typeof InputSearch;
   static TextArea: typeof TextArea;

@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 
 export interface SkeletonAvatarProps {
   size?: 'large' | 'small' | 'default';
@@ -18,7 +18,7 @@ export interface SkeletonParagraphProps {
   rows?: number;
 }
 
-export declare class Skeleton extends AntdComponent {
+export declare class Skeleton extends GovdComponent {
   /**
    * Show animation effect
    * @default false

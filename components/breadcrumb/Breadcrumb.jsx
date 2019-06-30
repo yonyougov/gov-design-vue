@@ -65,7 +65,7 @@ export default {
     } else if (children.length) {
       crumbs = children.map((element, index) => {
         warning(
-          getSlotOptions(element).__ANT_BREADCRUMB_ITEM,
+          getSlotOptions(element).__GOV_BREADCRUMB_ITEM,
           "Breadcrumb only accepts Breadcrumb.Item as it's children",
         );
         return cloneElement(element, {

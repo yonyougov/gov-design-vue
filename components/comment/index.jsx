@@ -5,11 +5,11 @@ export const CommentProps = {
   actions: PropsTypes.array,
   /** The element to display as the comment author. */
   author: PropsTypes.any,
-  /** The element to display as the comment avatar - generally an antd Avatar */
+  /** The element to display as the comment avatar - generally an govd Avatar */
   avatar: PropsTypes.any,
   /** The main content of the comment */
   content: PropsTypes.any,
-  /** Comment prefix defaults to '.ant-comment' */
+  /** Comment prefix defaults to '.gov-comment' */
   prefixCls: PropsTypes.string,
   /** A datetime element containing the time to be displayed */
   datetime: PropsTypes.any,

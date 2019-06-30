@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { Col } from '../grid/col';
 
-export declare class FormItem extends AntdComponent {
+export declare class FormItem extends GovdComponent {
   /**
    * Used with label, whether to display : after label text.
    * @default true

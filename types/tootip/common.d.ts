@@ -2,11 +2,11 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 
 export declare type triggerType = 'hover' | 'focus' | 'click' | 'contextmenu';
 
-export declare class TooltipCommon extends AntdComponent {
+export declare class TooltipCommon extends GovdComponent {
   /**
    * Whether the arrow is pointed at the center of target
    * @default false

@@ -2,11 +2,11 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { RadioGroup } from './radio-group';
 import { RadioButton } from './radio-button';
 
-export declare class Radio extends AntdComponent {
+export declare class Radio extends GovdComponent {
   static Group: typeof RadioGroup;
   static Button: typeof RadioButton;
 

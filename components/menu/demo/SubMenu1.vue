@@ -24,15 +24,15 @@
   </a-sub-menu>
 </template>
 <script>
-import { Menu } from 'ant-design-vue';
+import { Menu } from 'gov-design-vue';
 export default {
   name: 'SubMenu',
   // must add isSubMenu: true
-  isSubMenu: true, 
+  isSubMenu: true,
   props: {
     ...Menu.SubMenu.props,
     // Cannot overlap with properties within Menu.SubMenu.props
-    menuInfo: { 
+    menuInfo: {
       type: Object,
       default: ()=>({}),
     },

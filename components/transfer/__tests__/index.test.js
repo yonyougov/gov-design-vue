@@ -3,6 +3,7 @@ import { renderToString } from '@vue/server-test-utils';
 import Transfer from '..';
 import Vue from 'vue';
 import { asyncExpect } from '@/tests/utils';
+import locale from '../../locale-provider/default';
 
 const listCommonProps = {
   dataSource: [
@@ -289,7 +290,7 @@ describe('Transfer', () => {
             .at(0)
             .text()
             .trim(),
-        ).toEqual('1 items');
+        ).toEqual(`1 ${locale.Transfer.itemUnit}`);
         done();
       });
     });

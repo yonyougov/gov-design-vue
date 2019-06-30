@@ -4,7 +4,7 @@ exports[`List renders empty list 1`] = `
 <div class="gov-list gov-list-split">
   <div class="gov-spin-nested-loading">
     <div class="gov-spin-container">
-      <div class="gov-list-empty-text">No data</div>
+      <div class="gov-list-empty-text">暂无数据</div>
     </div>
   </div>
 </div>

@@ -84,19 +84,19 @@ export default {
   width: 100%;
 }
 
-.global-search.ant-select-auto-complete .ant-select-selection--single {
+.global-search.gov-select-auto-complete .gov-select-selection--single {
   margin-right: -46px;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input:not(:last-child) {
+.global-search.gov-select-auto-complete .gov-input-affix-wrapper .gov-input:not(:last-child) {
   padding-right: 62px;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix {
+.global-search.gov-select-auto-complete .gov-input-affix-wrapper .gov-input-suffix {
   right: 0;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix button {
+.global-search.gov-select-auto-complete .gov-input-affix-wrapper .gov-input-suffix button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }

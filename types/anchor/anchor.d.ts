@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { AnchorLink } from './anchor-link';
 
-export declare class Anchor extends AntdComponent {
+export declare class Anchor extends GovdComponent {
   static Link: typeof AnchorLink;
 
   /**

@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { TimelineItem } from './timeline-item';
 
-export declare class Timeline extends AntdComponent {
+export declare class Timeline extends GovdComponent {
   static Item: typeof TimelineItem;
 
   /**

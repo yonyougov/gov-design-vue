@@ -73,8 +73,8 @@
   </section>
 </template>
 <script>
-import animate from 'antd/_util/openAnimation';
-import BaseMixin from 'antd/_util/BaseMixin';
+import animate from 'govd/_util/openAnimation';
+import BaseMixin from 'govd/_util/BaseMixin';
 import { isZhCN } from '../util';
 export default {
   name: 'DemoBox',

@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { ButtonGroup } from './button-group';
 
-export declare class Button extends AntdComponent {
+export declare class Button extends GovdComponent {
   static Group: typeof ButtonGroup;
 
   /**

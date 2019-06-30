@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import Vue from 'vue';
 import { FormItem } from './form-item';
 
@@ -321,7 +321,7 @@ export interface IformCreateOption {
   onValuesChange?: (props: any, fields: any) => void;
 }
 
-export declare class Form extends AntdComponent {
+export declare class Form extends GovdComponent {
   static Item: typeof FormItem;
   static create: (options: IformCreateOption) => (WrapedComponent: any) => any;
 

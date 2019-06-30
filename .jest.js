@@ -28,7 +28,7 @@ module.exports = {
     : '.*\\.test\\.js$',
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
-    "ant-design-vue": "<rootDir>/components/index.js",
+    "gov-design-vue": "<rootDir>/components/index.js",
     "^vue$": "vue/dist/vue.common.js"
   },
   snapshotSerializers: ["<rootDir>/node_modules/jest-serializer-vue"],

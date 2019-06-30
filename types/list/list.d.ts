@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from '../component';
+import { GovdComponent } from '../component';
 import { VNode } from 'vue';
 import { Pagination } from '../pagination';
 import { ListItem } from './list-item';
@@ -13,7 +13,7 @@ export declare class PaginationConfig extends Pagination {
   position: 'top' | 'bottom' | 'both';
 }
 
-export class List extends AntdComponent {
+export class List extends GovdComponent {
   static Item: typeof ListItem;
 
   /**

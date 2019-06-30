@@ -8,7 +8,7 @@ const props = buttonTypes();
 export default {
   name: 'AButton',
   inheritAttrs: false,
-  __ANT_BUTTON: true,
+  __GOV_BUTTON: true,
   props,
   data() {
     return {

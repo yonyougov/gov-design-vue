@@ -2,7 +2,7 @@ import TimePickerPanel from '../vc-time-picker/Panel';
 import classNames from 'classnames';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { generateShowHourMinuteSecond } from '../time-picker';
-import enUS from './locale/en_US';
+import zhCH from './locale/zh_CN';
 import { getOptionProps, initDefaultProps } from '../_util/props-util';
 
 function getColumns({ showHour, showMinute, showSecond, use12Hours }) {
@@ -77,7 +77,7 @@ export default function wrapPicker(Picker, props, defaultFormat) {
 
       getDefaultLocale() {
         const result = {
-          ...enUS,
+          ...zhCH,
           ...this.locale,
         };
         result.lang = {

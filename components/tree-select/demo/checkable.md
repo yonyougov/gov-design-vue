@@ -22,7 +22,7 @@ Multiple and checkable.
 </template>
 
 <script>
-import { TreeSelect } from 'ant-design-vue'
+import { TreeSelect } from 'gov-design-vue'
 const SHOW_PARENT = TreeSelect.SHOW_PARENT
 
 const treeData = [{

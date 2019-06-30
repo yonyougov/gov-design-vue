@@ -2,10 +2,10 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { VNode } from 'vue';
 
-export declare class Pagination extends AntdComponent {
+export declare class Pagination extends GovdComponent {
   /**
    * total number of data items
    * @default 0

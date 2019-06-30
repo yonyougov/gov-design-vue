@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-import { AntdComponent } from './component';
+import { GovdComponent } from './component';
 import { VNode } from 'vue';
 import { TreeNode } from './tree-node';
 import { Button } from './button/button';
@@ -138,7 +138,7 @@ export interface ModalConfirm {
   destroy(): void;
 }
 
-export declare class Modal extends AntdComponent {
+export declare class Modal extends GovdComponent {
   /**
    * Specify a function that will be called when modal is closed completely.
    * @type Function
