@@ -320,6 +320,8 @@ gulp.task('pub-with-ci', done => {
       } else {
         console.log('donot need publish' + version);
       }
+    }).catch(() => {
+      console.log('pub-with-ci may failed, please check if the GITHUB api calling fails or not')
     });
   }
 });
