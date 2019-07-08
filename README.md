@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  <a href="https://vue.ant.design/" target="_blank">Gov Design Vue</a>
+  <a href="https://gov-design-vue.netlify.com/docs/vue/introduce-cn/" target="_blank">Gov Design Vue</a>
 </h1>
 
 ## Using npm or yarn
