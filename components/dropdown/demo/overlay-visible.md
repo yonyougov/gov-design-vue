@@ -11,7 +11,7 @@ The default is to close the menu when you click on menu items, this feature can 
 ```html
 <template>
   <a-dropdown v-model="visible">
-    <a class="ant-dropdown-link" href="#">
+    <a class="gov-dropdown-link" href="#">
       Hover me <a-icon type="down" />
     </a>
     <a-menu slot="overlay" @click="handleMenuClick">

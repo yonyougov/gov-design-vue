@@ -11,7 +11,7 @@ The default trigger mode is `hover`, you can change it to `click`.
 ```html
 <template>
   <a-dropdown :trigger="['click']">
-    <a class="ant-dropdown-link" href="#">
+    <a class="gov-dropdown-link" href="#">
       Click me <a-icon type="down" />
     </a>
     <a-menu slot="overlay">

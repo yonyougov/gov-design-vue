@@ -11,7 +11,7 @@ The menu has multiple levels.
 ```html
 <template>
   <a-dropdown>
-    <a class="ant-dropdown-link" href="#">
+    <a class="gov-dropdown-link" href="#">
       Cascading menu <a-icon type="down" />
     </a>
     <a-menu slot="overlay">

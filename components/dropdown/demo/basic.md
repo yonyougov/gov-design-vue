@@ -11,7 +11,7 @@ The most basic dropdown menu.
 ```html
 <template>
   <a-dropdown>
-    <a class="ant-dropdown-link" href="#">
+    <a class="gov-dropdown-link" href="#">
       Hover me <a-icon type="down" />
     </a>
     <a-menu slot="overlay">

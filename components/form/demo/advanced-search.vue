@@ -13,7 +13,7 @@ Because the width of label is not fixed, you may need to adjust it by customizin
 <template>
   <div id="components-form-demo-advanced-search">
     <a-form
-      class="ant-advanced-search-form"
+      class="gov-advanced-search-form"
       :form="form"
       @submit="handleSearch"
     >

@@ -19,7 +19,7 @@ Demostration for validataion configuration for form controls which are not show 
       v-bind="formItemLayout"
       label="Plain Text"
     >
-      <span class="ant-form-text">
+      <span class="gov-form-text">
         China
       </span>
     </a-form-item>
@@ -77,7 +77,7 @@ Demostration for validataion configuration for form controls which are not show 
         :min="1"
         :max="10"
       />
-      <span class="ant-form-text">
+      <span class="gov-form-text">
         machines
       </span>
     </a-form-item>
@@ -217,13 +217,13 @@ Demostration for validataion configuration for form controls which are not show 
           name="files"
           action="/upload.do"
         >
-          <p class="ant-upload-drag-icon">
+          <p class="gov-upload-drag-icon">
             <a-icon type="inbox" />
           </p>
-          <p class="ant-upload-text">
+          <p class="gov-upload-text">
             Click or drag file to this area to upload
           </p>
-          <p class="ant-upload-hint">
+          <p class="gov-upload-hint">
             Support for a single or bulk upload.
           </p>
         </a-upload-dragger>

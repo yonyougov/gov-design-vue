@@ -11,7 +11,7 @@ An event will be triggered when you click menu items, in which you can make diff
 ```html
 <template>
   <a-dropdown>
-    <a class="ant-dropdown-link" href="#">
+    <a class="gov-dropdown-link" href="#">
       Hover me, Click menu item <a-icon type="down" />
     </a>
     <a-menu slot="overlay" @click="onClick">
