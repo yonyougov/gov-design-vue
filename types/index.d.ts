@@ -2,7 +2,7 @@
 // Definitions by: akki-jat <https://github.com/akki-jat>
 // Definitions: https://github.com/vueComponent/ant-design-vue/types
 
-export * from './ant-design-vue';
+export * from './gov-design-vue';
 
-import * as Antd from './ant-design-vue';
-export default Antd;
+import * as Govd from './gov-design-vue';
+export default Govd;
