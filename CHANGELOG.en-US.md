@@ -9,7 +9,10 @@
 * Major version release is not included in this schedule for breaking change and new features.
 
 ---
-
+## 1.3.11
+`2019-08-16`
+- fix some doc
+- primary color changed to safe color #0066ff
 ## 1.3.10
 `2019-06-30`
 - make some refacotr and ready to pub
