@@ -36,6 +36,7 @@ const columns = [{
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
 | bordered | Whether to show all table borders | boolean | `false` |
+| zebra| Whether to make table row to be zebra | boolean | `false` |
 | childrenColumnName | The column contains children to display | string\[] | children |
 | columns | Columns of table | array | - |
 | components | Override default table elements | object | - |
@@ -56,7 +57,7 @@ const columns = [{
 | rowSelection | Row selection [config](#rowSelection) | object | null |
 | scroll | Set horizontal or vertical scrolling, can also be used to specify the width and height of the scroll area. It is recommended to set a number for `x`, if you want to set it to `true`, you need to add style `.ant-table td { white-space: nowrap; }`. | { x: number \| true, y: number } | - |
 | showHeader | Whether to show table header | boolean | `true` |
-| size | Size of table | `default` \| `middle` \| `small` | `default` |
+| size | Size of table | `default` \| `middle` \| `small` \| `xsmall`\| `xxsmall`| `default` |
 | title | Table title renderer | Function(currentPageData)\|slot-scope |  |
 | customHeaderRow | Set props on per header row | Function(column, index) | - |
 | customRow | Set props on per row | Function(record, index) | - |
@@ -175,7 +176,6 @@ Custom selection config
 | key | Unique key of this selection | string | - |
 | text | Display text of this selection | string\|VNode | - |
 | onSelect | Callback executed when this selection is clicked | Function(changeableRowKeys) | - |
-
 
 ## Note
 

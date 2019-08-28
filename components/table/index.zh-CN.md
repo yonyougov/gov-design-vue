@@ -35,12 +35,13 @@ const columns = [{
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
-| bordered | 是否展示外边框和列边框 | boolean | false |
+| bordered | 是否展示外边框和列边框 | boolean | `false` |
+| zebra| 是否现实斑马线 | boolean | `false` |
 | childrenColumnName | 指定树形结构的列名 | string\[] | children |
 | columns | 表格列的配置描述，具体项见下表 | array | - |
 | components | 覆盖默认的 table 元素 | object | - |
 | dataSource | 数据数组 | any\[] |  |
-| defaultExpandAllRows | 初始时，是否展开所有行 | boolean | false |
+| defaultExpandAllRows | 初始时，是否展开所有行 | boolean | `false` |
 | defaultExpandedRowKeys | 默认展开的行 | string\[] | - |
 | expandedRowKeys | 展开的行，控制属性 | string\[] | - |
 | expandedRowRender | 额外的展开行 | Function(record, index, indent, expanded):VNode \| slot="expandedRowRender"  slot-scope="record, index, indent, expanded" | - |
@@ -48,7 +49,7 @@ const columns = [{
 | expandRowByClick | 通过点击行来展开子行 | boolean | `false` |
 | footer | 表格尾部 | Function(currentPageData)\|slot-scope |  |
 | indentSize | 展示树形数据时，每层缩进的宽度，以 px 为单位 | number | 15 |
-| loading | 页面是否加载中 | boolean\|[object](/components/spin-cn) | false |
+| loading | 页面是否加载中 | boolean\|[object](/components/spin-cn) | `false` |
 | locale | 默认文案设置，目前包括排序、过滤、空数据文案 | object | filterConfirm: '确定' <br> filterReset: '重置' <br> emptyText: '暂无数据' |
 | pagination | 分页器，参考[配置项](#pagination)或 [pagination](/components/pagination-cn/)，设为 false 时不展示和进行分页 | object |  |
 | rowClassName | 表格行的类名 | Function(record, index):string | - |
@@ -56,7 +57,7 @@ const columns = [{
 | rowSelection | 列表项是否可选择，[配置项](#rowSelection) | object | null |
 | scroll | 设置横向或纵向滚动，也可用于指定滚动区域的宽和高，建议为 `x` 设置一个数字，如果要设置为 `true`，需要配合样式 `.ant-table td { white-space: nowrap; }` | { x: number \| true, y: number } | - |
 | showHeader | 是否显示表头 | boolean | true |
-| size | 正常或迷你类型，`default` or `small` | string | default |
+| size | table 尺寸 | `default` \| `middle` \| `small` \| `xsmall`\| `xxsmall` | default |
 | title | 表格标题 | Function(currentPageData)\|slot-scope |  |
 | customHeaderRow | 设置头部行属性 | Function(column, index) | - |
 | customRow | 设置行属性 | Function(record, index) | - |

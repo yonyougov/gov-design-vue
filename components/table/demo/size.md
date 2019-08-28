@@ -1,11 +1,11 @@
 <cn>
 #### 紧凑型
-两种紧凑型的列表，小型列表只用于对话框内。
+四种紧凑型的列表，小型列表只用于对话框内。
 </cn>
 
 <us>
 #### size
-Two compacted table size: `middle` and `small`, `small` size is used in Modal only.
+Four compacted table size: `middle`, `small`, `xsamll`, `xxsamll`, all small sizes are used in Modal only.
 </us>
 
 ```html
@@ -15,6 +15,10 @@ Two compacted table size: `middle` and `small`, `small` size is used in Modal on
     <a-table :columns="columns" :dataSource="data" size="middle" />
     <h4>Small size table</h4>
     <a-table :columns="columns" :dataSource="data" size="small" />
+    <h4>XSmall size table</h4>
+    <a-table :columns="columns" :dataSource="data" size="xsmall" />
+    <h4>XXSmall size table</h4>
+    <a-table :columns="columns" :dataSource="data" size="xxsmall" />
   </div>
 </template>
 <script>

@@ -2,6 +2,10 @@
 @table-padding-horizontal-md: @table-padding-horizontal / 2;
 @table-padding-vertical-sm: @table-padding-vertical / 2;
 @table-padding-horizontal-sm: @table-padding-horizontal / 2;
+@table-padding-vertical-xs: 7.5px; // 基于政务的UI规范，行高36px
+@table-padding-horizontal-xs: 7.5px;
+@table-padding-vertical-xxs: @table-padding-horizontal / 4;
+@talbe-padding-horizontal-xxs: @table-padding-horizontal / 4;
 
 .@{table-prefix-cls}-middle {
   > .@{table-prefix-cls}-title,
@@ -155,5 +159,69 @@
 
   tr.@{table-prefix-cls}-expanded-row td > .@{table-prefix-cls}-wrapper {
     margin: -@table-padding-vertical-sm -@table-padding-horizontal -@table-padding-vertical-sm - 1px;
+  }
+}
+
+.@{table-prefix-cls}-xsmall {
+  > .@{table-prefix-cls}-title,
+  > .@{table-prefix-cls}-footer {
+    padding: @table-padding-vertical-xs @table-padding-horizontal-xs;
+  }
+  > .@{table-prefix-cls}-content {
+    > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-body > table,
+    > .@{table-prefix-cls}-scroll > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-scroll > .@{table-prefix-cls}-body > table,
+    > .@{table-prefix-cls}-fixed-left > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-fixed-right > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-fixed-left
+      > .@{table-prefix-cls}-body-outer
+      > .@{table-prefix-cls}-body-inner
+      > table,
+    > .@{table-prefix-cls}-fixed-right
+      > .@{table-prefix-cls}-body-outer
+      > .@{table-prefix-cls}-body-inner
+      > table {
+      > .@{table-prefix-cls}-thead > tr > th,
+      > .@{table-prefix-cls}-tbody > tr > td {
+        padding: @table-padding-vertical-xs @table-padding-horizontal-xs;
+      }
+    }
+  }
+
+  tr.@{table-prefix-cls}-expanded-row td > .@{table-prefix-cls}-wrapper {
+    margin: -@table-padding-vertical-xs -@table-padding-horizontal -@table-padding-vertical-xs - 1px;
+  }
+}
+
+.@{table-prefix-cls}-xxsmall {
+  > .@{table-prefix-cls}-title,
+  > .@{table-prefix-cls}-footer {
+    padding: @table-padding-vertical-xxs @talbe-padding-horizontal-xxs;
+  }
+  > .@{table-prefix-cls}-content {
+    > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-body > table,
+    > .@{table-prefix-cls}-scroll > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-scroll > .@{table-prefix-cls}-body > table,
+    > .@{table-prefix-cls}-fixed-left > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-fixed-right > .@{table-prefix-cls}-header > table,
+    > .@{table-prefix-cls}-fixed-left
+      > .@{table-prefix-cls}-body-outer
+      > .@{table-prefix-cls}-body-inner
+      > table,
+    > .@{table-prefix-cls}-fixed-right
+      > .@{table-prefix-cls}-body-outer
+      > .@{table-prefix-cls}-body-inner
+      > table {
+      > .@{table-prefix-cls}-thead > tr > th,
+      > .@{table-prefix-cls}-tbody > tr > td {
+        padding: @table-padding-vertical-xxs @talbe-padding-horizontal-xxs;
+      }
+    }
+  }
+
+  tr.@{table-prefix-cls}-expanded-row td > .@{table-prefix-cls}-wrapper {
+    margin: -@table-padding-vertical-xxs -@table-padding-horizontal -@table-padding-vertical-xxs - 1px;
   }
 }

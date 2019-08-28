@@ -912,7 +912,7 @@ export default {
       const { sPagination: pagination } = this;
       if (pagination.size) {
         size = pagination.size;
-      } else if (this.size === 'middle' || this.size === 'small') {
+      } else if (this.size === 'middle' || this.size.includes('small')) {
         size = 'small';
       }
       const position = pagination.position || 'bottom';
@@ -1074,6 +1074,7 @@ export default {
         [`${prefixCls}-bordered`]: this.bordered,
         [`${prefixCls}-empty`]: !data.length,
         [`${prefixCls}-without-column-header`]: !showHeader,
+        [`${prefixCls}-zebra`]: this.zebra,
       });
 
       let columns = this.renderRowSelection(locale);

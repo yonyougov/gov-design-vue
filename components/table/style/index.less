@@ -192,6 +192,15 @@
     }
   }
 
+  &-zebra &-tbody > {
+    tr:not(.gov-table-expanded-row):nth-child(2n) {
+      background: @table-row-zebra;
+    }
+    // tr.gov-table-expanded-row:nth-child(3n) {
+    //   background: @table-row-zebra;
+    // }
+  }
+
   &-tbody > tr > td {
     border-bottom: @border-width-base @border-style-base @border-color-split;
     transition: all 0.3s, border 0s;
@@ -204,6 +213,7 @@
     &:hover {
       &:not(.@{table-prefix-cls}-expanded-row) > td {
         background: @table-row-hover-bg;
+        color: @text-color;
       }
     }
   }
@@ -267,6 +277,7 @@
 
   &-tbody > tr.@{table-prefix-cls}-row-selected td {
     background: @table-selected-row-bg;
+    color: @text-color-dark;
   }
 
   &-thead > tr > th.@{table-prefix-cls}-column-sort {
