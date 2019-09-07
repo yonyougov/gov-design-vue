@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import PropTypes from '../../_util/vue-types';
 import { connect } from '../../_util/store';
 import { mergeProps } from '../../_util/props-util';
+import DraggableTag from './DraggableTag';
 
 const TableHeaderRow = {
   props: {
@@ -16,6 +17,7 @@ const TableHeaderRow = {
     prefixCls: PropTypes.prefixCls,
   },
   name: 'TableHeaderRow',
+  inject: ['colWidthHash'],
   render(h) {
     const { row, index, height, components, customHeaderRow, prefixCls } = this;
     const HeaderRow = components.header.row;
@@ -29,7 +31,7 @@ const TableHeaderRow = {
     return (
       <HeaderRow {...rowProps} style={style}>
         {row.map((cell, i) => {
-          const { column, children, className, ...cellProps } = cell;
+          const { column, children, className, draggable, ...cellProps } = cell;
           const cls = cell.class || className;
           const customProps = column.customHeaderCell ? column.customHeaderCell(column) : {};
 
@@ -39,6 +41,7 @@ const TableHeaderRow = {
                 ...cellProps,
               },
               class: cls,
+              style: {},
             },
             {
               ...customProps,
@@ -53,15 +56,26 @@ const TableHeaderRow = {
             });
           }
 
-          if (typeof HeaderCell === 'function') {
-            return HeaderCell(h, headerCellProps, children);
+          let sChildren = Array.isArray(children) ? children : [children];
+          let hashKey = column.key || column.dataIndex;
+          if (draggable && hasWidth(this.colWidthHash, hashKey)) {
+            headerCellProps.style.position = 'relative';
+            sChildren = [...sChildren, <DraggableTag hashKey={hashKey} />];
           }
-          return <HeaderCell {...headerCellProps}>{children}</HeaderCell>;
+          sChildren = sChildren.filter(c => !!c);
+
+          if (typeof HeaderCell === 'function') {
+            return HeaderCell(h, headerCellProps, sChildren);
+          }
+          return <HeaderCell {...headerCellProps}>{sChildren}</HeaderCell>;
         })}
       </HeaderRow>
     );
   },
 };
+function hasWidth(hash, key) {
+  return typeof hash[key] === 'number';
+}
 
 function getRowHeight(state, props) {
   const { fixedColumnsHeadRowsHeight } = state;

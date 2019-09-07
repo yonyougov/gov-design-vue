@@ -17,9 +17,12 @@ function getHeaderRows(columns, currentRow = 0, rows) {
       children: column.title,
       column,
     };
-    if (column.children) {
-      getHeaderRows(column.children, currentRow + 1, rows);
+    if (column.children && column.children.length > 0) {
+      getHeaderRows.call(this, column.children, currentRow + 1, rows);
+    } else {
+      cell.draggable = this.table.draggable;
     }
+
     if ('colSpan' in column) {
       cell.colSpan = column.colSpan;
     }
@@ -52,7 +55,7 @@ export default {
       return null;
     }
 
-    const rows = getHeaderRows(columns);
+    const rows = getHeaderRows.call(this, columns);
 
     expander.renderExpandIndentCell(rows, fixed);
 

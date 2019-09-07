@@ -1,4 +1,5 @@
 import PropTypes from '../../_util/vue-types';
+import DraggableCol from './DraggableCol';
 
 export default {
   name: 'ColGroup',
@@ -29,10 +30,7 @@ export default {
       leafColumns = columnManager.leafColumns();
     }
     cols = cols.concat(
-      leafColumns.map(c => {
-        const width = typeof c.width === 'number' ? `${c.width}px` : c.width;
-        return <col key={c.key || c.dataIndex} style={width ? { width, minWidth: width } : {}} />;
-      }),
+      leafColumns.map((c, i) => <DraggableCol key={c.key || c.dataIndex || i} width={c.width} />),
     );
     return <colgroup>{cols}</colgroup>;
   },

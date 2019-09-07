@@ -13,6 +13,7 @@ Group table head with `columns[n].children`.
   <a-table
     :columns="columns"
     :dataSource="data"
+    :draggable="true"
     bordered
     size="middle"
     :scroll="{ x: '130%', y: 240 }"

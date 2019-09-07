@@ -36,6 +36,7 @@ const columns = [{
 | Property | Description | Type | Default |
 | -------- | ----------- | ---- | ------- |
 | bordered | Whether to show all table borders | boolean | `false` |
+| draggable | whether column draggable | boolean | `false` |
 | zebra| Whether to make table row to be zebra | boolean | `false` |
 | childrenColumnName | The column contains children to display | string\[] | children |
 | columns | Columns of table | array | - |

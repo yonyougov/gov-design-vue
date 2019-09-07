@@ -1,4 +1,5 @@
 /* eslint-disable camelcase */
+import Vue from 'vue';
 import shallowequal from 'shallowequal';
 import merge from 'lodash/merge';
 import classes from 'component-classes';
@@ -21,6 +22,7 @@ export default {
       data: PropTypes.array,
       useFixedHeader: PropTypes.bool,
       columns: PropTypes.array,
+      draggable: PropTypes.bool,
       prefixCls: PropTypes.string,
       bodyStyle: PropTypes.object,
       rowKey: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
@@ -169,6 +171,7 @@ export default {
   provide() {
     return {
       table: this,
+      colWidthHash: Vue.observable({}),
     };
   },
 
