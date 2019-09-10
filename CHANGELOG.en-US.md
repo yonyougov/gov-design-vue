@@ -9,6 +9,10 @@
 * Major version release is not included in this schedule for breaking change and new features.
 
 ---
+## 1.3.12-alpha0
+`2019-09-10`
+- add zebra prop for table
+- table column draggable with prop draggabel set to true
 ## 1.3.11
 `2019-08-16`
 - fix some doc
