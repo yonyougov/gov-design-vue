@@ -41,8 +41,6 @@ export default {
       }
       const { clientX } = e;
       const delta = clientX - this.clientX;
-      console.log(delta, this.colWidthHash[this.hashKey]);
-      // const width = this.colWidthHash[this.hashKey];
       this.colWidthHash[this.hashKey] = this.w + delta;
     },
   },
@@ -54,6 +52,7 @@ export default {
       top: 0,
       right: '-8px',
       cursor: 'ew-resize',
+      zIndex: '10000',
     };
     return <div style={style} ref="dragger" />;
   },
