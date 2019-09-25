@@ -97,8 +97,8 @@
 @ease-in-out-quint : cubic-bezier(0.86, 0, 0.07, 1);
 
 // Border color
-@border-color-base : hsv(0, 0, 85%); // base border outline a component
-@border-color-split : hsv(0, 0, 91%); // split border inside a component
+@border-color-base : @normal-color; // base border outline a component
+@border-color-split : @normal-color; // split border inside a component
 @border-width-base : 1px; // width of the border for a component
 @border-style-base : solid; // style of a components border
 
@@ -349,11 +349,11 @@
 
 // Table
 // --
-@table-header-bg: @background-color-light;
-@table-header-color: @heading-color;
+@table-header-bg: #eaeaea;
+@table-header-color: #333;
 @table-header-sort-bg: @background-color-base;
 @table-body-sort-bg: rgba(0, 0, 0, 0.01);
-@table-row-hover-bg: @primary-2;
+@table-row-hover-bg: fade(@primary-color, 25%);
 @table-row-zebra: @primary-1;
 @table-selected-row-bg: fade(@primary-color, 80%);
 @table-expanded-row-bg: #fbfbfb;

@@ -24,7 +24,8 @@ const TableHeaderRow = {
     const HeaderCell = components.header.cell;
     const rowProps = customHeaderRow(row.map(cell => cell.column), index);
     const customStyle = rowProps ? rowProps.style : {};
-    const style = { height, ...customStyle };
+    // 这里的bg-color通过style的设置，否则表头样式会有横线问题
+    const style = { height, background: '#eaeaea', ...customStyle };
     if (style.height === null) {
       delete style.height;
     }

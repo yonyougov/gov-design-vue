@@ -11,6 +11,7 @@
 }
 
 .@{table-prefix-cls} {
+  background-color: white;
   .reset-component;
   position: relative;
   clear: both;
@@ -31,7 +32,7 @@
   }
 
   &-thead > tr > th {
-    background: @table-header-bg;
+    // background: @table-header-bg; // 移入了style中设置，规避偶发性横线问题
     transition: background 0.3s ease;
     text-align: left;
     color: @table-header-color;

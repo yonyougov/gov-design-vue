@@ -10,7 +10,7 @@ Simple table with actions.
 
 ```html
 <template>
-  <a-table :columns="columns" :dataSource="data">
+  <a-table :columns="columns" :dataSource="data" zebra>
     <a slot="name" slot-scope="text" href="javascript:;">{{text}}</a>
     <span slot="customTitle"><a-icon type="smile-o" /> Name</span>
     <span slot="tags" slot-scope="tags">
