@@ -98,6 +98,7 @@ export const TableProps = {
   ]),
   zebra: PropTypes.bool.def(false),
   draggable: PropTypes.bool.def(false),
+  isCheckHightlight: PropTypes.bool.def(true),
   size: PropTypes.oneOf(['default', 'xxsmall', 'xsmall', 'small', 'middle', 'large']),
   dataSource: PropTypes.array,
   components: PropTypes.object,

@@ -8,7 +8,7 @@ const BodyRowProps = {
   prefixCls: PropTypes.string,
 };
 
-export default function createTableRow(Component = 'tr') {
+export default function createTableRow(Component = 'tr', options = {}) {
   const BodyRow = {
     name: 'BodyRow',
     props: BodyRowProps,
@@ -43,8 +43,9 @@ export default function createTableRow(Component = 'tr') {
     },
 
     render() {
+      const { isCheckHightlight = true } = options;
       const className = {
-        [`${this.prefixCls}-row-selected`]: this.selected,
+        [`${this.prefixCls}-row-selected`]: this.selected && isCheckHightlight,
       };
 
       return (

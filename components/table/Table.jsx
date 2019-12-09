@@ -1052,7 +1052,9 @@ export default {
       const bodyRow = components && components.body && components.body.row;
       const preBodyRow = prevComponents && prevComponents.body && prevComponents.body.row;
       if (!this.row || bodyRow !== preBodyRow) {
-        this.row = createBodyRow(bodyRow);
+        this.row = createBodyRow(bodyRow, {
+          isCheckHightlight: this.isCheckHightlight,
+        });
       }
       this.customComponents = {
         ...components,

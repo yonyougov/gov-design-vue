@@ -25,8 +25,12 @@ To perform operations and clear selections after selecting some rows, use `rowSe
           {{`Selected ${selectedRowKeys.length} items`}}
         </template>
       </span>
+      <div>
+        <Input type="checkbox" @change="onInputChange"/>
+        {{'isCheckHightlight'}}
+      </div>
     </div>
-    <a-table :rowSelection="{selectedRowKeys: selectedRowKeys, onChange: onSelectChange}" :columns="columns" :dataSource="data" />
+    <a-table :rowSelection="{selectedRowKeys: selectedRowKeys, onChange: onSelectChange}" :columns="columns" :dataSource="data" :isCheckHightlight="isCheckHightlight" :key="tableKey"/>
   </div>
 </template>
 <script>
@@ -58,6 +62,8 @@ export default {
       columns,
       selectedRowKeys: [], // Check here to configure the default column
       loading: false,
+      isCheckHightlight: false,
+      tableKey: Math.random(),
     }
   },
   computed: {
@@ -73,6 +79,16 @@ export default {
         this.loading = false;
         this.selectedRowKeys = [];
       }, 1000);
+    },
+    onInputChange(e) {
+      debugger;
+      const val = e.target.checked;
+      if (val) {
+        this.isCheckHightlight = true;
+      } else {
+        this.isCheckHightlight = false;
+      }
+      this.tableKey = this.tableKey + 1;
     },
     onSelectChange (selectedRowKeys) {
       console.log('selectedRowKeys changed: ', selectedRowKeys);
